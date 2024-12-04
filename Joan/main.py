@@ -1,121 +1,13 @@
 import sqlite3, json
 import networkx as nx
 from networkx.algorithms import approximation as approx
-from math import radians, sin, cos, sqrt, atan2
 
-############################## FUNCIONES DEL ALGORITMO ##############################
+from functions import del_pedidos_vacios, add_to_camiones, crear_camion, mostrar_ruta_con_costes_acumulados, haversine, check_id_producto, check_destinos
+from clases import Pedido
 
-# FUNCIO PER SABER LA DISTANCIA ENTRE COORDENADES
-def haversine(lat1:float, lon1:float, lat2:float, lon2:float):
-    # Radio de la Tierra en km
-    R = 6371.0
-    
-    # Convertir grados a radianes
-    lat1 = radians(lat1)
-    lon1 = radians(lon1)
-    lat2 = radians(lat2)
-    lon2 = radians(lon2)
-    
-    # Diferencias
-    dlat = lat2 - lat1
-    dlon = lon2 - lon1
-    
-    # Fórmula de Haversine
-    a = sin(dlat / 2)**2 + cos(lat1) * cos(lat2) * sin(dlon / 2)**2
-    c = 2 * atan2(sqrt(a), sqrt(1 - a))
-    
-    # Distancia en kilómetros
-    distance = R * c
-    return distance
+############################## MAIN ##############################
 
-def mostrar_ruta_con_costes_acumulados(ruta, grafo):
-    coste_total = 0
-    ruta_con_costes = []  # Lista para almacenar los nodos con sus costes acumulados
-
-    # Recorrer la ruta para calcular los costes acumulados
-    for i in range(len(ruta) - 1):
-        nodo1 = ruta[i]
-        nodo2 = ruta[i + 1]
-        
-        # Obtener el peso (distancia) entre los nodos
-        peso = grafo[nodo1][nodo2]['weight']
-        coste_total += peso
-        
-        # Formato: (nodo1) --> (nodo2) con su coste acumulado
-        ruta_con_costes.append(f"{nodo2} ({coste_total:.2f} €)")
-
-    distancia_total = coste_total * coste_medio_km
-    temps_total = distancia_total / velocidad_media_camiones
-
-    # Construir la cadena de la ruta con el nodo inicial y la distancia total
-    ruta_str = "\nRUTA ÓPTIMA:\n" + f"{ruta[0]} (inicial) --> " + " --> ".join(ruta_con_costes)
-    ruta_str += f"\n\nCoste total: {coste_total:.2f} €"
-    ruta_str += f"\nDistancia total: {distancia_total:.2f} km"
-    ruta_str += f"\nTemps total: {temps_total:.2f} hores"
-
-    return ruta_str
-
-def siguiente_id_camion(camiones:dict) -> int:
-    
-    # OBTENIR EL SEGÜENT ID DE CAMIÓ
-    if not camiones:
-        return 1
-    else:
-        return max(camiones.keys())+1
-
-########################################################################################################################
-
-############################## CLASES ##############################
-
-class Camion():
-    def __init__(self,id_camion:int, id_pedidos:list, destinos:dict, id_productos:list, cantidad:int):
-        self.id_camion = id_camion
-        self.id_pedidos = id_pedidos
-        self.destinos = destinos # {"nombre":coordenadas}
-        self.id_productos = id_productos
-        self.cantidad = cantidad
-
-    def to_dict(self):
-        # Convert the object to a dictionary
-        return {
-            "id_camion": self.id_camion,
-            "id_pedidos": self.id_pedidos,
-            "destinos": self.destinos,
-            "id_productos": self.id_productos,
-            "cantidad": self.cantidad
-    }
-
-    def __str__(self):
-            return (f"Camion ID: {self.id_camion}\n"
-                    f"Pedidos: {', '.join(map(str, self.id_pedidos))}\n"
-                    f"Destinos: {' | '.join(self.destinos)}\n"
-                    f"Producto ID: {self.id_productos}\n"
-                    f"Cantidad: {self.cantidad}")
-
-class Pedido():
-    def __init__(self, id_pedido:int, coordenadas:str, destino:str, id_producto:int, nombre_producto:str, cantidad:int):
-        self.id_pedido = id_pedido
-        self.coordenadas = coordenadas
-        self.destino = destino
-        self.id_producto = id_producto
-        self.nombre_producto = nombre_producto
-        self.cantidad = cantidad
-
-    def __str__(self):
-        return (
-            f"Pedido #{self.id_pedido}:\n"
-            f"  Producto: {self.nombre_producto} (ID: {self.id_producto})\n"
-            f"  Cantidad: {self.cantidad}\n"
-            f"  Coordenadas de recogida: {self.coordenadas}\n"
-            f"  Destino: {self.destino}\n"
-        )
-        
-
-########################################################################################################################
-
-############################################################ MAIN ############################################################
-
-conn = sqlite3.connect(r"C:\Users\joant\OneDrive\Stucom\MasterIA\IA\Projecte 1 - Logistica\logistics.db")
+conn = sqlite3.connect(r"C:\Users\joant\OneDrive\Stucom\MasterIA\IA\Proyecto1_Gestion_Rutas\Joan\logistics.db")
 cursor = conn.cursor()
 
 # ESTABLIR LES VARIABLES 
@@ -178,9 +70,7 @@ camiones = {} # ID_PEDIDO : {CAMION}
 # ITERAR POR CADA ID_PRODUCTO
 while len(pedidos_ordenados.keys()):
 
-    for k,v in list(pedidos_ordenados.items()):
-        if v == []:
-            del pedidos_ordenados[k]
+    pedidos_ordenados = del_pedidos_vacios(pedidos_ordenados)
 
     # ITERAR POR CADA ID_PRODUCTO
     for id_producto, pedidos_producto in list(pedidos_ordenados.items()):
@@ -193,16 +83,13 @@ while len(pedidos_ordenados.keys()):
             # COMPROVAR SI LA CANTITAT DEL PEDIDO ES MÉS GRAN QUE LA CAPACITAT DELS CAMIONS        
             while pedido.cantidad >= capacidad_camiones:
                 
-                # CREAR EL CAMIÓ
-                camio = Camion(
-                    id_camion = siguiente_id_camion(),
-                    id_pedidos = [pedido.id_pedido],
-                    destinos = {pedido.destino : pedido.coordenadas},
-                    id_producto = [id_producto],
-                    cantidad = capacidad_camiones
+                camiones = crear_camion(
+                    ped_id = [pedido.id_pedido],
+                    dest = {pedido.destino : pedido.coordenadas},
+                    prod_id = [id_producto],
+                    cant = capacidad_camiones,
+                    dict_camiones = camiones
                 )
-
-                camiones[camio.id_camion] = camio
 
                 # MODIFICAR LA QUANTIAT QUE QUEDA DEL PEDIDO EN pedidos_ordenados
                 pedido.cantidad = pedido.cantidad - capacidad_camiones
@@ -222,71 +109,93 @@ while len(pedidos_ordenados.keys()):
                             # SI LA SUMA DE LA QUANTIAT CARREGADA I LA QUANTITAT DEL PEDIDO ES MES GRAN QUE LA CAPACITAT D'UN CAMIÓ
                             if (info_camion.cantidad + pedido.cantidad) > capacidad_camiones:
                                 
-                                camiones[id_camion].id_pedidos.append(pedido.id_pedido)
-                                camiones[id_camion].destinos[pedido.destino] = pedido.coordenadas
-                                camiones[id_camion].id_productos.append(pedido.id_producto)
+                                # SI EL CAMIÓ CONTÉ LA id_producto DEL PEDIDO ACTUAL AFEGIR AL CAMIÓ
+                                if check_id_producto(info_camion.id_productos, pedido.id_producto) | check_destinos(info_camion.destinos, pedido.coordenadas):
 
-                                # LA NOVA QUANTITAT DEL PRODUCTE ES LA RESTA DE LA CAPACITAT QUE FALTA PER OMPLIR DEL CAMIÓ
-                                pedido.cantidad = pedido.cantidad - (capacidad_camiones - info_camion.cantidad)
-
-                                # ACTUALITZAR LA QUANTITAT DEL CAMIÓ
-                                camiones[id_camion].cantidad += (capacidad_camiones - info_camion.cantidad)
-
-                                # SI LA QUANTITAT DE LA COMANDA ACTUAL SEGUEIX SUPERANT LA CAPACITAT D'UN CAMIÓ
-                                while pedido.cantidad > 0:
-                                    camio = Camion(
-                                        id_camion = siguiente_id_camion(camiones),
-                                        id_pedidos = [pedido.id_pedido],
-                                        destinos = {pedido.destino : pedido.coordenadas},
-                                        id_productos = [id_producto],
-                                        cantidad = pedido.cantidad
+                                    # AFEGIR AL CAMIÓ EXISTENT LA QUANTITAT DEL PEDIDO
+                                    camiones, pedido = add_to_camiones(
+                                        dict_camiones = camiones,
+                                        camion_id = id_camion,
+                                        camion_atributes = info_camion,
+                                        ped = pedido,
+                                        capacidad_camiones = capacidad_camiones,
+                                        mes_cantidad_que_capacidad = True
                                     )
+                                
+                                    # SI LA QUANTITAT DE LA COMANDA ACTUAL SEGUEIX SUPERANT LA CAPACITAT D'UN CAMIÓ
+                                    while pedido.cantidad > 0:
+                                        
 
-                                    camiones[camio.id_camion] = camio
+                                        # CREAR NOU CAMIÓ AMB LA QUANTIAT SOBRANT
+                                        camiones = crear_camion(
+                                            ped_id = [pedido.id_pedido],
+                                            dest = {pedido.destino : pedido.coordenadas},
+                                            prod_id = [id_producto],
+                                            cant = pedido.cantidad,
+                                            dict_camiones = camiones
+                                        )
 
-                                    pedido.cantidad = pedido.cantidad - camio.cantidad
+                                        # RESTAR LA QUANTITAT DE PRODUCTE QUE HI HA AL CAMIÓ CREAT A LA QUANTIAT DEL PEDIDO ACTUAL
+                                        pedido.cantidad = pedido.cantidad - camiones[list(camiones.keys())[-1]].cantidad
 
-                                break
+                                    pedidos_to_pop.append(index1)
+
+                                    break
 
                             # SI LA QUANTITAT CARREGADA AL CAMIÓ I LA QUANTITAT DEL PEDIDO ES INFERIOR A LA CAPACITAT DEL CAMIÓ
                             elif (info_camion.cantidad + pedido.cantidad) < capacidad_camiones:
 
-                                # ACTUALITZAR EL CAMIÓ AMB LA INFO DEL PEDIDO ACTUAL
-                                camiones[id_camion].id_pedidos.append(pedido.id_pedido)
-                                camiones[id_camion].destinos[pedido.destino] = pedido.coordenadas
-                                camiones[id_camion].id_productos.append(pedido.id_producto)
-                                camiones[id_camion].cantidad += pedido.cantidad
+                                # SI EL CAMIÓ CONTÉ LA id_producto DEL PEDIDO ACTUAL AFEGIR AL CAMIÓ
+                                if check_id_producto(info_camion.id_productos, pedido.id_producto) | check_destinos(info_camion.destinos, pedido.coordenadas):
 
-                                pedidos_to_pop.append(index1)
+                                    # ACTUALITZAR EL CAMIÓ AMB LA INFO DEL PEDIDO ACTUAL
+                                    camiones, pedido = add_to_camiones(
+                                        dict_camiones = camiones,
+                                        camion_id = id_camion,
+                                        camion_atributes = info_camion,
+                                        ped = pedido,
+                                        capacidad_camiones = pedido.cantidad,
+                                        mes_cantidad_que_capacidad = False
+                                    )
 
-                                break
+                                    pedidos_to_pop.append(index1)
+
+                                    break
+
+
+                            else:
+                                # SI NO COMPLEIX CAP DE LES DUES CONDICIONS, CREAR UN NOU CAMIÓ AMB LA COMANDA
+                                camiones = crear_camion(
+                                    ped_id = [pedido.id_pedido],
+                                    dest = {pedido.destino : pedido.coordenadas},
+                                    prod_id = [id_producto],
+                                    cant = pedido.cantidad,
+                                    dict_camiones = camiones
+                                )
+                                
 
                     # CREAR EL CAMIÓ SI NO HI HA CAP CAMIÓ QUE TINGUI MENYS PRODUCTES CARREGATS QUE LA CAPACITAT D'UN CAMIÓ
                     else:
-                        camio = Camion(
-                            id_camion = siguiente_id_camion(camiones),
-                            id_pedidos = [pedido.id_pedido],
-                            destinos = {pedido.destino : pedido.coordenadas},
-                            id_productos = [id_producto],
-                            cantidad = pedido.cantidad
+                        camiones = crear_camion(
+                            ped_id = [pedido.id_pedido],
+                            dest = {pedido.destino : pedido.coordenadas},
+                            prod_id = [id_producto],
+                            cant = capacidad_camiones,
+                            dict_camiones = camiones
                         )
-
-                        camiones[camio.id_camion] = camio
 
                         pedidos_to_pop.append(index1)
 
                 # SI NO S'HA CREAT CAMIONS
                 elif not camiones:
 
-                    camio = Camion(
-                        id_camion = siguiente_id_camion(camiones),
-                        id_pedidos = [pedido.id_pedido],
-                        destinos = {pedido.destino : pedido.coordenadas},
-                        id_productos = [id_producto],
-                        cantidad = pedido.cantidad
+                    camiones = crear_camion(
+                        ped_id = [pedido.id_pedido],
+                        dest = {pedido.destino : pedido.coordenadas},
+                        prod_id = [id_producto],
+                        cant = pedido.cantidad,
+                        dict_camiones = camiones
                     )
-
-                    camiones[camio.id_camion] = camio
 
                     pedidos_to_pop.append(index1)
 
@@ -342,7 +251,7 @@ for camion_id, detalles in camiones.items():
     ruta_optima_cerrada = approx.traveling_salesman_problem(G, cycle=True, weight='weight')
     
     # MOSTRAR LA RUTA CON LOS COSTES ACUMULADOS
-    ruta_con_costes = mostrar_ruta_con_costes_acumulados(ruta_optima_cerrada, G)
+    ruta_con_costes = mostrar_ruta_con_costes_acumulados(ruta_optima_cerrada, G, coste_medio_km, velocidad_media_camiones)
 
     # AÑADIR LA RUTA OPTIMA DE CADA CAMIÓN AL DICCIONARIO rutes_optimes
     rutes_optimes[camion_id] = ruta_con_costes
