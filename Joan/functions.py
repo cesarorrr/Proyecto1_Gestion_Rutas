@@ -27,7 +27,7 @@ def haversine(lat1:float, lon1:float, lat2:float, lon2:float):
     distance = R * c
     return distance
 
-def mostrar_ruta_con_costes_acumulados(ruta, grafo, coste_medio_km: float, velocidad_media_camiones: float):
+def costes_ruta(ruta, grafo, coste_medio_km: float, velocidad_media_camiones: float):
     coste_total = 0
     ruta_con_costes = []  # Lista para almacenar los nodos con sus costes acumulados
 
@@ -52,7 +52,7 @@ def mostrar_ruta_con_costes_acumulados(ruta, grafo, coste_medio_km: float, veloc
     ruta_str += f"\nDistancia total: {distancia_total:.2f} km"
     ruta_str += f"\nTemps total: {temps_total:.2f} hores"
 
-    return ruta_str
+    return distancia_total, coste_total, temps_total
 
 ############################## FUNCIONES CAMIONES ##############################
 
@@ -70,36 +70,75 @@ def crear_camion(ped_id: list, dest: dict, prod_id: list, cant: int, dict_camion
         id_pedidos = ped_id,
         destinos = {list(dest.keys())[0]: list(dest.values())[0]},
         id_productos = prod_id,
-        cantidad = cant
+        ruta_optima = None,
+        cantidad_total = 0
     )
+    
+    camio.cantidad_total += cant
 
     dict_camiones[camio.id_camion] = camio
 
+    entrada_txt(f"{camio.id_camion}|Creado|{','.join(map(str, camio.id_pedidos))}|{','.join(camio.destinos.keys())}|{','.join(map(str, camio.id_productos))}|{camio.cantidad_total}")
+
     return dict_camiones
 
-def add_to_camiones(dict_camiones: dict, camion_id: int, camion_atributes: 'Camion', ped: 'Pedido', capacidad_camiones:int, mes_cantidad_que_capacidad: bool):
+def add_to_camiones(dict_camiones: dict, camion_id: int, camion_atributes: 'Camion', ped: 'Pedido', capacidad_camiones: int, mes_cantidad_que_capacidad: bool):
 
-    dict_camiones[camion_id].id_pedidos.append(ped.id_pedido)
     dict_camiones[camion_id].destinos[ped.destino] = ped.coordenadas
     dict_camiones[camion_id].id_productos.append(ped.id_producto)
 
     if not mes_cantidad_que_capacidad:
-        dict_camiones[camion_id].cantidad += ped.cantidad
+        dict_camiones[camion_id].cantidad_total += ped.cantidad
+
+        dict_camiones[camion_id].id_pedidos.append({ped.id_pedido:ped.cantidad})
 
     elif mes_cantidad_que_capacidad:
 
         # LA NOVA QUANTITAT DEL PRODUCTE ES LA RESTA DE LA CAPACITAT QUE FALTA PER OMPLIR DEL CAMIÓ
-        ped.cantidad = ped.cantidad - (capacidad_camiones - camion_atributes.cantidad)
+        ped.cantidad = ped.cantidad - (capacidad_camiones - camion_atributes.cantidad_total)
 
         # ACTUALITZAR LA QUANTITAT DEL CAMIÓ
-        dict_camiones[camion_id].cantidad += (capacidad_camiones - camion_atributes.cantidad)
+        dict_camiones[camion_id].id_pedidos.append({ped.id_pedido:(capacidad_camiones - camion_atributes.cantidad_total)})
+        dict_camiones[camion_id].cantidad_total += (capacidad_camiones - camion_atributes.cantidad_total)
+        
+
+    entrada_txt(f"{camion_id}|Modificado|{','.join(map(str, camion_atributes.id_pedidos))}|{','.join(camion_atributes.destinos.keys())}|{','.join(map(str, camion_atributes.id_productos))}|{camion_atributes.cantidad_total}")
     
 
     return dict_camiones, ped
 
-def check_destinos(destinos_camion: dict, coordenadas_pedido: list):
+def merge_camiones(camiones:dict, camion1: 'Camion', camion2: 'Camion', capacidad_camiones: int, mes_cantidad_que_capacidad: bool, camion_to_pop: 'Camion'):        
 
-    coincidencias = set(destinos_camion.values()) & set(coordenadas_pedido)
+    camion1.id_pedidos += camion2.id_pedidos
+    camion1.destinos.update(camion2.destinos)
+    camion1.id_productos += camion2.id_productos
+    
+    # SI LA SUMA DE LES QUANTITATS DEL CAMIONS ES SUPERIOR A LA CAPACITAT D'UN
+    if mes_cantidad_que_capacidad:
+
+        # ACTUALITZAR LA CAPACITAT DEL SEGON CAMIÓ AMB LA QUANTIAT RESTANT
+        camion2.cantidad_total = camion2.cantidad_total - (capacidad_camiones - camion1.cantidad_total) # 300 -  (1000 - 1100)
+
+        # ACTUALITZAR LA QUANTITAT DEL CAMIÓ QUE NO S'ELIMINA AMB LA CAPACITAT TOTAL D'UN CAMIO
+        camion1.cantidad_total = capacidad_camiones
+
+        entrada_txt(f"{camion1.id_camion}|Modificado|{','.join(map(str, camion1.id_pedidos))}|{','.join(camion1.destinos.keys())}|{','.join(map(str, camion1.id_productos))}|{camion1.cantidad_total}")
+        entrada_txt(f"{camion2.id_camion}|Modificado|{','.join(map(str, camion2.id_pedidos))}|{','.join(camion2.destinos.keys())}|{','.join(map(str, camion2.id_productos))}|{camion2.cantidad_total}")
+    
+    else:
+        camion1.cantidad_total += camion2.cantidad_total
+
+        entrada_txt(f"{camion1.id_camion}|Modificado|{','.join(map(str, camion1.id_pedidos))}|{','.join(camion1.destinos.keys())}|{','.join(map(str, camion1.id_productos))}|{camion1.cantidad_total}")
+        entrada_txt(f"{camion2.id_camion}|Eliminado||||")
+        camiones.pop(camion2.id_camion)
+
+    return camiones
+
+
+
+def check_destinos(destinos1: list, destinos2: list):
+
+    coincidencias = set(destinos1) & set(destinos2)
 
     if len(coincidencias) > 0:
         return True
@@ -121,5 +160,21 @@ def del_pedidos_vacios(pedidos_ordenados:dict):
         if v == []:
             del pedidos_ordenados[k]
     return pedidos_ordenados
+
+##########################################################################################
+
+############################## FUNCIONES LOG ##############################
+
+def limpiar_txt():
+    with open(r"C:\Users\joant\OneDrive\Stucom\MasterIA\IA\Proyecto1_Gestion_Rutas\Joan\log.txt", 'r') as archivo:
+        primera_linea = archivo.readline()
+
+    with open(r"C:\Users\joant\OneDrive\Stucom\MasterIA\IA\Proyecto1_Gestion_Rutas\Joan\log.txt", 'w') as archivo:
+        archivo.write(primera_linea)
+
+# Función para añadir nuevas líneas al archivo
+def entrada_txt(log):
+    with open(r"C:\Users\joant\OneDrive\Stucom\MasterIA\IA\Proyecto1_Gestion_Rutas\Joan\log.txt", 'a') as archivo:
+        archivo.write(log + '\n')  # Añade cada línea al final del archivo
 
 ##########################################################################################
