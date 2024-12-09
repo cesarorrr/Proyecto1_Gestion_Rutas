@@ -1,34 +1,76 @@
 ############################## CLASES ##############################
 
-class Camion():
-    def __init__(self,id_camion:int, id_pedidos:dict, destinos:dict, id_productos:list, cantidad_total:int, ruta_optima:'Ruta'):
+class Camion:
+    """
+    Representa un camión que transporta pedidos.
+
+    Atributos:
+        id_camion (int): Identificador único del camión.
+        capacidad_restante (int): Capacidad restante del camión en unidades de carga.
+        pedidos (list): Lista de pedidos asignados al camión.
+        destinos (dict): Diccionario con destinos únicos como claves y sus coordenadas como valores.
+        productos_asignados (set): Conjunto de nombres de productos asignados al camión.
+    """
+    def __init__(self, id_camion, capacidad):
+        """
+        Inicializa un camión con un ID único y una capacidad específica.
+        
+        Args:
+            id_camion (int): Identificador del camión.
+            capacidad (int): Capacidad total del camión.
+        """
         self.id_camion = id_camion
-        self.id_pedidos = id_pedidos # {id_pedido:cantidad}
-        self.destinos = destinos # {"nombre":coordenadas}
-        self.id_productos = id_productos
-        self.ruta_optima = ruta_optima,
-        self.cantidad_total = cantidad_total
+        self.capacidad_restante = capacidad
+        self.pedidos = []  # Lista para almacenar los pedidos asignados
+        self.destinos = {}  # Diccionario para registrar los destinos y sus coordenadas
+        self.productos_asignados = set()  # Conjunto para rastrear los productos transportados
 
-    def to_dict(self):
-        # Convert the object to a dictionary
-        return {
-            "id_camion": self.id_camion,
-            "id_pedidos": self.id_pedidos,
-            "destinos": self.destinos,
-            "id_productos": self.id_productos,
-            "cantidad": self.cantidad_total,
-            "ruta_optima": self.ruta_optima
-    }
+    def agregar_pedido(self, id_pedido, nombre_producto, cantidad, destino, coordenadas):
+        """
+        Agrega un pedido al camión si hay suficiente capacidad disponible.
+        
+        Args:
+            id_pedido (int): Identificador único del pedido.
+            nombre_producto (str): Nombre del producto en el pedido.
+            cantidad (int): Cantidad del producto en el pedido.
+            destino (str): Dirección de entrega del pedido.
+            coordenadas (str): Coordenadas del destino en formato "latitud, longitud".
+        
+        Returns:
+            bool: True si el pedido fue agregado exitosamente, False si no hay capacidad suficiente.
+        """
+        if cantidad <= self.capacidad_restante and cantidad > 0:
+            self.pedidos.append((id_pedido, nombre_producto, cantidad, destino))  # Agregar pedido
+            self.capacidad_restante -= cantidad  # Actualizar capacidad restante
+            self.destinos[destino] = coordenadas  # Registrar destino
+            self.productos_asignados.add(nombre_producto)  # Agregar producto al conjunto
+            return True  # Pedido asignado correctamente
+        return False  # No se pudo agregar el pedido debido a falta de capacidad
 
-    def __str__(self):
-            return (f"Camion ID: {self.id_camion}\n"
-                    f"Pedidos: {', '.join(map(str, self.id_pedidos))}\n"
-                    f"Destinos: {' | '.join(self.destinos)}\n"
-                    f"Producto ID: {self.id_productos}\n"
-                    f"Cantidad: {self.cantidad_total}")
+class Pedido:
+    """
+    Representa un pedido realizado por un cliente.
 
-class Pedido():
-    def __init__(self, id_pedido:int, coordenadas:str, destino:str, id_producto:int, nombre_producto:str, cantidad:int):
+    Atributos:
+        id_pedido (int): Identificador único del pedido.
+        coordenadas (str): Coordenadas de destino en formato "latitud, longitud".
+        destino (str): Dirección del destino del pedido.
+        id_producto (int): Identificador único del producto en el pedido.
+        nombre_producto (str): Nombre del producto.
+        cantidad (int): Cantidad solicitada del producto.
+    """
+    def __init__(self, id_pedido: int, coordenadas: str, destino: str, id_producto: int, nombre_producto: str, cantidad: int):
+        """
+        Inicializa un pedido con los detalles proporcionados.
+        
+        Args:
+            id_pedido (int): Identificador único del pedido.
+            coordenadas (str): Coordenadas de destino en formato "latitud, longitud".
+            destino (str): Dirección de destino del pedido.
+            id_producto (int): Identificador único del producto.
+            nombre_producto (str): Nombre del producto en el pedido.
+            cantidad (int): Cantidad del producto en el pedido.
+        """
         self.id_pedido = id_pedido
         self.coordenadas = coordenadas
         self.destino = destino
@@ -37,6 +79,12 @@ class Pedido():
         self.cantidad = cantidad
 
     def __str__(self):
+        """
+        Representación en cadena de un pedido para impresión.
+
+        Returns:
+            str: Detalles del pedido en formato legible.
+        """
         return (
             f"Pedido #{self.id_pedido}:\n"
             f"  Producto: {self.nombre_producto} (ID: {self.id_producto})\n"
@@ -44,24 +92,3 @@ class Pedido():
             f"  Coordenadas de recogida: {self.coordenadas}\n"
             f"  Destino: {self.destino}\n"
         )
-    
-class Ruta():
-    def __init__(self, id_camion: int, ruta: dict, distancia: float, tiempo: float, coste: float, beneficio:  float):
-        self.id_camion = id_camion
-        self.ruta = ruta
-        self.distancia = distancia
-        self.tiempo = tiempo
-        self.coste = coste
-        self.beneficio = beneficio
-
-    def to_dict(self):
-        # Convert the object to a dictionary
-        return {
-            "id_camion": self.id_camion,
-            "ruta": self.ruta,
-            "distancia": self.distancia,
-            "tiempo": self.tiempo,
-            "coste": self.coste,
-            "beneficio": self.beneficio
-    }
-        
