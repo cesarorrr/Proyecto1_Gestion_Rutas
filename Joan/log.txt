@@ -1,1 +1,0 @@
-Camion|Accion|Pedidos|Destinos|Productos|Cantidad

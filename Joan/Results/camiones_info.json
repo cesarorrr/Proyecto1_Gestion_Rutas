@@ -1,0 +1,2257 @@
+[
+    {
+        "id_camion": 1,
+        "pedidos": [
+            {
+                "id_pedido": "9009630",
+                "nombre_producto": "Leche entera 500ml",
+                "cantidad": 661,
+                "destino": "Málaga"
+            },
+            {
+                "id_pedido": "2413272",
+                "nombre_producto": "Leche entera 500ml",
+                "cantidad": 909,
+                "destino": "Alicante"
+            }
+        ],
+        "ruta_optima": [
+            {
+                "nombre": "Mataró",
+                "lat": "41.532521",
+                "lon": "2.423604"
+            },
+            {
+                "nombre": "Málaga",
+                "lat": "36.702452",
+                "lon": " -4.472161"
+            },
+            {
+                "nombre": "Alicante",
+                "lat": "38.34061",
+                "lon": " -0.539066"
+            },
+            {
+                "nombre": "Mataró",
+                "lat": "41.532521",
+                "lon": "2.423604"
+            }
+        ],
+        "distancia_total": 1628.28,
+        "tiempo_total_horas": 16.28,
+        "coste_total": 976.97,
+        "ingresos": 2355.0,
+        "beneficio": 1378.03
+    },
+    {
+        "id_camion": 2,
+        "pedidos": [
+            {
+                "id_pedido": "3128486",
+                "nombre_producto": "Leche entera 500ml",
+                "cantidad": 630,
+                "destino": "Ciudad Real"
+            },
+            {
+                "id_pedido": "1003933",
+                "nombre_producto": "Leche entera 500ml",
+                "cantidad": 694,
+                "destino": "Valencia"
+            }
+        ],
+        "ruta_optima": [
+            {
+                "nombre": "Mataró",
+                "lat": "41.532521",
+                "lon": "2.423604"
+            },
+            {
+                "nombre": "Ciudad Real",
+                "lat": "39.168104",
+                "lon": " -3.465384"
+            },
+            {
+                "nombre": "Valencia",
+                "lat": "39.514124",
+                "lon": " -0.476974"
+            },
+            {
+                "nombre": "Mataró",
+                "lat": "41.532521",
+                "lon": "2.423604"
+            }
+        ],
+        "distancia_total": 1156.07,
+        "tiempo_total_horas": 11.56,
+        "coste_total": 693.64,
+        "ingresos": 1986.0,
+        "beneficio": 1292.36
+    },
+    {
+        "id_camion": 3,
+        "pedidos": [
+            {
+                "id_pedido": "2427111",
+                "nombre_producto": "Leche entera 500ml",
+                "cantidad": 859,
+                "destino": "Coimbra"
+            },
+            {
+                "id_pedido": "8285116",
+                "nombre_producto": "Leche entera 500ml",
+                "cantidad": 867,
+                "destino": "Teruel"
+            }
+        ],
+        "ruta_optima": [
+            {
+                "nombre": "Mataró",
+                "lat": "41.532521",
+                "lon": "2.423604"
+            },
+            {
+                "nombre": "Coimbra",
+                "lat": "40.190739",
+                "lon": " -8.517509"
+            },
+            {
+                "nombre": "Teruel",
+                "lat": "40.365727",
+                "lon": " -1.157177"
+            },
+            {
+                "nombre": "Mataró",
+                "lat": "41.532521",
+                "lon": "2.423604"
+            }
+        ],
+        "distancia_total": 1883.47,
+        "tiempo_total_horas": 18.83,
+        "coste_total": 1130.08,
+        "ingresos": 2589.0,
+        "beneficio": 1458.92
+    },
+    {
+        "id_camion": 4,
+        "pedidos": [
+            {
+                "id_pedido": "4518035",
+                "nombre_producto": "Tocino ahumado en lonchas 200gr",
+                "cantidad": 564,
+                "destino": "Évora"
+            },
+            {
+                "id_pedido": "6984313",
+                "nombre_producto": "Tocino ahumado en lonchas 200gr",
+                "cantidad": 859,
+                "destino": "Oporto"
+            }
+        ],
+        "ruta_optima": [
+            {
+                "nombre": "Mataró",
+                "lat": "41.532521",
+                "lon": "2.423604"
+            },
+            {
+                "nombre": "Évora",
+                "lat": "38.544685",
+                "lon": " -7.915859"
+            },
+            {
+                "nombre": "Oporto",
+                "lat": "41.116767",
+                "lon": " -8.574959"
+            },
+            {
+                "nombre": "Mataró",
+                "lat": "41.532521",
+                "lon": "2.423604"
+            }
+        ],
+        "distancia_total": 2150.54,
+        "tiempo_total_horas": 21.51,
+        "coste_total": 1290.32,
+        "ingresos": 5407.4,
+        "beneficio": 4117.08
+    },
+    {
+        "id_camion": 5,
+        "pedidos": [
+            {
+                "id_pedido": "9842579",
+                "nombre_producto": "Tocino ahumado en lonchas 200gr",
+                "cantidad": 694,
+                "destino": "Álava"
+            }
+        ],
+        "ruta_optima": [
+            {
+                "nombre": "Mataró",
+                "lat": "41.532521",
+                "lon": "2.423604"
+            },
+            {
+                "nombre": "Álava",
+                "lat": "42.808841",
+                "lon": " -2.806054"
+            },
+            {
+                "nombre": "Mataró",
+                "lat": "41.532521",
+                "lon": "2.423604"
+            }
+        ],
+        "distancia_total": 907.32,
+        "tiempo_total_horas": 9.07,
+        "coste_total": 544.39,
+        "ingresos": 2637.2,
+        "beneficio": 2092.81
+    },
+    {
+        "id_camion": 6,
+        "pedidos": [
+            {
+                "id_pedido": "9259666",
+                "nombre_producto": "Manzanas rojas (6 unidades, aprox. 1kg)",
+                "cantidad": 707,
+                "destino": "Ávila"
+            },
+            {
+                "id_pedido": "1609201",
+                "nombre_producto": "Manzanas rojas (6 unidades, aprox. 1kg)",
+                "cantidad": 685,
+                "destino": "Segovia"
+            }
+        ],
+        "ruta_optima": [
+            {
+                "nombre": "Mataró",
+                "lat": "41.532521",
+                "lon": "2.423604"
+            },
+            {
+                "nombre": "Ávila",
+                "lat": "40.664648",
+                "lon": " -4.682038"
+            },
+            {
+                "nombre": "Segovia",
+                "lat": "40.905792",
+                "lon": " -4.107008"
+            },
+            {
+                "nombre": "Mataró",
+                "lat": "41.532521",
+                "lon": "2.423604"
+            }
+        ],
+        "distancia_total": 1208.86,
+        "tiempo_total_horas": 12.09,
+        "coste_total": 725.31,
+        "ingresos": 3340.8,
+        "beneficio": 2615.49
+    },
+    {
+        "id_camion": 7,
+        "pedidos": [
+            {
+                "id_pedido": "1510817",
+                "nombre_producto": "Manzanas rojas (6 unidades, aprox. 1kg)",
+                "cantidad": 813,
+                "destino": "Zaragoza"
+            }
+        ],
+        "ruta_optima": [
+            {
+                "nombre": "Mataró",
+                "lat": "41.532521",
+                "lon": "2.423604"
+            },
+            {
+                "nombre": "Zaragoza",
+                "lat": "41.734671",
+                "lon": " -1.206108"
+            },
+            {
+                "nombre": "Mataró",
+                "lat": "41.532521",
+                "lon": "2.423604"
+            }
+        ],
+        "distancia_total": 604.94,
+        "tiempo_total_horas": 6.05,
+        "coste_total": 362.97,
+        "ingresos": 1951.2,
+        "beneficio": 1588.23
+    },
+    {
+        "id_camion": 8,
+        "pedidos": [
+            {
+                "id_pedido": "7944733",
+                "nombre_producto": "Plátanos maduros (6 unidades, aprox. 1kg)",
+                "cantidad": 845,
+                "destino": "Murcia"
+            },
+            {
+                "id_pedido": "4081675",
+                "nombre_producto": "Plátanos maduros (6 unidades, aprox. 1kg)",
+                "cantidad": 871,
+                "destino": "Castellón"
+            }
+        ],
+        "ruta_optima": [
+            {
+                "nombre": "Mataró",
+                "lat": "41.532521",
+                "lon": "2.423604"
+            },
+            {
+                "nombre": "Murcia",
+                "lat": "37.932005",
+                "lon": " -1.195947"
+            },
+            {
+                "nombre": "Castellón",
+                "lat": "39.97722",
+                "lon": " -0.008643"
+            },
+            {
+                "nombre": "Mataró",
+                "lat": "41.532521",
+                "lon": "2.423604"
+            }
+        ],
+        "distancia_total": 1023.54,
+        "tiempo_total_horas": 10.24,
+        "coste_total": 614.12,
+        "ingresos": 3432.0,
+        "beneficio": 2817.88
+    },
+    {
+        "id_camion": 9,
+        "pedidos": [
+            {
+                "id_pedido": "7963193",
+                "nombre_producto": "Plátanos maduros (6 unidades, aprox. 1kg)",
+                "cantidad": 972,
+                "destino": "Vila Real"
+            },
+            {
+                "id_pedido": "3390736",
+                "nombre_producto": "Plátanos maduros (6 unidades, aprox. 1kg)",
+                "cantidad": 621,
+                "destino": "Lleida"
+            }
+        ],
+        "ruta_optima": [
+            {
+                "nombre": "Mataró",
+                "lat": "41.532521",
+                "lon": "2.423604"
+            },
+            {
+                "nombre": "Vila Real",
+                "lat": "41.277143",
+                "lon": " -7.712157"
+            },
+            {
+                "nombre": "Lleida",
+                "lat": "41.604913",
+                "lon": " 0.679305"
+            },
+            {
+                "nombre": "Mataró",
+                "lat": "41.532521",
+                "lon": "2.423604"
+            }
+        ],
+        "distancia_total": 1690.82,
+        "tiempo_total_horas": 16.91,
+        "coste_total": 1014.49,
+        "ingresos": 3186.0,
+        "beneficio": 2171.51
+    },
+    {
+        "id_camion": 10,
+        "pedidos": [
+            {
+                "id_pedido": "3685375",
+                "nombre_producto": "Plátanos maduros (6 unidades, aprox. 1kg)",
+                "cantidad": 736,
+                "destino": "Canillo"
+            },
+            {
+                "id_pedido": "6541840",
+                "nombre_producto": "Plátanos maduros (6 unidades, aprox. 1kg)",
+                "cantidad": 887,
+                "destino": "León"
+            }
+        ],
+        "ruta_optima": [
+            {
+                "nombre": "Mataró",
+                "lat": "41.532521",
+                "lon": "2.423604"
+            },
+            {
+                "nombre": "León",
+                "lat": "42.583276",
+                "lon": " -5.573597"
+            },
+            {
+                "nombre": "Canillo",
+                "lat": "42.552931",
+                "lon": " 1.590835"
+            },
+            {
+                "nombre": "Mataró",
+                "lat": "41.532521",
+                "lon": "2.423604"
+            }
+        ],
+        "distancia_total": 1389.45,
+        "tiempo_total_horas": 13.89,
+        "coste_total": 833.67,
+        "ingresos": 3246.0,
+        "beneficio": 2412.33
+    },
+    {
+        "id_camion": 11,
+        "pedidos": [
+            {
+                "id_pedido": "5959893",
+                "nombre_producto": "Fresas frescas (caja de 250gr)",
+                "cantidad": 736,
+                "destino": "Albacete"
+            },
+            {
+                "id_pedido": "5761966",
+                "nombre_producto": "Fresas frescas (caja de 250gr)",
+                "cantidad": 795,
+                "destino": "Barcelona"
+            }
+        ],
+        "ruta_optima": [
+            {
+                "nombre": "Mataró",
+                "lat": "41.532521",
+                "lon": "2.423604"
+            },
+            {
+                "nombre": "Albacete",
+                "lat": "39.014444",
+                "lon": " -1.88264"
+            },
+            {
+                "nombre": "Barcelona",
+                "lat": "41.327635",
+                "lon": " 2.115424"
+            },
+            {
+                "nombre": "Mataró",
+                "lat": "41.532521",
+                "lon": "2.423604"
+            }
+        ],
+        "distancia_total": 920.54,
+        "tiempo_total_horas": 9.21,
+        "coste_total": 552.32,
+        "ingresos": 4593.0,
+        "beneficio": 4040.68
+    },
+    {
+        "id_camion": 12,
+        "pedidos": [
+            {
+                "id_pedido": "7912495",
+                "nombre_producto": "Fresas frescas (caja de 250gr)",
+                "cantidad": 990,
+                "destino": "Braganza"
+            }
+        ],
+        "ruta_optima": [
+            {
+                "nombre": "Mataró",
+                "lat": "41.532521",
+                "lon": "2.423604"
+            },
+            {
+                "nombre": "Braganza",
+                "lat": "41.788533",
+                "lon": " -6.779713"
+            },
+            {
+                "nombre": "Mataró",
+                "lat": "41.532521",
+                "lon": "2.423604"
+            }
+        ],
+        "distancia_total": 1529.43,
+        "tiempo_total_horas": 15.29,
+        "coste_total": 917.66,
+        "ingresos": 2970.0,
+        "beneficio": 2052.34
+    },
+    {
+        "id_camion": 13,
+        "pedidos": [
+            {
+                "id_pedido": "8127996",
+                "nombre_producto": "Espinacas frescas en bolsa 300gr",
+                "cantidad": 630,
+                "destino": "Alicante"
+            }
+        ],
+        "ruta_optima": [
+            {
+                "nombre": "Mataró",
+                "lat": "41.532521",
+                "lon": "2.423604"
+            },
+            {
+                "nombre": "Alicante",
+                "lat": "38.34061",
+                "lon": " -0.539066"
+            },
+            {
+                "nombre": "Mataró",
+                "lat": "41.532521",
+                "lon": "2.423604"
+            }
+        ],
+        "distancia_total": 871.13,
+        "tiempo_total_horas": 8.71,
+        "coste_total": 522.68,
+        "ingresos": 945.0,
+        "beneficio": 422.32
+    },
+    {
+        "id_camion": 14,
+        "pedidos": [
+            {
+                "id_pedido": "3308342",
+                "nombre_producto": "Espinacas frescas en bolsa 300gr",
+                "cantidad": 1450,
+                "destino": "Ávila"
+            }
+        ],
+        "ruta_optima": [
+            {
+                "nombre": "Mataró",
+                "lat": "41.532521",
+                "lon": "2.423604"
+            },
+            {
+                "nombre": "Ávila",
+                "lat": "40.664648",
+                "lon": " -4.682038"
+            },
+            {
+                "nombre": "Mataró",
+                "lat": "41.532521",
+                "lon": "2.423604"
+            }
+        ],
+        "distancia_total": 1206.0,
+        "tiempo_total_horas": 12.06,
+        "coste_total": 723.6,
+        "ingresos": 2175.0,
+        "beneficio": 1451.4
+    },
+    {
+        "id_camion": 15,
+        "pedidos": [
+            {
+                "id_pedido": "9499478",
+                "nombre_producto": "Espinacas frescas en bolsa 300gr",
+                "cantidad": 602,
+                "destino": "Cantabria"
+            }
+        ],
+        "ruta_optima": [
+            {
+                "nombre": "Mataró",
+                "lat": "41.532521",
+                "lon": "2.423604"
+            },
+            {
+                "nombre": "Cantabria",
+                "lat": "43.443127",
+                "lon": " -3.864163"
+            },
+            {
+                "nombre": "Mataró",
+                "lat": "41.532521",
+                "lon": "2.423604"
+            }
+        ],
+        "distancia_total": 1114.9,
+        "tiempo_total_horas": 11.15,
+        "coste_total": 668.94,
+        "ingresos": 903.0,
+        "beneficio": 234.06
+    },
+    {
+        "id_camion": 16,
+        "pedidos": [
+            {
+                "id_pedido": "8339911",
+                "nombre_producto": "Lechuga romana 1 unidad",
+                "cantidad": 787,
+                "destino": "Coimbra"
+            }
+        ],
+        "ruta_optima": [
+            {
+                "nombre": "Mataró",
+                "lat": "41.532521",
+                "lon": "2.423604"
+            },
+            {
+                "nombre": "Coimbra",
+                "lat": "40.190739",
+                "lon": " -8.517509"
+            },
+            {
+                "nombre": "Mataró",
+                "lat": "41.532521",
+                "lon": "2.423604"
+            }
+        ],
+        "distancia_total": 1862.92,
+        "tiempo_total_horas": 18.63,
+        "coste_total": 1117.75,
+        "ingresos": 944.4,
+        "beneficio": -173.35
+    },
+    {
+        "id_camion": 17,
+        "pedidos": [
+            {
+                "id_pedido": "7959009",
+                "nombre_producto": "Tomates maduros (aprox. 1kg)",
+                "cantidad": 663,
+                "destino": "Vila Real"
+            }
+        ],
+        "ruta_optima": [
+            {
+                "nombre": "Mataró",
+                "lat": "41.532521",
+                "lon": "2.423604"
+            },
+            {
+                "nombre": "Vila Real",
+                "lat": "41.277143",
+                "lon": " -7.712157"
+            },
+            {
+                "nombre": "Mataró",
+                "lat": "41.532521",
+                "lon": "2.423604"
+            }
+        ],
+        "distancia_total": 1690.68,
+        "tiempo_total_horas": 16.91,
+        "coste_total": 1014.41,
+        "ingresos": 1524.9,
+        "beneficio": 510.49
+    },
+    {
+        "id_camion": 18,
+        "pedidos": [
+            {
+                "id_pedido": "6978438",
+                "nombre_producto": "Cebollas amarillas (aprox. 1kg)",
+                "cantidad": 790,
+                "destino": "Badajoz"
+            },
+            {
+                "id_pedido": "5940030",
+                "nombre_producto": "Cebollas amarillas (aprox. 1kg)",
+                "cantidad": 883,
+                "destino": "Portalegre"
+            }
+        ],
+        "ruta_optima": [
+            {
+                "nombre": "Mataró",
+                "lat": "41.532521",
+                "lon": "2.423604"
+            },
+            {
+                "nombre": "Portalegre",
+                "lat": "39.268988",
+                "lon": " -7.43448"
+            },
+            {
+                "nombre": "Badajoz",
+                "lat": "38.690981",
+                "lon": " -6.795618"
+            },
+            {
+                "nombre": "Mataró",
+                "lat": "41.532521",
+                "lon": "2.423604"
+            }
+        ],
+        "distancia_total": 1800.77,
+        "tiempo_total_horas": 18.01,
+        "coste_total": 1080.46,
+        "ingresos": 3011.4,
+        "beneficio": 1930.94
+    },
+    {
+        "id_camion": 19,
+        "pedidos": [
+            {
+                "id_pedido": "6178519",
+                "nombre_producto": "Cebollas amarillas (aprox. 1kg)",
+                "cantidad": 952,
+                "destino": "Segovia"
+            }
+        ],
+        "ruta_optima": [
+            {
+                "nombre": "Mataró",
+                "lat": "41.532521",
+                "lon": "2.423604"
+            },
+            {
+                "nombre": "Segovia",
+                "lat": "40.905792",
+                "lon": " -4.107008"
+            },
+            {
+                "nombre": "Mataró",
+                "lat": "41.532521",
+                "lon": "2.423604"
+            }
+        ],
+        "distancia_total": 1101.03,
+        "tiempo_total_horas": 11.01,
+        "coste_total": 660.62,
+        "ingresos": 1713.6,
+        "beneficio": 1052.98
+    },
+    {
+        "id_camion": 20,
+        "pedidos": [
+            {
+                "id_pedido": "5890005",
+                "nombre_producto": "Cebollas amarillas (aprox. 1kg)",
+                "cantidad": 1530,
+                "destino": "Huesca"
+            }
+        ],
+        "ruta_optima": [
+            {
+                "nombre": "Mataró",
+                "lat": "41.532521",
+                "lon": "2.423604"
+            },
+            {
+                "nombre": "Huesca",
+                "lat": "41.830116",
+                "lon": " 0.216181"
+            },
+            {
+                "nombre": "Mataró",
+                "lat": "41.532521",
+                "lon": "2.423604"
+            }
+        ],
+        "distancia_total": 372.55,
+        "tiempo_total_horas": 3.73,
+        "coste_total": 223.53,
+        "ingresos": 2754.0,
+        "beneficio": 2530.47
+    },
+    {
+        "id_camion": 21,
+        "pedidos": [
+            {
+                "id_pedido": "8972489",
+                "nombre_producto": "Zanahorias frescas (500gr)",
+                "cantidad": 752,
+                "destino": "La Massana"
+            },
+            {
+                "id_pedido": "2798445",
+                "nombre_producto": "Zanahorias frescas (500gr)",
+                "cantidad": 791,
+                "destino": "Sant Julià de Lòria"
+            }
+        ],
+        "ruta_optima": [
+            {
+                "nombre": "Mataró",
+                "lat": "41.532521",
+                "lon": "2.423604"
+            },
+            {
+                "nombre": "Sant Julià de Lòria",
+                "lat": "42.468846",
+                "lon": " 1.493294"
+            },
+            {
+                "nombre": "La Massana",
+                "lat": "42.456239",
+                "lon": " 1.485435"
+            },
+            {
+                "nombre": "Mataró",
+                "lat": "41.532521",
+                "lon": "2.423604"
+            }
+        ],
+        "distancia_total": 259.65,
+        "tiempo_total_horas": 2.6,
+        "coste_total": 155.79,
+        "ingresos": 2314.5,
+        "beneficio": 2158.71
+    },
+    {
+        "id_camion": 22,
+        "pedidos": [
+            {
+                "id_pedido": "9891430",
+                "nombre_producto": "Zanahorias frescas (500gr)",
+                "cantidad": 740,
+                "destino": "Bizkaia"
+            }
+        ],
+        "ruta_optima": [
+            {
+                "nombre": "Mataró",
+                "lat": "41.532521",
+                "lon": "2.423604"
+            },
+            {
+                "nombre": "Bizkaia",
+                "lat": "43.232124",
+                "lon": " -2.888324"
+            },
+            {
+                "nombre": "Mataró",
+                "lat": "41.532521",
+                "lon": "2.423604"
+            }
+        ],
+        "distancia_total": 950.71,
+        "tiempo_total_horas": 9.51,
+        "coste_total": 570.43,
+        "ingresos": 1110.0,
+        "beneficio": 539.57
+    },
+    {
+        "id_camion": 23,
+        "pedidos": [
+            {
+                "id_pedido": "5645864",
+                "nombre_producto": "Patatas para cocinar (1kg)",
+                "cantidad": 683,
+                "destino": "Évora"
+            },
+            {
+                "id_pedido": "5363764",
+                "nombre_producto": "Patatas para cocinar (1kg)",
+                "cantidad": 704,
+                "destino": "Santarém"
+            },
+            {
+                "id_pedido": "6129260",
+                "nombre_producto": "Patatas para cocinar (1kg)",
+                "cantidad": 608,
+                "destino": "Zamora"
+            }
+        ],
+        "ruta_optima": [
+            {
+                "nombre": "Mataró",
+                "lat": "41.532521",
+                "lon": "2.423604"
+            },
+            {
+                "nombre": "Évora",
+                "lat": "38.544685",
+                "lon": " -7.915859"
+            },
+            {
+                "nombre": "Santarém",
+                "lat": "39.24899",
+                "lon": " -8.674233"
+            },
+            {
+                "nombre": "Zamora",
+                "lat": "41.519608",
+                "lon": " -5.736363"
+            },
+            {
+                "nombre": "Mataró",
+                "lat": "41.532521",
+                "lon": "2.423604"
+            }
+        ],
+        "distancia_total": 2075.74,
+        "tiempo_total_horas": 20.76,
+        "coste_total": 1245.45,
+        "ingresos": 3990.0,
+        "beneficio": 2744.55
+    },
+    {
+        "id_camion": 24,
+        "pedidos": [
+            {
+                "id_pedido": "9058906",
+                "nombre_producto": "Patatas para cocinar (1kg)",
+                "cantidad": 919,
+                "destino": "Encamp"
+            },
+            {
+                "id_pedido": "1799824",
+                "nombre_producto": "Patatas para cocinar (1kg)",
+                "cantidad": 566,
+                "destino": "Lugo"
+            }
+        ],
+        "ruta_optima": [
+            {
+                "nombre": "Mataró",
+                "lat": "41.532521",
+                "lon": "2.423604"
+            },
+            {
+                "nombre": "Lugo",
+                "lat": "43.039131",
+                "lon": " -7.550207"
+            },
+            {
+                "nombre": "Encamp",
+                "lat": "42.463523",
+                "lon": " 1.491706"
+            },
+            {
+                "nombre": "Mataró",
+                "lat": "41.532521",
+                "lon": "2.423604"
+            }
+        ],
+        "distancia_total": 1706.56,
+        "tiempo_total_horas": 17.07,
+        "coste_total": 1023.94,
+        "ingresos": 2970.0,
+        "beneficio": 1946.06
+    },
+    {
+        "id_camion": 25,
+        "pedidos": [
+            {
+                "id_pedido": "6443394",
+                "nombre_producto": "Huevos frescos (4 unidades)",
+                "cantidad": 865,
+                "destino": "Beja"
+            },
+            {
+                "id_pedido": "8342297",
+                "nombre_producto": "Huevos frescos (4 unidades)",
+                "cantidad": 623,
+                "destino": "Lisboa"
+            }
+        ],
+        "ruta_optima": [
+            {
+                "nombre": "Mataró",
+                "lat": "41.532521",
+                "lon": "2.423604"
+            },
+            {
+                "nombre": "Lisboa",
+                "lat": "38.697812",
+                "lon": " -9.192319"
+            },
+            {
+                "nombre": "Beja",
+                "lat": "38.007831",
+                "lon": " -7.855995"
+            },
+            {
+                "nombre": "Mataró",
+                "lat": "41.532521",
+                "lon": "2.423604"
+            }
+        ],
+        "distancia_total": 2136.58,
+        "tiempo_total_horas": 21.37,
+        "coste_total": 1281.95,
+        "ingresos": 1339.2,
+        "beneficio": 57.25
+    },
+    {
+        "id_camion": 26,
+        "pedidos": [
+            {
+                "id_pedido": "5700031",
+                "nombre_producto": "Huevos frescos (4 unidades)",
+                "cantidad": 551,
+                "destino": "Valencia"
+            },
+            {
+                "id_pedido": "8432429",
+                "nombre_producto": "Huevos frescos (4 unidades)",
+                "cantidad": 970,
+                "destino": "Teruel"
+            }
+        ],
+        "ruta_optima": [
+            {
+                "nombre": "Mataró",
+                "lat": "41.532521",
+                "lon": "2.423604"
+            },
+            {
+                "nombre": "Valencia",
+                "lat": "39.514124",
+                "lon": " -0.476974"
+            },
+            {
+                "nombre": "Teruel",
+                "lat": "40.365727",
+                "lon": " -1.157177"
+            },
+            {
+                "nombre": "Mataró",
+                "lat": "41.532521",
+                "lon": "2.423604"
+            }
+        ],
+        "distancia_total": 770.87,
+        "tiempo_total_horas": 7.71,
+        "coste_total": 462.52,
+        "ingresos": 1368.9,
+        "beneficio": 906.38
+    },
+    {
+        "id_camion": 27,
+        "pedidos": [
+            {
+                "id_pedido": "2928068",
+                "nombre_producto": "Huevos frescos (4 unidades)",
+                "cantidad": 552,
+                "destino": "Guadalajara"
+            },
+            {
+                "id_pedido": "8912366",
+                "nombre_producto": "Huevos frescos (4 unidades)",
+                "cantidad": 954,
+                "destino": "Ávila"
+            }
+        ],
+        "ruta_optima": [
+            {
+                "nombre": "Mataró",
+                "lat": "41.532521",
+                "lon": "2.423604"
+            },
+            {
+                "nombre": "Ávila",
+                "lat": "40.664648",
+                "lon": " -4.682038"
+            },
+            {
+                "nombre": "Guadalajara",
+                "lat": "40.620066",
+                "lon": " -3.28023"
+            },
+            {
+                "nombre": "Mataró",
+                "lat": "41.532521",
+                "lon": "2.423604"
+            }
+        ],
+        "distancia_total": 1210.04,
+        "tiempo_total_horas": 12.1,
+        "coste_total": 726.02,
+        "ingresos": 1355.4,
+        "beneficio": 629.38
+    },
+    {
+        "id_camion": 28,
+        "pedidos": [
+            {
+                "id_pedido": "2349707",
+                "nombre_producto": "Pan fresco de hogaza (500gr)",
+                "cantidad": 740,
+                "destino": "Cádiz"
+            },
+            {
+                "id_pedido": "9963362",
+                "nombre_producto": "Pan fresco de hogaza (500gr)",
+                "cantidad": 638,
+                "destino": "Badajoz"
+            }
+        ],
+        "ruta_optima": [
+            {
+                "nombre": "Mataró",
+                "lat": "41.532521",
+                "lon": "2.423604"
+            },
+            {
+                "nombre": "Cádiz",
+                "lat": "36.407357",
+                "lon": " -6.128702"
+            },
+            {
+                "nombre": "Badajoz",
+                "lat": "38.690981",
+                "lon": " -6.795618"
+            },
+            {
+                "nombre": "Mataró",
+                "lat": "41.532521",
+                "lon": "2.423604"
+            }
+        ],
+        "distancia_total": 2038.08,
+        "tiempo_total_horas": 20.38,
+        "coste_total": 1222.85,
+        "ingresos": 2480.4,
+        "beneficio": 1257.55
+    },
+    {
+        "id_camion": 29,
+        "pedidos": [
+            {
+                "id_pedido": "4755417",
+                "nombre_producto": "Pan fresco de hogaza (500gr)",
+                "cantidad": 856,
+                "destino": "Vila Real"
+            },
+            {
+                "id_pedido": "5306382",
+                "nombre_producto": "Pan fresco de hogaza (500gr)",
+                "cantidad": 797,
+                "destino": "Braga"
+            }
+        ],
+        "ruta_optima": [
+            {
+                "nombre": "Mataró",
+                "lat": "41.532521",
+                "lon": "2.423604"
+            },
+            {
+                "nombre": "Braga",
+                "lat": "41.53178",
+                "lon": " -8.2422746"
+            },
+            {
+                "nombre": "Vila Real",
+                "lat": "41.277143",
+                "lon": " -7.712157"
+            },
+            {
+                "nombre": "Mataró",
+                "lat": "41.532521",
+                "lon": "2.423604"
+            }
+        ],
+        "distancia_total": 1785.09,
+        "tiempo_total_horas": 17.85,
+        "coste_total": 1071.05,
+        "ingresos": 2975.4,
+        "beneficio": 1904.35
+    },
+    {
+        "id_camion": 30,
+        "pedidos": [
+            {
+                "id_pedido": "1745606",
+                "nombre_producto": "Pan fresco de hogaza (500gr)",
+                "cantidad": 726,
+                "destino": "Palencia"
+            },
+            {
+                "id_pedido": "6582416",
+                "nombre_producto": "Pan fresco de hogaza (500gr)",
+                "cantidad": 753,
+                "destino": "Canillo"
+            }
+        ],
+        "ruta_optima": [
+            {
+                "nombre": "Mataró",
+                "lat": "41.532521",
+                "lon": "2.423604"
+            },
+            {
+                "nombre": "Palencia",
+                "lat": "41.964811",
+                "lon": " -4.506013"
+            },
+            {
+                "nombre": "Canillo",
+                "lat": "42.552931",
+                "lon": " 1.590835"
+            },
+            {
+                "nombre": "Mataró",
+                "lat": "41.532521",
+                "lon": "2.423604"
+            }
+        ],
+        "distancia_total": 1215.28,
+        "tiempo_total_horas": 12.15,
+        "coste_total": 729.17,
+        "ingresos": 2662.2,
+        "beneficio": 1933.03
+    },
+    {
+        "id_camion": 31,
+        "pedidos": [
+            {
+                "id_pedido": "2082827",
+                "nombre_producto": "Queso cheddar 200gr",
+                "cantidad": 866,
+                "destino": "Sevilla"
+            },
+            {
+                "id_pedido": "8792122",
+                "nombre_producto": "Queso cheddar 200gr",
+                "cantidad": 911,
+                "destino": "Córdoba"
+            }
+        ],
+        "ruta_optima": [
+            {
+                "nombre": "Mataró",
+                "lat": "41.532521",
+                "lon": "2.423604"
+            },
+            {
+                "nombre": "Sevilla",
+                "lat": "37.269298",
+                "lon": " -5.994452"
+            },
+            {
+                "nombre": "Córdoba",
+                "lat": "37.875219",
+                "lon": " -4.763063"
+            },
+            {
+                "nombre": "Mataró",
+                "lat": "41.532521",
+                "lon": "2.423604"
+            }
+        ],
+        "distancia_total": 1728.63,
+        "tiempo_total_horas": 17.29,
+        "coste_total": 1037.18,
+        "ingresos": 5686.4,
+        "beneficio": 4649.22
+    },
+    {
+        "id_camion": 32,
+        "pedidos": [
+            {
+                "id_pedido": "6678203",
+                "nombre_producto": "Queso cheddar 200gr",
+                "cantidad": 631,
+                "destino": "Aveiro"
+            },
+            {
+                "id_pedido": "5095353",
+                "nombre_producto": "Queso cheddar 200gr",
+                "cantidad": 672,
+                "destino": "Guadalajara"
+            }
+        ],
+        "ruta_optima": [
+            {
+                "nombre": "Mataró",
+                "lat": "41.532521",
+                "lon": "2.423604"
+            },
+            {
+                "nombre": "Aveiro",
+                "lat": "40.551625",
+                "lon": " -8.553303"
+            },
+            {
+                "nombre": "Guadalajara",
+                "lat": "40.620066",
+                "lon": " -3.28023"
+            },
+            {
+                "nombre": "Mataró",
+                "lat": "41.532521",
+                "lon": "2.423604"
+            }
+        ],
+        "distancia_total": 1860.33,
+        "tiempo_total_horas": 18.6,
+        "coste_total": 1116.2,
+        "ingresos": 4169.6,
+        "beneficio": 3053.4
+    },
+    {
+        "id_camion": 33,
+        "pedidos": [
+            {
+                "id_pedido": "3588953",
+                "nombre_producto": "Queso cheddar 200gr",
+                "cantidad": 848,
+                "destino": "Ávila"
+            },
+            {
+                "id_pedido": "4470015",
+                "nombre_producto": "Queso cheddar 200gr",
+                "cantidad": 711,
+                "destino": "Viana do Castelo"
+            }
+        ],
+        "ruta_optima": [
+            {
+                "nombre": "Mataró",
+                "lat": "41.532521",
+                "lon": "2.423604"
+            },
+            {
+                "nombre": "Viana do Castelo",
+                "lat": "41.712777",
+                "lon": " -8.85317"
+            },
+            {
+                "nombre": "Ávila",
+                "lat": "40.664648",
+                "lon": " -4.682038"
+            },
+            {
+                "nombre": "Mataró",
+                "lat": "41.532521",
+                "lon": "2.423604"
+            }
+        ],
+        "distancia_total": 1907.83,
+        "tiempo_total_horas": 19.08,
+        "coste_total": 1144.7,
+        "ingresos": 4988.8,
+        "beneficio": 3844.1
+    },
+    {
+        "id_camion": 34,
+        "pedidos": [
+            {
+                "id_pedido": "4874205",
+                "nombre_producto": "Queso cheddar 200gr",
+                "cantidad": 625,
+                "destino": "Álava"
+            }
+        ],
+        "ruta_optima": [
+            {
+                "nombre": "Mataró",
+                "lat": "41.532521",
+                "lon": "2.423604"
+            },
+            {
+                "nombre": "Álava",
+                "lat": "42.808841",
+                "lon": " -2.806054"
+            },
+            {
+                "nombre": "Mataró",
+                "lat": "41.532521",
+                "lon": "2.423604"
+            }
+        ],
+        "distancia_total": 907.32,
+        "tiempo_total_horas": 9.07,
+        "coste_total": 544.39,
+        "ingresos": 2000.0,
+        "beneficio": 1455.61
+    },
+    {
+        "id_camion": 35,
+        "pedidos": [
+            {
+                "id_pedido": "7982718",
+                "nombre_producto": "Yogur natural 4 unidades (125gr cada uno)",
+                "cantidad": 638,
+                "destino": "Castellón"
+            },
+            {
+                "id_pedido": "7544172",
+                "nombre_producto": "Yogur natural 4 unidades (125gr cada uno)",
+                "cantidad": 788,
+                "destino": "Aveiro"
+            }
+        ],
+        "ruta_optima": [
+            {
+                "nombre": "Mataró",
+                "lat": "41.532521",
+                "lon": "2.423604"
+            },
+            {
+                "nombre": "Aveiro",
+                "lat": "40.551625",
+                "lon": " -8.553303"
+            },
+            {
+                "nombre": "Castellón",
+                "lat": "39.97722",
+                "lon": " -0.008643"
+            },
+            {
+                "nombre": "Mataró",
+                "lat": "41.532521",
+                "lon": "2.423604"
+            }
+        ],
+        "distancia_total": 1922.0,
+        "tiempo_total_horas": 19.22,
+        "coste_total": 1153.2,
+        "ingresos": 3565.0,
+        "beneficio": 2411.8
+    },
+    {
+        "id_camion": 36,
+        "pedidos": [
+            {
+                "id_pedido": "3185822",
+                "nombre_producto": "Yogur natural 4 unidades (125gr cada uno)",
+                "cantidad": 767,
+                "destino": "Oporto"
+            },
+            {
+                "id_pedido": "4231161",
+                "nombre_producto": "Yogur natural 4 unidades (125gr cada uno)",
+                "cantidad": 652,
+                "destino": "Lleida"
+            }
+        ],
+        "ruta_optima": [
+            {
+                "nombre": "Mataró",
+                "lat": "41.532521",
+                "lon": "2.423604"
+            },
+            {
+                "nombre": "Oporto",
+                "lat": "41.116767",
+                "lon": " -8.574959"
+            },
+            {
+                "nombre": "Lleida",
+                "lat": "41.604913",
+                "lon": " 0.679305"
+            },
+            {
+                "nombre": "Mataró",
+                "lat": "41.532521",
+                "lon": "2.423604"
+            }
+        ],
+        "distancia_total": 1838.19,
+        "tiempo_total_horas": 18.38,
+        "coste_total": 1102.91,
+        "ingresos": 3547.5,
+        "beneficio": 2444.59
+    },
+    {
+        "id_camion": 37,
+        "pedidos": [
+            {
+                "id_pedido": "1840915",
+                "nombre_producto": "Yogur natural 4 unidades (125gr cada uno)",
+                "cantidad": 805,
+                "destino": "Soria"
+            },
+            {
+                "id_pedido": "5544925",
+                "nombre_producto": "Yogur natural 4 unidades (125gr cada uno)",
+                "cantidad": 793,
+                "destino": "León"
+            }
+        ],
+        "ruta_optima": [
+            {
+                "nombre": "Mataró",
+                "lat": "41.532521",
+                "lon": "2.423604"
+            },
+            {
+                "nombre": "León",
+                "lat": "42.583276",
+                "lon": " -5.573597"
+            },
+            {
+                "nombre": "Soria",
+                "lat": "41.78641",
+                "lon": " -1.989204"
+            },
+            {
+                "nombre": "Mataró",
+                "lat": "41.532521",
+                "lon": "2.423604"
+            }
+        ],
+        "distancia_total": 1346.17,
+        "tiempo_total_horas": 13.46,
+        "coste_total": 807.7,
+        "ingresos": 3995.0,
+        "beneficio": 3187.3
+    },
+    {
+        "id_camion": 38,
+        "pedidos": [
+            {
+                "id_pedido": "9040738",
+                "nombre_producto": "Yogur natural 4 unidades (125gr cada uno)",
+                "cantidad": 681,
+                "destino": "Álava"
+            },
+            {
+                "id_pedido": "9929561",
+                "nombre_producto": "Yogur natural 4 unidades (125gr cada uno)",
+                "cantidad": 656,
+                "destino": "Gipuzkoa"
+            }
+        ],
+        "ruta_optima": [
+            {
+                "nombre": "Mataró",
+                "lat": "41.532521",
+                "lon": "2.423604"
+            },
+            {
+                "nombre": "Álava",
+                "lat": "42.808841",
+                "lon": " -2.806054"
+            },
+            {
+                "nombre": "Gipuzkoa",
+                "lat": "43.264309",
+                "lon": " -1.972006"
+            },
+            {
+                "nombre": "Mataró",
+                "lat": "41.532521",
+                "lon": "2.423604"
+            }
+        ],
+        "distancia_total": 947.3,
+        "tiempo_total_horas": 9.47,
+        "coste_total": 568.38,
+        "ingresos": 3342.5,
+        "beneficio": 2774.12
+    },
+    {
+        "id_camion": 39,
+        "pedidos": [
+            {
+                "id_pedido": "2537384",
+                "nombre_producto": "Yogur natural 4 unidades (125gr cada uno)",
+                "cantidad": 741,
+                "destino": "Cantabria"
+            }
+        ],
+        "ruta_optima": [
+            {
+                "nombre": "Mataró",
+                "lat": "41.532521",
+                "lon": "2.423604"
+            },
+            {
+                "nombre": "Cantabria",
+                "lat": "43.443127",
+                "lon": " -3.864163"
+            },
+            {
+                "nombre": "Mataró",
+                "lat": "41.532521",
+                "lon": "2.423604"
+            }
+        ],
+        "distancia_total": 1114.9,
+        "tiempo_total_horas": 11.15,
+        "coste_total": 668.94,
+        "ingresos": 1852.5,
+        "beneficio": 1183.56
+    },
+    {
+        "id_camion": 40,
+        "pedidos": [
+            {
+                "id_pedido": "6315051",
+                "nombre_producto": "Mantequilla 100gr",
+                "cantidad": 860,
+                "destino": "Granada"
+            },
+            {
+                "id_pedido": "5264288",
+                "nombre_producto": "Mantequilla 100gr",
+                "cantidad": 823,
+                "destino": "Sevilla"
+            }
+        ],
+        "ruta_optima": [
+            {
+                "nombre": "Mataró",
+                "lat": "41.532521",
+                "lon": "2.423604"
+            },
+            {
+                "nombre": "Sevilla",
+                "lat": "37.269298",
+                "lon": " -5.994452"
+            },
+            {
+                "nombre": "Granada",
+                "lat": "37.202971",
+                "lon": " -3.660833"
+            },
+            {
+                "nombre": "Mataró",
+                "lat": "41.532521",
+                "lon": "2.423604"
+            }
+        ],
+        "distancia_total": 1781.41,
+        "tiempo_total_horas": 17.81,
+        "coste_total": 1068.84,
+        "ingresos": 3029.4,
+        "beneficio": 1960.56
+    },
+    {
+        "id_camion": 41,
+        "pedidos": [
+            {
+                "id_pedido": "3724601",
+                "nombre_producto": "Mantequilla 100gr",
+                "cantidad": 984,
+                "destino": "Cáceres"
+            },
+            {
+                "id_pedido": "8659131",
+                "nombre_producto": "Mantequilla 100gr",
+                "cantidad": 781,
+                "destino": "Valencia"
+            }
+        ],
+        "ruta_optima": [
+            {
+                "nombre": "Mataró",
+                "lat": "41.532521",
+                "lon": "2.423604"
+            },
+            {
+                "nombre": "Cáceres",
+                "lat": "39.449253",
+                "lon": " -6.381213"
+            },
+            {
+                "nombre": "Valencia",
+                "lat": "39.514124",
+                "lon": " -0.476974"
+            },
+            {
+                "nombre": "Mataró",
+                "lat": "41.532521",
+                "lon": "2.423604"
+            }
+        ],
+        "distancia_total": 1618.39,
+        "tiempo_total_horas": 16.18,
+        "coste_total": 971.03,
+        "ingresos": 3177.0,
+        "beneficio": 2205.97
+    },
+    {
+        "id_camion": 42,
+        "pedidos": [
+            {
+                "id_pedido": "1487509",
+                "nombre_producto": "Mantequilla 100gr",
+                "cantidad": 835,
+                "destino": "Toledo"
+            },
+            {
+                "id_pedido": "8236513",
+                "nombre_producto": "Mantequilla 100gr",
+                "cantidad": 751,
+                "destino": "Madrid"
+            }
+        ],
+        "ruta_optima": [
+            {
+                "nombre": "Mataró",
+                "lat": "41.532521",
+                "lon": "2.423604"
+            },
+            {
+                "nombre": "Toledo",
+                "lat": "40.183041",
+                "lon": " -3.723122"
+            },
+            {
+                "nombre": "Madrid",
+                "lat": "40.399621",
+                "lon": " -3.59424"
+            },
+            {
+                "nombre": "Mataró",
+                "lat": "41.532521",
+                "lon": "2.423604"
+            }
+        ],
+        "distancia_total": 1085.21,
+        "tiempo_total_horas": 10.85,
+        "coste_total": 651.13,
+        "ingresos": 2854.8,
+        "beneficio": 2203.67
+    },
+    {
+        "id_camion": 43,
+        "pedidos": [
+            {
+                "id_pedido": "4455670",
+                "nombre_producto": "Mantequilla 100gr",
+                "cantidad": 850,
+                "destino": "Valladolid"
+            },
+            {
+                "id_pedido": "5040391",
+                "nombre_producto": "Mantequilla 100gr",
+                "cantidad": 936,
+                "destino": "Canillo"
+            }
+        ],
+        "ruta_optima": [
+            {
+                "nombre": "Mataró",
+                "lat": "41.532521",
+                "lon": "2.423604"
+            },
+            {
+                "nombre": "Valladolid",
+                "lat": "41.541969",
+                "lon": " -4.663801"
+            },
+            {
+                "nombre": "Canillo",
+                "lat": "42.552931",
+                "lon": " 1.590835"
+            },
+            {
+                "nombre": "Mataró",
+                "lat": "41.532521",
+                "lon": "2.423604"
+            }
+        ],
+        "distancia_total": 1250.83,
+        "tiempo_total_horas": 12.51,
+        "coste_total": 750.5,
+        "ingresos": 3214.8,
+        "beneficio": 2464.3
+    },
+    {
+        "id_camion": 44,
+        "pedidos": [
+            {
+                "id_pedido": "7849430",
+                "nombre_producto": "Carne de ternera picada 500gr",
+                "cantidad": 685,
+                "destino": "Setúbal"
+            },
+            {
+                "id_pedido": "2139937",
+                "nombre_producto": "Carne de ternera picada 500gr",
+                "cantidad": 932,
+                "destino": "Évora"
+            }
+        ],
+        "ruta_optima": [
+            {
+                "nombre": "Mataró",
+                "lat": "41.532521",
+                "lon": "2.423604"
+            },
+            {
+                "nombre": "Setúbal",
+                "lat": "38.541717",
+                "lon": " -8.827679"
+            },
+            {
+                "nombre": "Évora",
+                "lat": "38.544685",
+                "lon": " -7.915859"
+            },
+            {
+                "nombre": "Mataró",
+                "lat": "41.532521",
+                "lon": "2.423604"
+            }
+        ],
+        "distancia_total": 2032.41,
+        "tiempo_total_horas": 20.32,
+        "coste_total": 1219.45,
+        "ingresos": 8893.5,
+        "beneficio": 7674.05
+    },
+    {
+        "id_camion": 45,
+        "pedidos": [
+            {
+                "id_pedido": "2310194",
+                "nombre_producto": "Carne de ternera picada 500gr",
+                "cantidad": 972,
+                "destino": "Guadalajara"
+            },
+            {
+                "id_pedido": "1379764",
+                "nombre_producto": "Carne de ternera picada 500gr",
+                "cantidad": 837,
+                "destino": "Segovia"
+            }
+        ],
+        "ruta_optima": [
+            {
+                "nombre": "Mataró",
+                "lat": "41.532521",
+                "lon": "2.423604"
+            },
+            {
+                "nombre": "Segovia",
+                "lat": "40.905792",
+                "lon": " -4.107008"
+            },
+            {
+                "nombre": "Guadalajara",
+                "lat": "40.620066",
+                "lon": " -3.28023"
+            },
+            {
+                "nombre": "Mataró",
+                "lat": "41.532521",
+                "lon": "2.423604"
+            }
+        ],
+        "distancia_total": 1115.71,
+        "tiempo_total_horas": 11.16,
+        "coste_total": 669.43,
+        "ingresos": 9949.5,
+        "beneficio": 9280.07
+    },
+    {
+        "id_camion": 46,
+        "pedidos": [
+            {
+                "id_pedido": "8877540",
+                "nombre_producto": "Carne de ternera picada 500gr",
+                "cantidad": 648,
+                "destino": "Barcelona"
+            },
+            {
+                "id_pedido": "6212442",
+                "nombre_producto": "Carne de ternera picada 500gr",
+                "cantidad": 822,
+                "destino": "Palencia"
+            }
+        ],
+        "ruta_optima": [
+            {
+                "nombre": "Mataró",
+                "lat": "41.532521",
+                "lon": "2.423604"
+            },
+            {
+                "nombre": "Palencia",
+                "lat": "41.964811",
+                "lon": " -4.506013"
+            },
+            {
+                "nombre": "Barcelona",
+                "lat": "41.327635",
+                "lon": " 2.115424"
+            },
+            {
+                "nombre": "Mataró",
+                "lat": "41.532521",
+                "lon": "2.423604"
+            }
+        ],
+        "distancia_total": 1165.65,
+        "tiempo_total_horas": 11.66,
+        "coste_total": 699.39,
+        "ingresos": 8085.0,
+        "beneficio": 7385.61
+    },
+    {
+        "id_camion": 47,
+        "pedidos": [
+            {
+                "id_pedido": "5956440",
+                "nombre_producto": "Carne de ternera picada 500gr",
+                "cantidad": 921,
+                "destino": "La Massana"
+            },
+            {
+                "id_pedido": "1837022",
+                "nombre_producto": "Carne de ternera picada 500gr",
+                "cantidad": 577,
+                "destino": "Escaldes-Engordany"
+            }
+        ],
+        "ruta_optima": [
+            {
+                "nombre": "Mataró",
+                "lat": "41.532521",
+                "lon": "2.423604"
+            },
+            {
+                "nombre": "Escaldes-Engordany",
+                "lat": "42.508834",
+                "lon": " 1.532288"
+            },
+            {
+                "nombre": "La Massana",
+                "lat": "42.456239",
+                "lon": " 1.485435"
+            },
+            {
+                "nombre": "Mataró",
+                "lat": "41.532521",
+                "lon": "2.423604"
+            }
+        ],
+        "distancia_total": 266.86,
+        "tiempo_total_horas": 2.67,
+        "coste_total": 160.11,
+        "ingresos": 8239.0,
+        "beneficio": 8078.89
+    },
+    {
+        "id_camion": 48,
+        "pedidos": [
+            {
+                "id_pedido": "1591906",
+                "nombre_producto": "Carne de ternera picada 500gr",
+                "cantidad": 878,
+                "destino": "Cantabria"
+            }
+        ],
+        "ruta_optima": [
+            {
+                "nombre": "Mataró",
+                "lat": "41.532521",
+                "lon": "2.423604"
+            },
+            {
+                "nombre": "Cantabria",
+                "lat": "43.443127",
+                "lon": " -3.864163"
+            },
+            {
+                "nombre": "Mataró",
+                "lat": "41.532521",
+                "lon": "2.423604"
+            }
+        ],
+        "distancia_total": 1114.9,
+        "tiempo_total_horas": 11.15,
+        "coste_total": 668.94,
+        "ingresos": 4829.0,
+        "beneficio": 4160.06
+    },
+    {
+        "id_camion": 49,
+        "pedidos": [
+            {
+                "id_pedido": "2640619",
+                "nombre_producto": "Pechuga de pollo fresca 1kg",
+                "cantidad": 612,
+                "destino": "Beja"
+            },
+            {
+                "id_pedido": "8762016",
+                "nombre_producto": "Pechuga de pollo fresca 1kg",
+                "cantidad": 724,
+                "destino": "Lleida"
+            },
+            {
+                "id_pedido": "6557065",
+                "nombre_producto": "Pechuga de pollo fresca 1kg",
+                "cantidad": 567,
+                "destino": "León"
+            }
+        ],
+        "ruta_optima": [
+            {
+                "nombre": "Mataró",
+                "lat": "41.532521",
+                "lon": "2.423604"
+            },
+            {
+                "nombre": "Beja",
+                "lat": "38.007831",
+                "lon": " -7.855995"
+            },
+            {
+                "nombre": "León",
+                "lat": "42.583276",
+                "lon": " -5.573597"
+            },
+            {
+                "nombre": "Lleida",
+                "lat": "41.604913",
+                "lon": " 0.679305"
+            },
+            {
+                "nombre": "Mataró",
+                "lat": "41.532521",
+                "lon": "2.423604"
+            }
+        ],
+        "distancia_total": 2177.95,
+        "tiempo_total_horas": 21.78,
+        "coste_total": 1306.77,
+        "ingresos": 11418.0,
+        "beneficio": 10111.23
+    },
+    {
+        "id_camion": 50,
+        "pedidos": [
+            {
+                "id_pedido": "5018330",
+                "nombre_producto": "Filetes de pescado blanco 500gr",
+                "cantidad": 822,
+                "destino": "Almería"
+            },
+            {
+                "id_pedido": "6700367",
+                "nombre_producto": "Filetes de pescado blanco 500gr",
+                "cantidad": 760,
+                "destino": "Faro"
+            }
+        ],
+        "ruta_optima": [
+            {
+                "nombre": "Mataró",
+                "lat": "41.532521",
+                "lon": "2.423604"
+            },
+            {
+                "nombre": "Faro",
+                "lat": "37.081185",
+                "lon": " -7.891208"
+            },
+            {
+                "nombre": "Almería",
+                "lat": "36.783819",
+                "lon": " -2.742398"
+            },
+            {
+                "nombre": "Mataró",
+                "lat": "41.532521",
+                "lon": "2.423604"
+            }
+        ],
+        "distancia_total": 2164.46,
+        "tiempo_total_horas": 21.64,
+        "coste_total": 1298.68,
+        "ingresos": 11074.0,
+        "beneficio": 9775.32
+    },
+    {
+        "id_camion": 51,
+        "pedidos": [
+            {
+                "id_pedido": "9044984",
+                "nombre_producto": "Filetes de pescado blanco 500gr",
+                "cantidad": 911,
+                "destino": "Jaén"
+            },
+            {
+                "id_pedido": "7737463",
+                "nombre_producto": "Filetes de pescado blanco 500gr",
+                "cantidad": 629,
+                "destino": "Cuenca"
+            }
+        ],
+        "ruta_optima": [
+            {
+                "nombre": "Mataró",
+                "lat": "41.532521",
+                "lon": "2.423604"
+            },
+            {
+                "nombre": "Jaén",
+                "lat": "38.031997",
+                "lon": " -4.058837"
+            },
+            {
+                "nombre": "Cuenca",
+                "lat": "39.718055",
+                "lon": " -1.437577"
+            },
+            {
+                "nombre": "Mataró",
+                "lat": "41.532521",
+                "lon": "2.423604"
+            }
+        ],
+        "distancia_total": 1354.23,
+        "tiempo_total_horas": 13.54,
+        "coste_total": 812.54,
+        "ingresos": 10780.0,
+        "beneficio": 9967.46
+    },
+    {
+        "id_camion": 52,
+        "pedidos": [
+            {
+                "id_pedido": "9598609",
+                "nombre_producto": "Filetes de pescado blanco 500gr",
+                "cantidad": 556,
+                "destino": "Salamanca"
+            },
+            {
+                "id_pedido": "6046795",
+                "nombre_producto": "Filetes de pescado blanco 500gr",
+                "cantidad": 751,
+                "destino": "Zamora"
+            }
+        ],
+        "ruta_optima": [
+            {
+                "nombre": "Mataró",
+                "lat": "41.532521",
+                "lon": "2.423604"
+            },
+            {
+                "nombre": "Salamanca",
+                "lat": "40.96337",
+                "lon": " -5.734527"
+            },
+            {
+                "nombre": "Zamora",
+                "lat": "41.519608",
+                "lon": " -5.736363"
+            },
+            {
+                "nombre": "Mataró",
+                "lat": "41.532521",
+                "lon": "2.423604"
+            }
+        ],
+        "distancia_total": 1425.61,
+        "tiempo_total_horas": 14.26,
+        "coste_total": 855.36,
+        "ingresos": 9149.0,
+        "beneficio": 8293.64
+    },
+    {
+        "id_camion": 53,
+        "pedidos": [
+            {
+                "id_pedido": "1811244",
+                "nombre_producto": "Jamón serrano loncheado 150gr",
+                "cantidad": 791,
+                "destino": "Teruel"
+            },
+            {
+                "id_pedido": "3786349",
+                "nombre_producto": "Jamón serrano loncheado 150gr",
+                "cantidad": 598,
+                "destino": "Madrid"
+            },
+            {
+                "id_pedido": "8149072",
+                "nombre_producto": "Jamón serrano loncheado 150gr",
+                "cantidad": 578,
+                "destino": "Tarragona"
+            }
+        ],
+        "ruta_optima": [
+            {
+                "nombre": "Mataró",
+                "lat": "41.532521",
+                "lon": "2.423604"
+            },
+            {
+                "nombre": "Madrid",
+                "lat": "40.399621",
+                "lon": " -3.59424"
+            },
+            {
+                "nombre": "Teruel",
+                "lat": "40.365727",
+                "lon": " -1.157177"
+            },
+            {
+                "nombre": "Tarragona",
+                "lat": "41.275076",
+                "lon": " 1.513732"
+            },
+            {
+                "nombre": "Mataró",
+                "lat": "41.532521",
+                "lon": "2.423604"
+            }
+        ],
+        "distancia_total": 1054.61,
+        "tiempo_total_horas": 10.55,
+        "coste_total": 632.77,
+        "ingresos": 8851.5,
+        "beneficio": 8218.73
+    },
+    {
+        "id_camion": 54,
+        "pedidos": [
+            {
+                "id_pedido": "9139051",
+                "nombre_producto": "Jamón serrano loncheado 150gr",
+                "cantidad": 711,
+                "destino": "Barcelona"
+            },
+            {
+                "id_pedido": "6918249",
+                "nombre_producto": "Jamón serrano loncheado 150gr",
+                "cantidad": 826,
+                "destino": "Pontevedra"
+            }
+        ],
+        "ruta_optima": [
+            {
+                "nombre": "Mataró",
+                "lat": "41.532521",
+                "lon": "2.423604"
+            },
+            {
+                "nombre": "Pontevedra",
+                "lat": "42.402276",
+                "lon": " -8.583134"
+            },
+            {
+                "nombre": "Barcelona",
+                "lat": "41.327635",
+                "lon": " 2.115424"
+            },
+            {
+                "nombre": "Mataró",
+                "lat": "41.532521",
+                "lon": "2.423604"
+            }
+        ],
+        "distancia_total": 1842.15,
+        "tiempo_total_horas": 18.42,
+        "coste_total": 1105.29,
+        "ingresos": 6916.5,
+        "beneficio": 5811.21
+    }
+]
