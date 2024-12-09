@@ -30,7 +30,6 @@ pedidos = cursor.execute("""
         prod.nombre_producto, 
         ped.destino,
         dest.provincia,
-        COUNT(ped.id_pedido) AS total_pedidos, 
         SUM(ped.cantidad) AS total_cantidad
     FROM pedidos ped
     JOIN productos prod ON ped.id_producto = prod.id_producto

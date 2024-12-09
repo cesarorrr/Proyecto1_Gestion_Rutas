@@ -130,7 +130,7 @@ def asignar_pedidos_a_camiones(pedidos, capacidad_camion):
             destino=pedido[4],
             id_producto=pedido[1],
             nombre_producto=pedido[2],
-            cantidad=pedido[6]
+            cantidad=pedido[5]
         )
 
         # Si el producto cambia, asignar el camión actual a la lista y crear uno nuevo
@@ -263,3 +263,14 @@ def ingresos_camion(cursor, camion: 'Camion'):
         ingresos_totales += precio_producto * pedido[2]
 
     return ingresos_totales
+
+def csv_to_pedidos(pedidos: list, fila):
+    # Convertir fila en una tupla y añadirla a la lista pedidos
+    pedidos.append((
+        fila['id_pedido'],
+        fila['id_producto'],
+        str(fila['nombre_producto']),
+        str(fila['destino']),
+        str(fila['provincia']),
+        fila['total_cantidad']
+    ))
