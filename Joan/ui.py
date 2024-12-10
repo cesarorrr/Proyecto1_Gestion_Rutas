@@ -99,10 +99,14 @@ if st.session_state.state == "initial":
         """, unsafe_allow_html=True)
 
         # Título del formulario
-        st.title("Gestión de Rutas de Entrega")
+        col1, col2 = st.columns([5, 1])  # Ajusta las proporciones según necesites
 
-        # Imagen al inicio
-        #st.image("img/logo.webp", use_column_width=True)
+        with col1:
+            st.title("Gestión de Rutas de Entrega")
+
+        with col2:
+            st.image("Joan/img/icono.jpg", width=100)  # Ruta a tu imagen
+        
 
         # Contenedor principal con el estilo mejorado
         with st.container():
@@ -117,7 +121,7 @@ if st.session_state.state == "initial":
                 Capacity = st.number_input("Capacidad Camión (cantidad)", min_value=1, step=1, key="capacity")
 
             with col3:
-                Price = st.number_input("Coste por Kilómetro (€)", min_value=0, step=1, key="price_km")
+                Price = st.number_input("Coste por Kilómetro (€)", min_value=0.0, step=0.1, key="price_km")
 
             # Subir archivo CSV
             csv = st.file_uploader("Subir archivo CSV", type=["csv"], key="csv")
