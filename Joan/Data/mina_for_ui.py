@@ -1,8 +1,8 @@
-import sqlite3, json, csv
+import sqlite3, json
 import networkx as nx
 import pandas as pd
 from networkx.algorithms import approximation as approx
-from functions import asignar_pedidos_a_camiones, haversine, costes_ruta, ingresos_camion, random_pedidos, inicializar_log, combinar_camiones, csv_to_pedidos
+from Data.functions import asignar_pedidos_a_camiones, haversine, costes_ruta, ingresos_camion, random_pedidos, inicializar_log, combinar_camiones, csv_to_pedidos
 
 ############################## MAIN ##############################
 
@@ -10,6 +10,10 @@ def optimizacion_pedidos(velocidad_media_camiones: float, capacidad_camion: int,
     
     # Inicializar el log (borra contenido previo del archivo de log)
     inicializar_log()
+
+    # Conexión a la base de datos SQLite
+    conn = sqlite3.connect(r"Joan\Database\logistics.db")
+    cursor = conn.cursor()
 
     # SI EL USUARIO HA SUBIDO UN CSV LEER LA INFORMACIÓN
     if csv is not None and not csv.empty:
@@ -23,10 +27,7 @@ def optimizacion_pedidos(velocidad_media_camiones: float, capacidad_camion: int,
 
     # SI NO HA SUBIDO NADA, SE GENERAN PEDIDOS RANDOM
     else:
-        # Conexión a la base de datos SQLite
-        conn = sqlite3.connect(r"Joan\Database\logistics.db")
-        cursor = conn.cursor()
-
+        
         # Generar pedidos aleatorios para simular datos iniciales
         result, msg = random_pedidos(conn, cursor)
         if not result:
@@ -127,6 +128,9 @@ def optimizacion_pedidos(velocidad_media_camiones: float, capacidad_camion: int,
 
         # Añadir información del camión a la lista general
         camiones_info.append(camion_info)
+
+        # cursor.close()
+        # conn.close()
 
     return json.dumps(camiones_info, indent=4, ensure_ascii=False)
 

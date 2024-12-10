@@ -1,0 +1,17 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Streamlit Debug",
+            "type": "debugpy",
+            "request": "launch",
+            "module": "streamlit",
+            "args": [
+                "run",
+                "C:/Users/joant/OneDrive/Stucom/MasterIA/IA/Proyecto1_Gestion_Rutas/Joan/ui.py"
+            ],
+            "console": "integratedTerminal",
+            "justMyCode": false
+        }
+    ]
+}
