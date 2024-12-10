@@ -154,8 +154,7 @@ if st.session_state.state == "initial":
                     else:
                         resultado = optimizacion_pedidos(Velocity, Capacity, Price, None)  # Usar datos predeterminados
 
-                    camiones_array = json.loads(resultado)
-                    st.session_state.camiones_array = camiones_array
+                    st.session_state.camiones_array = json.loads(resultado)
 
                     # Cambio de escena para mostrar el resultado
                     change_state("deliveries")
