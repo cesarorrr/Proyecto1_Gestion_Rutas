@@ -75,8 +75,7 @@ def generar_mapa_con_ruta(destinos):
 
 
     # Crear un mapa interactivo centrado en el origen (solo lat y lon, sin el nombre)
-    mapa = folium.Map(location=[paradas[0]["lat"], paradas[0]["lng"]], zoom_start=13, control_scale=True)
-
+    mapa = folium.Map(location=[40.4168, -3.7038], zoom_start=6, control_scale=True)
     # Agregar capa de Google Maps
     folium.TileLayer(
         tiles=f"https://mt1.google.com/vt/lyrs=m&x={{x}}&y={{y}}&z={{z}}&key={api_key}",
