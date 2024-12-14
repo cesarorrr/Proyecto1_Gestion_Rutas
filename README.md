@@ -2,15 +2,15 @@ Optimización de Pedidos - Proyecto Logístico
 ============================================
 Este proyecto tiene como objetivo optimizar el transporte de pedidos mediante la asignación de estos a camiones, la optimización de rutas y la estimación de costes y beneficios asociados. El sistema permite la lectura de datos de pedidos desde un archivo CSV proporcionado por el usuario o generarlos aleatoriamente desde una base de datos. A continuación, se optimiza la ruta de cada camión utilizando el algoritmo de Traveling Salesman Problem (TSP) y se calcula la rentabilidad de cada ruta.
 
-Tabla de Contenidos
-Descripción del Proyecto
-Requisitos
-Instalación
-Uso
-Estructura del Proyecto
-Funciones Principales
-Licencia
-Descripción del Proyecto
+# Tabla de Contenidos
+1. [Descripción del Proyecto](Descripción-del-Proyecto)
+2. [Requisitos](Requisitos)
+3. [Instalación](Instalación)
+4. [Uso](Uso)
+5. [Estructura del Proyecto](Resultados)
+6. [Funciones Principales](Funciones-Principales)
+
+## Descripción del Proyecto
 El objetivo principal de este proyecto es optimizar la asignación de pedidos a camiones en función de su capacidad y la distancia a recorrer, minimizando costes y maximizando los beneficios.
 
 Características principales:
@@ -19,7 +19,8 @@ Asignación de pedidos a camiones según la capacidad máxima.
 Optimización de rutas utilizando el algoritmo TSP.
 Cálculo de costes totales de transporte basados en distancia y tiempo.
 Generación de un informe con la información de los camiones, incluyendo la ruta óptima, distancia, coste, ingresos y beneficios.
-Requisitos
+
+## Requisitos
 El proyecto requiere las siguientes dependencias:
 
 pandas: Para la manipulación de datos tabulares.
@@ -28,7 +29,8 @@ sqlite3: Para interactuar con la base de datos SQLite.
 networkx: Para la manipulación de grafos y optimización de rutas.
 haversine: Para calcular distancias geográficas entre coordenadas.
 json: Para exportar resultados en formato JSON.
-Instalación
+
+## Instalación
 1. Clona el repositorio
 bash
 Copia el codi
@@ -45,7 +47,8 @@ source venv/bin/activate  # En Windows usa 'venv\Scripts\activate'
 bash
 Copia el codi
 pip install -r requirements.txt
-Uso
+
+## Uso
 1. Preparar el archivo CSV (opcional)
 Si tienes un archivo CSV con datos de pedidos, debe tener la siguiente estructura:
 
@@ -78,17 +81,18 @@ resultados = optimizacion_pedidos(
 print(resultados)
 Si no proporcionas un archivo CSV, los pedidos se generarán aleatoriamente desde la base de datos.
 
-3. Resultados
+## Resultados
 La salida de la función será un JSON con la información de cada camión, incluyendo:
 
 ID del camión
-Listado de pedidos asignados
-Ruta óptima
-Distancia total recorrida
-Tiempo total estimado
-Coste total
-Ingresos y beneficios
-Estructura del Proyecto
+- Listado de pedidos asignados
+- Ruta óptima
+- Distancia total recorrida
+- Tiempo total estimado
+- Coste total
+- Ingresos y beneficios
+
+## Estructura del Proyecto
 plaintext
 Copia el codi
 |   ejemplo_input.csv        # Archivo de entrada de ejemplo
