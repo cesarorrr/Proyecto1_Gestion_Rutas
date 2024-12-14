@@ -2,12 +2,106 @@ import sqlite3, json
 import networkx as nx
 import pandas as pd
 from networkx.algorithms import approximation as approx
-from Data.functions import asignar_pedidos_a_camiones, haversine, costes_ruta, ingresos_camion, random_pedidos, inicializar_log, combinar_camiones, csv_to_pedidos
+from functions import asignar_pedidos_a_camiones, haversine, costes_ruta, ingresos_camion, random_pedidos, inicializar_log, combinar_camiones, csv_to_pedidos
 
-############################## MAIN ##############################
+def optimizacion_pedidos(velocidad_media_camiones: float, capacidad_camion: int, coste_medio_km: float, csv: 'pd.Dataframe') -> json:
 
-def optimizacion_pedidos(velocidad_media_camiones: float, capacidad_camion: int, coste_medio_km: float, csv: 'pd.Dataframe'):
-    
+    """
+    Optimiza el transporte de pedidos asignándolos a camiones, calculando rutas y beneficios.
+
+    Esta función recibe datos de pedidos ya sea desde un archivo CSV proporcionado o generados aleatoriamente,
+    los agrupa respetando la capacidad de los camiones, optimiza las rutas de entrega utilizando el algoritmo
+    de TSP (Problema del Viajante) y calcula los costes, tiempos e ingresos asociados.
+
+    ### Parámetros:
+    - **velocidad_media_camiones** (`float`): 
+      Velocidad promedio a la que viajan los camiones (en km/h).
+
+    - **capacidad_camion** (`int`): 
+      Capacidad máxima de carga que puede llevar cada camión (en unidades).
+
+    - **coste_medio_km** (`float`): 
+      Coste promedio en euros por kilómetro recorrido.
+
+    - **csv** (`pd.DataFrame`): 
+      Datos de pedidos proporcionados por el usuario en formato DataFrame. 
+      Si es `None` o está vacío, se generan datos de pedidos aleatorios desde la base de datos.
+
+    ### Retorno:
+    - `str`: Un JSON con los resultados de la optimización, incluyendo:
+      - Información de los pedidos asignados a cada camión.
+      - Ruta óptima para cada camión.
+      - Distancia total recorrida, tiempo estimado, costes, ingresos y beneficios.
+
+    ### Salida JSON:
+    Ejemplo de estructura de salida:
+    ```json
+    [
+        {
+            "id_camion": 1,
+            "pedidos": [
+                {
+                    "id_pedido": 1,
+                    "nombre_producto": "Producto A",
+                    "cantidad": 50,
+                    "destino": "Barcelona"
+                },
+                ...
+            ],
+            "ruta_optima": [
+                {"nombre": "Mataró", "lat": "41.532521", "lon": "2.423604"},
+                {"nombre": "Destino A", "lat": "41.12345", "lon": "2.56789"},
+                ...
+            ],
+            "distancia_total": 350.45,
+            "tiempo_total_horas": 5.84,
+            "coste_total": 123.50,
+            "ingresos": 200.00,
+            "beneficio": 76.50
+        },
+        ...
+    ]
+    ```
+
+    ### Flujo del Programa:
+    1. **Inicialización de Logs**: Se inicializa el sistema de logs borrando cualquier contenido previo.
+    2. **Entrada de Datos**: 
+        - Si se proporciona un archivo CSV con datos de pedidos, este se procesa.
+        - Si no, se generan pedidos aleatorios desde la base de datos.
+    3. **Asignación de Pedidos**: Los pedidos se agrupan por destino y producto, respetando la capacidad máxima de los camiones.
+    4. **Optimización de Rutas**: 
+        - Cada camión recibe una ruta optimizada calculada con el algoritmo TSP (Traveling Salesman Problem).
+        - Se usa la distancia entre destinos calculada mediante la fórmula Haversine.
+    5. **Cálculo de Costes e Ingresos**: Se determinan los costes de transporte, el tiempo necesario, los ingresos por pedidos y el beneficio neto.
+    6. **Salida JSON**: Los resultados se devuelven en formato JSON.
+
+    ### Detalles Técnicos:
+    - **Uso de Redes**:
+        - Se utiliza `networkx.Graph` para modelar los destinos y distancias.
+        - Se calcula la ruta óptima con el algoritmo `traveling_salesman_problem`.
+    - **Base de Datos**: 
+        - Los datos de productos, destinos y pedidos provienen de una base de datos SQLite.
+        - Los pedidos se agrupan y suman para optimizar la asignación.
+    - **Optimización de Camiones**:
+        - Los pedidos se asignan inicialmente a camiones según su capacidad.
+        - Se optimiza el uso de camiones combinando aquellos con capacidad sobrante.
+
+    ### Librerías Utilizadas:
+    - `pandas`: Para manipular datos tabulares.
+    - `sqlite3`: Para interactuar con la base de datos SQLite.
+    - `networkx`: Para modelar y resolver problemas de rutas.
+    - `json`: Para la exportación de los resultados en formato JSON.
+    - Funciones auxiliares definidas en el proyecto:
+        - `inicializar_log()`: Inicializa el archivo de log.
+        - `csv_to_pedidos()`: Convierte las filas del DataFrame en objetos pedidos.
+        - `random_pedidos()`: Genera datos de pedidos aleatorios.
+        - `asignar_pedidos_a_camiones()`: Asigna pedidos a camiones.
+        - `combinar_camiones()`: Combina camiones para optimizar su capacidad.
+        - `haversine()`: Calcula la distancia entre dos puntos geográficos.
+        - `costes_ruta()`: Calcula costes totales (distancia, tiempo, coste monetario).
+        - `ingresos_camion()`: Calcula ingresos generados por los pedidos transportados por un camión.
+    """
+        
     # Inicializar el log (borra contenido previo del archivo de log)
     inicializar_log()
 
@@ -133,6 +227,3 @@ def optimizacion_pedidos(velocidad_media_camiones: float, capacidad_camion: int,
         # conn.close()
 
     return json.dumps(camiones_info, indent=4, ensure_ascii=False)
-
-#########################################################################
-

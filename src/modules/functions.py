@@ -1,5 +1,5 @@
 from math import radians, sin, cos, sqrt, atan2
-from Data.clases import Camion, Pedido
+from clases import Camion, Pedido
 import random, logging
 from datetime import datetime, timedelta
 
