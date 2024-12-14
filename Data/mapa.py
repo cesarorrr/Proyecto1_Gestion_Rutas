@@ -1,8 +1,7 @@
 import folium
 import requests
 import polyline  # Librería para decodificar polylines de Google Maps
-import webbrowser
-import os
+
 # Tu clave de API de Google Maps
 api_key = "AIzaSyBCvUkuzXOcZOQk2sNjimAzaehZaLLabik"
 

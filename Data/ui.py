@@ -1,7 +1,7 @@
 import streamlit as st
 import pandas as pd
-from mapa import generar_mapa_con_ruta
-from Data.mina_for_ui import optimizacion_pedidos
+from Data.mapa import generar_mapa_con_ruta
+from Data.main_ui import optimizacion_pedidos
 import json
 
 st.set_page_config(
