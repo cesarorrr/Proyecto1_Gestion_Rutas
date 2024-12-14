@@ -56,6 +56,16 @@ id_pedido,id_producto,nombre_producto,destino,provincia,total_cantidad
 
 2. Ejecutar el script
 Para ejecutar el sistema de optimización de pedidos, solo necesitas ejecutar el archivo main.py situado en la raiz principal.
+```python
+import subprocess
+
+def run_app():
+    # Usar subprocess para ejecutar streamlit
+    subprocess.run(["streamlit", "run", "src/modules/ui.py"])
+
+if __name__ == "__main__":
+    run_app()
+```
 
 # Resultados
 La salida de la función será un JSON con la información de cada camión, incluyendo:
@@ -70,32 +80,44 @@ ID del camión
 
 # Estructura del Proyecto
 ```plaintext
-|   ejemplo_input.csv        # Archivo de entrada de ejemplo
-|   README.md                # Este archivo
-|   requirements.txt         # Dependencias del proyecto
+|   ejemplo_input.csv
+|   README.md
+|   requirements.txt
 |
-+---src                     # Código fuente principal del proyecto
-|   |   optimizacion.py     # Funciones principales para optimización
-|   |   ui.py               # Interfaz de usuario (si aplica)
++---.vscode
+|       launch.json
 |
-+---data                    # Archivos de datos relacionados con la entrada o procesamiento
-|   |   clientes.csv        # Datos de clientes
-|   |   destinos.csv        # Datos de destinos
-|   |   pedidos.csv         # Datos de pedidos
-|   |   productos.csv       # Datos de productos
++---data
+|       clientes.csv
+|       destinos.csv
+|       pedidos.csv
+|       productos.csv
 |
-+---db                      # Base de datos y notebooks relacionados
-|   |   database.ipynb      # Notebook para manipulación de la base de datos
-|   |   logistics.db        # Archivo de la base de datos SQLite
++---db
+|       database.ipynb
+|       logistics.db
 |
-+---logs                    # Archivos de registro
-|   |   log.txt             # Registro de errores o eventos
++---docs
+|       P1 Enunciado Alumnos.pdf
 |
-+---results                 # Resultados generados por el programa
-|   |   camiones_info.json  # Archivo JSON con información generada
++---img
+|       icono.jpg
 |
-+---docs                    # Documentación adicional (opcional)
-|   |   P1 Enunciado Alumnos.pdf
++---logs
+|       log.txt
+|
++---results
+|       camiones_info.json
+|
+\---src
+    |   main.py
+    |
+    \---modules
+            clases.py
+            functions.py
+            main_function.py
+            mapa.py
+            ui.py
 ```
 
 # Funciones Principales
