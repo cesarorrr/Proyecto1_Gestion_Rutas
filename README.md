@@ -3,12 +3,13 @@ Optimización de Pedidos - Proyecto Logístico
 Este proyecto tiene como objetivo optimizar el transporte de pedidos mediante la asignación de estos a camiones, la optimización de rutas y la estimación de costes y beneficios asociados. El sistema permite la lectura de datos de pedidos desde un archivo CSV proporcionado por el usuario o generarlos aleatoriamente desde una base de datos. A continuación, se optimiza la ruta de cada camión utilizando el algoritmo de Traveling Salesman Problem (TSP) y se calcula la rentabilidad de cada ruta.
 
 # Tabla de Contenidos
-1. Requisitos
-2. Instalación
-3. Uso
-4. Resultados
-5. Estructura del Proyecto
-6. Funciones Principales
+1. Características principales
+2. Requisitos
+3. Instalación
+4. Uso
+5. Resultados
+6. Estructura del Proyecto
+7. Funciones Principales
 
 ## Características principales:
 
@@ -17,7 +18,7 @@ Este proyecto tiene como objetivo optimizar el transporte de pedidos mediante la
 - Cálculo de costes totales de transporte basados en distancia y tiempo.
 - Generación de un informe con la información de los camiones, incluyendo la ruta óptima, distancia, coste, ingresos y beneficios.
 
-# Requisitos
+## Requisitos
 El proyecto requiere las siguientes dependencias:
 
 - **pandas**: Para la manipulación de datos tabulares.
@@ -27,7 +28,7 @@ El proyecto requiere las siguientes dependencias:
 - **haversine**: Para calcular distancias geográficas entre coordenadas.
 - **json**: Para exportar resultados en formato JSON.
 
-# Instalación
+## Instalación
 **1. Clona el repositorio**
 ```bash
 git clone [https://github.com/tu-usuario/optimizacion-pedidos.git](https://github.com/cesarorrr/Proyecto1_Gestion_Rutas.git)
@@ -51,7 +52,6 @@ id_pedido,id_producto,nombre_producto,destino,provincia,total_cantidad
 #  id_producto, nombre_producto, destino y provincia deben encontrarse dentro de los csv correspondientes en la carpeta /data.
 ```
 
-
 2. Ejecutar el script
 Para ejecutar el sistema de optimización de pedidos, solo necesitas ejecutar el archivo main.py situado en la raiz principal.
 ```python
@@ -65,7 +65,7 @@ if __name__ == "__main__":
     run_app()
 ```
 
-# Resultados
+## Resultados
 La salida de la función será un JSON con la información de cada camión, incluyendo:
 
 ID del camión
@@ -76,7 +76,7 @@ ID del camión
 - Coste total
 - Ingresos y beneficios
 
-# Estructura del Proyecto
+## Estructura del Proyecto
 ```plaintext
 |   ejemplo_input.csv
 |   README.md
@@ -118,11 +118,11 @@ ID del camión
             ui.py
 ```
 
-# Funciones Principales
+## Funciones Principales
 ### optimizacion_pedidos
 La función principal que optimiza el transporte de pedidos. Asigna pedidos a camiones, calcula las rutas óptimas, y genera un informe con los resultados.
 
-## Funciones auxiliares:
+### Funciones auxiliares:
 - inicializar_log(): Inicializa el sistema de logs.
 - csv_to_pedidos(): Convierte filas de un CSV en pedidos procesados.
 - random_pedidos(): Genera pedidos aleatorios si no se proporciona un CSV.
