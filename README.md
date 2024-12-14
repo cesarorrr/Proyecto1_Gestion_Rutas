@@ -3,12 +3,13 @@ Optimización de Pedidos - Proyecto Logístico
 Este proyecto tiene como objetivo optimizar el transporte de pedidos mediante la asignación de estos a camiones, la optimización de rutas y la estimación de costes y beneficios asociados. El sistema permite la lectura de datos de pedidos desde un archivo CSV proporcionado por el usuario o generarlos aleatoriamente desde una base de datos. A continuación, se optimiza la ruta de cada camión utilizando el algoritmo de Traveling Salesman Problem (TSP) y se calcula la rentabilidad de cada ruta.
 
 # Tabla de Contenidos
-1. [Descripción del Proyecto](descripcion-del-proyecto)
+1. [Descripción del Proyecto](descripción-del-proyecto)
 2. [Requisitos](requisitos)
-3. [Instalación](instalacion)
+3. [Instalación](instalación)
 4. [Uso](uso)
-5. [Estructura del Proyecto](uesultados)
-6. [Funciones Principales](funciones-principales)
+5. [Resultados](resultados)
+6. [Estructura del Proyecto](estructura-del-proyecto)
+7. [Funciones Principales](funciones-principales)
 
 ## Descripción del Proyecto
 El objetivo principal de este proyecto es optimizar la asignación de pedidos a camiones en función de su capacidad y la distancia a recorrer, minimizando costes y maximizando los beneficios.
