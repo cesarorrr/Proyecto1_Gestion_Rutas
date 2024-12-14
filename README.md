@@ -3,16 +3,12 @@ Optimización de Pedidos - Proyecto Logístico
 Este proyecto tiene como objetivo optimizar el transporte de pedidos mediante la asignación de estos a camiones, la optimización de rutas y la estimación de costes y beneficios asociados. El sistema permite la lectura de datos de pedidos desde un archivo CSV proporcionado por el usuario o generarlos aleatoriamente desde una base de datos. A continuación, se optimiza la ruta de cada camión utilizando el algoritmo de Traveling Salesman Problem (TSP) y se calcula la rentabilidad de cada ruta.
 
 # Tabla de Contenidos
-1. Descripción del Proyecto
-2. Requisitos
-3. Instalación
-4. Uso
-5. Resultados
-6. Estructura del Proyecto
-7. Funciones Principales
-
-# Descripción del Proyecto
-El objetivo principal de este proyecto es optimizar la asignación de pedidos a camiones en función de su capacidad y la distancia a recorrer, minimizando costes y maximizando los beneficios.
+1. Requisitos
+2. Instalación
+3. Uso
+4. Resultados
+5. Estructura del Proyecto
+6. Funciones Principales
 
 ## Características principales:
 
@@ -34,7 +30,7 @@ El proyecto requiere las siguientes dependencias:
 # Instalación
 **1. Clona el repositorio**
 ```bash
-git clone https://github.com/tu-usuario/optimizacion-pedidos.git
+git clone [https://github.com/tu-usuario/optimizacion-pedidos.git](https://github.com/cesarorrr/Proyecto1_Gestion_Rutas.git)
 cd optimizacion-pedidos
 ```
 **2. Instala las dependencias**
