@@ -24,12 +24,12 @@ El objetivo principal de este proyecto es optimizar la asignación de pedidos a 
 # Requisitos
 El proyecto requiere las siguientes dependencias:
 
-- pandas: Para la manipulación de datos tabulares.
-- numpy: Para cálculos numéricos.
-- sqlite3: Para interactuar con la base de datos SQLite.
-- networkx: Para la manipulación de grafos y optimización de rutas.
-- haversine: Para calcular distancias geográficas entre coordenadas.
-- json: Para exportar resultados en formato JSON.
+- **pandas**: Para la manipulación de datos tabulares.
+- **numpy**: Para cálculos numéricos.
+- **sqlite3**: Para interactuar con la base de datos SQLite.
+- **networkx**: Para la manipulación de grafos y optimización de rutas.
+- **haversine**: Para calcular distancias geográficas entre coordenadas.
+- **json**: Para exportar resultados en formato JSON.
 
 # Instalación
 **1. Clona el repositorio**
@@ -51,8 +51,10 @@ id_pedido,id_producto,nombre_producto,destino,provincia,total_cantidad
 6009659,1,Leche entera 500ml,"40.365727, -1.157177",Teruel,668
 1598453,1,Leche entera 500ml,"41.788533, -6.779713",Braganza,554
 ...
+
+#  id_producto, nombre_producto, destino y provincia deben encontrarse dentro de los csv correspondientes en la carpeta /data.
 ```
-*id_producto*, *nombre_producto*, *destino* y *provincia* deben encontrarse dentro de los cvs correspondientes en la carpeta /data.
+
 
 2. Ejecutar el script
 Para ejecutar el sistema de optimización de pedidos, solo necesitas ejecutar el archivo main.py situado en la raiz principal.
