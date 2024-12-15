@@ -27,12 +27,13 @@ El proyecto requiere las siguientes dependencias:
 - **networkx**: Para la manipulación de grafos y optimización de rutas.
 - **haversine**: Para calcular distancias geográficas entre coordenadas.
 - **json**: Para exportar resultados en formato JSON.
+- **subprocess**: Para ejecutar comandos del sistema operativo y manejar procesos externos desde Python.
 
 ## Instalación
 **1. Clona el repositorio**
 ```bash
-git clone [https://github.com/tu-usuario/optimizacion-pedidos.git](https://github.com/cesarorrr/Proyecto1_Gestion_Rutas.git)
-cd optimizacion-pedidos
+git clone https://github.com/cesarorrr/Proyecto1_Gestion_Rutas.git
+cd Proyecto1_Gestion_Rutas
 ```
 **2. Instala las dependencias**
 ```bash
@@ -123,11 +124,11 @@ ID del camión
 La función principal que optimiza el transporte de pedidos. Asigna pedidos a camiones, calcula las rutas óptimas, y genera un informe con los resultados.
 
 ### Funciones auxiliares:
-- inicializar_log(): Inicializa el sistema de logs.
-- csv_to_pedidos(): Convierte filas de un CSV en pedidos procesados.
-- random_pedidos(): Genera pedidos aleatorios si no se proporciona un CSV.
-- asignar_pedidos_a_camiones(): Asigna pedidos a camiones respetando la capacidad.
-- combinar_camiones(): Combina camiones para optimizar su capacidad.
-- haversine(): Calcula la distancia geográfica entre dos puntos.
-- costes_ruta(): Calcula los costes totales de una ruta.
-- ingresos_camion(): Calcula los ingresos generados por un camión.
+- **inicializar_log()**: Inicializa el sistema de logs.
+- **csv_to_pedidos()**: Convierte filas de un CSV en pedidos procesados.
+- **random_pedidos()**: Genera pedidos aleatorios si no se proporciona un CSV.
+- **asignar_pedidos_a_camiones()**: Asigna pedidos a camiones respetando la capacidad.
+- **combinar_camiones()**: Combina camiones para optimizar su capacidad.
+- **haversine()**: Calcula la distancia geográfica entre dos puntos.
+- **costes_ruta()**: Calcula los costes totales de una ruta.
+- **ingresos_camion()**: Calcula los ingresos generados por un camión.
