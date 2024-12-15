@@ -123,11 +123,11 @@ ID del camión
 La función principal que optimiza el transporte de pedidos. Asigna pedidos a camiones, calcula las rutas óptimas, y genera un informe con los resultados.
 
 ### Funciones auxiliares:
-- inicializar_log(): Inicializa el sistema de logs.
-- csv_to_pedidos(): Convierte filas de un CSV en pedidos procesados.
-- random_pedidos(): Genera pedidos aleatorios si no se proporciona un CSV.
-- asignar_pedidos_a_camiones(): Asigna pedidos a camiones respetando la capacidad.
-- combinar_camiones(): Combina camiones para optimizar su capacidad.
-- haversine(): Calcula la distancia geográfica entre dos puntos.
-- costes_ruta(): Calcula los costes totales de una ruta.
-- ingresos_camion(): Calcula los ingresos generados por un camión.
+- **inicializar_log()**: Inicializa el sistema de logs.
+- **csv_to_pedidos()**: Convierte filas de un CSV en pedidos procesados.
+- **random_pedidos()**: Genera pedidos aleatorios si no se proporciona un CSV.
+- **asignar_pedidos_a_camiones()**: Asigna pedidos a camiones respetando la capacidad.
+- **combinar_camiones()**: Combina camiones para optimizar su capacidad.
+- **haversine()**: Calcula la distancia geográfica entre dos puntos.
+- **costes_ruta()**: Calcula los costes totales de una ruta.
+- **ingresos_camion()**: Calcula los ingresos generados por un camión.
