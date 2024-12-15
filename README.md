@@ -27,6 +27,7 @@ El proyecto requiere las siguientes dependencias:
 - **networkx**: Para la manipulación de grafos y optimización de rutas.
 - **haversine**: Para calcular distancias geográficas entre coordenadas.
 - **json**: Para exportar resultados en formato JSON.
+- **subprocess**: Para ejecutar comandos del sistema operativo y manejar procesos externos desde Python.
 
 ## Instalación
 **1. Clona el repositorio**
