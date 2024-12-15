@@ -8,7 +8,7 @@
             "module": "streamlit",
             "args": [
                 "run",
-                "C:/Users/joant/OneDrive/Stucom/MasterIA/IA/Proyecto1_Gestion_Rutas/Joan/ui.py"
+                "src/modules/ui.py"
             ],
             "console": "integratedTerminal",
             "justMyCode": false

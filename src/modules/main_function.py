@@ -106,7 +106,7 @@ def optimizacion_pedidos(velocidad_media_camiones: float, capacidad_camion: int,
     inicializar_log()
 
     # Conexión a la base de datos SQLite
-    conn = sqlite3.connect(r"Joan\Database\logistics.db")
+    conn = sqlite3.connect(r"db\logistics.db")
     cursor = conn.cursor()
 
     # SI EL USUARIO HA SUBIDO UN CSV LEER LA INFORMACIÓN
@@ -179,6 +179,9 @@ def optimizacion_pedidos(velocidad_media_camiones: float, capacidad_camion: int,
                     distancia = haversine(float(lat1), float(lon1), float(lat2), float(lon2))
                     coste_total = distancia * coste_medio_km  # Calcular coste en base a la distancia
                     G.add_edge(destino1, destino2, weight=coste_total)
+
+        if G.number_of_nodes() == 0 or G.number_of_edges() == 0:
+            raise ValueError("El grafico esta vacio")
 
         # Usar el algoritmo TSP para encontrar la ruta óptima cerrada (vuelta completa)
         ruta_optima_cerrada = approx.traveling_salesman_problem(G, cycle=True, weight='weight')

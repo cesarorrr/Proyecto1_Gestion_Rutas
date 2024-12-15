@@ -1,7 +1,7 @@
 import streamlit as st
 import pandas as pd
-from modules.mapa import generar_mapa_con_ruta
-from modules.main_function import optimizacion_pedidos
+from mapa import generar_mapa_con_ruta
+from main_function import optimizacion_pedidos
 import json
 
 st.set_page_config(
@@ -105,9 +105,8 @@ if st.session_state.state == "initial":
             st.title("Gestión de Rutas de Entrega")
 
         with col2:
-            st.image("Joan/img/icono.jpg", width=100)  # Ruta a tu imagen
+            st.image(r"img\icono.jpg", width=100)  # Ruta a tu imagen
         
-
         # Contenedor principal con el estilo mejorado
         with st.container():
 
@@ -152,7 +151,7 @@ if st.session_state.state == "initial":
 
                     # En caso de subir csv trabajar en el modelo con el csv sino con los datos de la bbdd
                     if csv and all(col in data.columns for col in required_columns):
-                        print(data)  # Procesar el archivo CSV
+                        #print(data)  # Procesar el archivo CSV
                         resultado = optimizacion_pedidos(Velocity, Capacity, Price, data)  # Aquí pasas los datos al modelo
 
                     else:

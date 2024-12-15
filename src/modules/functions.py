@@ -6,7 +6,7 @@ from datetime import datetime, timedelta
 ############################## CONFIGURACIÓN DE LOGGING ##############################
 # Configuración inicial para registrar eventos en un archivo de log
 logging.basicConfig(
-    filename=r'Joan\Logs\log.txt',
+    filename=r'logs\log.txt',
     level=logging.INFO,  # Cambiar a DEBUG para mayor detalle si es necesario
     format='%(asctime)s - %(message)s',
     encoding="utf-8",
@@ -19,7 +19,7 @@ def log_accion(message):
 
 # Función para inicializar el archivo de log (vaciarlo al inicio)
 def inicializar_log():
-    with open(r'Joan\Logs\log.txt', "w") as log_file:
+    with open(r'logs\log.txt', "w") as log_file:
         pass
 
 ##########################################################################################
@@ -142,13 +142,40 @@ def asignar_pedidos_a_camiones(pedidos, capacidad_camion):
             log_accion(f"Se ha creado el camión #{camion_actual.id_camion} para el pedido #{pedido.id_pedido}.")
             last_producto = pedido.nombre_producto
 
-        # Intentar agregar el pedido al camión actual
-        if not camion_actual.agregar_pedido(pedido.id_pedido, pedido.nombre_producto, pedido.cantidad, pedido.destino, pedido.coordenadas):
+        # VERIFICAR SI SE HA PODIDO AÑADIR EL PEDIDO AL CAMION ACTUAL
+        afegir, quantitat_restant_producte = camion_actual.agregar_pedido(pedido.id_pedido, pedido.nombre_producto, pedido.cantidad, pedido.destino, pedido.coordenadas,capacidad_camion)
+            
+        while afegir and quantitat_restant_producte > 0:
             camiones.append(camion_actual)  # Camión lleno, asignarlo a la lista
+            log_accion(f"Añadido al camion #{camion_actual.id_camion} el pedido #{pedido.id_pedido} ({pedido.nombre_producto}): {pedido.cantidad-quantitat_restant_producte}")
+
+            pedido.cantidad = quantitat_restant_producte # ACTUALIZAR LA CANTIDAD DEL PEDIDO CON LA CANTIDAD RESTANTE POR AÑADIR
+
+            # CREAR UN NUEVO CAMION ACTUAL
             camion_actual = Camion(id_camion=len(camiones) + 1, capacidad=capacidad_camion)
-            camion_actual.agregar_pedido(pedido.id_pedido, pedido.nombre_producto, pedido.cantidad, pedido.destino, pedido.coordenadas)
+            afegir, quantitat_restant_producte = camion_actual.agregar_pedido(pedido.id_pedido, pedido.nombre_producto, pedido.cantidad, pedido.destino, pedido.coordenadas, capacidad_camion)
+
             log_accion(f"Se ha creado el camión #{camion_actual.id_camion} para el pedido #{pedido.id_pedido}.")
         
+        if not afegir and quantitat_restant_producte != pedido.cantidad:
+
+            while pedido.cantidad > 0:
+
+                camiones.append(camion_actual)  # El pedido actual no cabe en el camion actual
+
+                # CREAR UN NUEVO CAMION ACTUAL
+                camion_actual = Camion(id_camion=len(camiones) + 1, capacidad=capacidad_camion)
+                afegir, quantitat_restant_producte = camion_actual.agregar_pedido(pedido.id_pedido, pedido.nombre_producto, pedido.cantidad, pedido.destino, pedido.coordenadas, capacidad_camion)
+
+                log_accion(f"Se ha creado el camión #{camion_actual.id_camion} para el pedido #{pedido.id_pedido}.")
+
+                # Log para agregar pedido
+                log_accion(f"Añadido al camion #{camion_actual.id_camion} el pedido #{pedido.id_pedido} ({pedido.nombre_producto}): {pedido.cantidad-quantitat_restant_producte}")
+
+                pedido.cantidad = quantitat_restant_producte # ACTUALIZAR LA CANTIDAD DEL PEDIDO CON LA CANTIDAD RESTANTE POR AÑADIR
+            continue
+
+            
         # Log para agregar pedido
         log_accion(f"Añadido al camion #{camion_actual.id_camion} el pedido #{pedido.id_pedido} ({pedido.nombre_producto}): {pedido.cantidad}")
 

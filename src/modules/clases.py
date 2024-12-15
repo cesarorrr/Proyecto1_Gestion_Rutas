@@ -25,7 +25,7 @@ class Camion:
         self.destinos = {}  # Diccionario para registrar los destinos y sus coordenadas
         self.productos_asignados = set()  # Conjunto para rastrear los productos transportados
 
-    def agregar_pedido(self, id_pedido, nombre_producto, cantidad, destino, coordenadas):
+    def agregar_pedido(self, id_pedido, nombre_producto, cantidad, destino, coordenadas, capacidad_camion):
         """
         Agrega un pedido al camión si hay suficiente capacidad disponible.
         
@@ -44,8 +44,16 @@ class Camion:
             self.capacidad_restante -= cantidad  # Actualizar capacidad restante
             self.destinos[destino] = coordenadas  # Registrar destino
             self.productos_asignados.add(nombre_producto)  # Agregar producto al conjunto
-            return True  # Pedido asignado correctamente
-        return False  # No se pudo agregar el pedido debido a falta de capacidad
+            return True, 0  # Pedido asignado correctamente
+        
+        elif cantidad > capacidad_camion and self.capacidad_restante == capacidad_camion:
+            self.pedidos.append((id_pedido, nombre_producto, capacidad_camion, destino))  # Agregar pedido
+            self.capacidad_restante = 0  # Actualizar capacidad restante
+            self.destinos[destino] = coordenadas  # Registrar destino
+            self.productos_asignados.add(nombre_producto)  # Agregar producto al conjunto
+            return True, cantidad-capacidad_camion  # Pedido asignado correctamente
+
+        return False, 0  # No se pudo agregar el pedido debido a falta de capacidad
 
 class Pedido:
     """
