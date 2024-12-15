@@ -31,7 +31,7 @@ El proyecto requiere las siguientes dependencias:
 ## Instalación
 **1. Clona el repositorio**
 ```bash
-git clone [https://github.com/tu-usuario/optimizacion-pedidos.git](https://github.com/cesarorrr/Proyecto1_Gestion_Rutas.git)
+git clone https://github.com/tu-usuario/optimizacion-pedidos.git
 cd optimizacion-pedidos
 ```
 **2. Instala las dependencias**
