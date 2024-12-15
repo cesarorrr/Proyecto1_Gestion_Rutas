@@ -178,6 +178,8 @@ def asignar_pedidos_a_camiones(pedidos, capacidad_camion):
             
         # Log para agregar pedido
         log_accion(f"Añadido al camion #{camion_actual.id_camion} el pedido #{pedido.id_pedido} ({pedido.nombre_producto}): {pedido.cantidad}")
+    
+    camiones.append(camion_actual) # AÑADIR EL ULTIMO CAMION ACTUAL A LA LISTA DE CAMIONES
 
     return camiones
 
