@@ -2,7 +2,7 @@ import streamlit as st
 import pandas as pd
 from mapa import generar_mapa_con_ruta
 from main_function import optimizacion_pedidos
-import json
+import json, time
 
 st.set_page_config(
     page_title="Gestión de Rutas",
@@ -127,11 +127,14 @@ if st.session_state.state == "initial":
 
             if csv is not None:
                 try:
+
                     data = pd.read_csv(csv,sep=",")
                       # Eliminar espacios extra en los nombres de las columnas
                     data.columns = data.columns.str.strip()  # Elimina los espacios extra en los nombres de las columnas
+
                     # Definir las columnas requeridas
-                    required_columns = ["id_pedido", "id_producto", "nombre_producto","destino","provincia","total_cantidad"]  # Reemplaza con los nombres de las columnas que necesitas
+                    required_columns = ["id_pedido", "id_producto", "nombre_producto","destino","provincia","cantidad"]
+
                     # Verificar si el CSV contiene las columnas requeridas
                     if all(col in data.columns for col in required_columns):
                         st.success("¡Archivo CSV cargado exitosamente!")
@@ -139,6 +142,7 @@ if st.session_state.state == "initial":
                     else:
                         missing_columns = [col for col in required_columns if col not in data.columns]
                         st.error(f"El archivo CSV no contiene las siguientes columnas: {', '.join(missing_columns)}")
+
                 except Exception as e:
                     st.error(f"Error al leer el archivo: {e}")
 
@@ -147,6 +151,7 @@ if st.session_state.state == "initial":
             if st.button("Procesar", use_container_width=True):
                 # Validar que todos los campos estén completos
                 if Velocity and Capacity and Price:
+
                     # Enviar datos de las variables al modelo
 
                     # En caso de subir csv trabajar en el modelo con el csv sino con los datos de la bbdd
@@ -179,13 +184,18 @@ elif st.session_state.state == "deliveries":
     for i,camion in enumerate(camiones_array):
         if st.button("Camion "+(str(camion["id_camion"])), use_container_width=True,key=f"button_{i}_{camion['id_camion']}"):
             st.session_state.truck_selected = camion
+
             generar_mapa_con_ruta(camion['ruta_optima'])
+
             change_state("truck")
 
     
 elif st.session_state.state == "truck":
     if 'truck_selected' in st.session_state:
         camion = st.session_state.truck_selected
+
+       
+
         if st.button("⬅️",key="back_to_deliveries"):
             change_state("deliveries")
             # Centrar todo el contenido

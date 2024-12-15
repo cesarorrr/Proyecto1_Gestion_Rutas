@@ -1,4 +1,4 @@
-import sqlite3, json
+import sqlite3, json, time
 import networkx as nx
 import pandas as pd
 from networkx.algorithms import approximation as approx
@@ -116,7 +116,7 @@ def optimizacion_pedidos(velocidad_media_camiones: float, capacidad_camion: int,
         # Aplicar csv_to_pedidos a cada fila del DataFrame
         csv.apply(lambda fila: csv_to_pedidos(pedidos_list, fila), axis=1)
        
-        # Convertir a tuple al final si es necesario
+        # Convertir a tuple
         pedidos = tuple(pedidos_list)
 
     # SI NO HA SUBIDO NADA, SE GENERAN PEDIDOS RANDOM
@@ -124,6 +124,7 @@ def optimizacion_pedidos(velocidad_media_camiones: float, capacidad_camion: int,
         
         # Generar pedidos aleatorios para simular datos iniciales
         result, msg = random_pedidos(conn, cursor)
+
         if not result:
             print(f"Error: {msg}")  # Mostrar mensaje de error si falla la generación de pedidos
             quit()
@@ -143,6 +144,8 @@ def optimizacion_pedidos(velocidad_media_camiones: float, capacidad_camion: int,
             GROUP BY ped.id_producto, ped.destino
             ORDER BY ped.id_producto, ped.destino
         """).fetchall()
+
+    print(len(pedidos))
 
     # Asignar los pedidos a camiones respetando la capacidad
     camiones_asignados = asignar_pedidos_a_camiones(pedidos, capacidad_camion)
@@ -225,8 +228,5 @@ def optimizacion_pedidos(velocidad_media_camiones: float, capacidad_camion: int,
 
         # Añadir información del camión a la lista general
         camiones_info.append(camion_info)
-
-        # cursor.close()
-        # conn.close()
 
     return json.dumps(camiones_info, indent=4, ensure_ascii=False)

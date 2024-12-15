@@ -43,7 +43,7 @@ def random_pedidos(conn, cursor) -> tuple[bool, str]:
     conn.commit()
 
     try:
-        for i in range(100):  # Generar 100 pedidos
+        for i in range(570):  # Generar 100 pedidos
             # Generar un ID único para el pedido
             id_pedido = random.randint(1000000, 9999999)
             
@@ -57,14 +57,14 @@ def random_pedidos(conn, cursor) -> tuple[bool, str]:
             # Obtener coordenadas del destino según la dirección del cliente
             destino = cursor.execute(
                 """
-                SELECT latitud, longitud 
+                SELECT provincia, latitud, longitud 
                 FROM destinos 
                 WHERE provincia = (SELECT direccion FROM clientes WHERE cif_empresa = ?)
                 """, (client_id,)
             ).fetchone()
             
             if destino:
-                latitud, longitud = destino
+                provincia, latitud, longitud = destino
 
             # Seleccionar un producto aleatorio
             producto = cursor.execute(
@@ -87,13 +87,13 @@ def random_pedidos(conn, cursor) -> tuple[bool, str]:
             # Insertar pedido en la base de datos
             cursor.execute("""
                 INSERT INTO pedidos (
-                    id_pedido, cif_empresa, id_producto, nombre_producto, destino, cantidad, 
+                    id_pedido, cif_empresa, id_producto, nombre_producto, destino, provincia, cantidad, 
                     fecha_pedido, fecha_caducidad, fecha_entrega_estimada, 
                     estado, fecha_entregado
-                ) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+                ) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
             """, (
                 id_pedido, client_id, id_producto,
-                nombre_producto, f"{latitud}, {longitud}", cantidad, 
+                nombre_producto, f"{latitud}, {longitud}", provincia, cantidad, 
                 fecha_pedido.strftime("%Y-%m-%d"), 
                 fecha_caducidad.strftime("%Y-%m-%d"), 
                 fecha_entrega_estimada.strftime("%Y-%m-%d"), 
@@ -301,5 +301,5 @@ def csv_to_pedidos(pedidos: list, fila):
         str(fila['nombre_producto']),
         str(fila['destino']),
         str(fila['provincia']),
-        fila['total_cantidad']
+        fila['cantidad']
     ))
