@@ -1,0 +1,6 @@
+id_pedido,cif_empresa,id_producto,nombre_producto,destino,provincia,cantidad,fecha_pedido,fecha_caducidad,fecha_entrega_estimada,estado,fecha_entregado
+1773033,F34181536,14,Espinacas frescas en bolsa 300gr,"41.604913, 0.679305",Lleida,777,2024-12-16,2024-12-19,2024-12-16,En fabricación,
+3858961,G75834864,14,Espinacas frescas en bolsa 300gr,"41.734671, -1.206108",Zaragoza,964,2024-12-16,2024-12-19,2024-12-16,En fabricación,
+2365901,D54661573,2,Huevos frescos (4 unidades),"40.399621, -3.594240",Madrid,852,2024-12-16,2025-01-13,2025-01-10,En fabricación,
+6835266,D87654321,8,Filetes de pescado blanco 500gr,"43.232124, -2.888324",Bilbao,968,2024-12-16,2024-12-22,2024-12-19,En fabricación,
+8809180,H45378615,3,Queso cheddar 200gr,"37.269298, -5.994452",Sevilla,887,2024-12-16,2024-12-30,2024-12-27,En fabricación,
