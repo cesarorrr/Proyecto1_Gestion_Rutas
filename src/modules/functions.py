@@ -6,7 +6,7 @@ from datetime import datetime, timedelta
 ############################## CONFIGURACIÓN DE LOGGING ##############################
 # Configuración inicial para registrar eventos en un archivo de log
 logging.basicConfig(
-    filename=r'logs\log.txt',
+    filename=r'..\logs\log.txt',
     level=logging.INFO,  # Cambiar a DEBUG para mayor detalle si es necesario
     format='%(asctime)s - %(message)s',
     encoding="utf-8",
@@ -19,7 +19,7 @@ def log_accion(message):
 
 # Función para inicializar el archivo de log (vaciarlo al inicio)
 def inicializar_log():
-    with open(r'logs\log.txt', "w") as log_file:
+    with open(r'..\logs\log.txt', "w") as log_file:
         pass
 
 ##########################################################################################

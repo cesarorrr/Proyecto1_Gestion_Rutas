@@ -105,7 +105,7 @@ if st.session_state.state == "initial":
             st.title("Gestión de Rutas de Entrega")
 
         with col2:
-            st.image(r"img\icono.jpg", width=100)  # Ruta a tu imagen
+            st.image(r"..\img\icono.jpg", width=100)  # Ruta a tu imagen
         
         # Contenedor principal con el estilo mejorado
         with st.container():

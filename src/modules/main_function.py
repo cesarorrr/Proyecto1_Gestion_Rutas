@@ -106,7 +106,7 @@ def optimizacion_pedidos(velocidad_media_camiones: float, capacidad_camion: int,
     inicializar_log()
 
     # Conexión a la base de datos SQLite
-    conn = sqlite3.connect(r"db\logistics.db")
+    conn = sqlite3.connect(r"..\db\logistics.db")
     cursor = conn.cursor()
 
     # SI EL USUARIO HA SUBIDO UN CSV LEER LA INFORMACIÓN
