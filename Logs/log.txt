@@ -662,3 +662,14 @@
 2024-12-17 17:18:57 - Añadido al camion #189 el pedido #3990652 (Jamón serrano loncheado 150gr): 1282
 2024-12-17 17:18:57 - Añadido al camion #189 el pedido #3344933 (Jamón serrano loncheado 150gr): 560
 2024-12-17 17:18:57 - Añadido al camion #189 el pedido #9146148 (Jamón serrano loncheado 150gr): 810
+2024-12-17 17:19:07 - Se ha combinado el camión #1 con el camión #34.
+2024-12-17 17:19:07 - Se ha combinado el camión #6 con el camión #13.
+2024-12-17 17:19:07 - Se ha combinado el camión #8 con el camión #72.
+2024-12-17 17:19:07 - Se ha combinado el camión #12 con el camión #157.
+2024-12-17 17:19:07 - Se ha combinado el camión #21 con el camión #94.
+2024-12-17 17:19:07 - Se ha combinado el camión #23 con el camión #39.
+2024-12-17 17:19:07 - Se ha combinado el camión #23 con el camión #172.
+2024-12-17 17:19:07 - Se ha combinado el camión #29 con el camión #49.
+2024-12-17 17:19:07 - Se ha combinado el camión #41 con el camión #44.
+2024-12-17 17:19:07 - Se ha combinado el camión #46 con el camión #103.
+2024-12-17 17:19:07 - Se ha combinado el camión #69 con el camión #160.
