@@ -2,7 +2,8 @@ from math import radians, sin, cos, sqrt, atan2
 from clases import Camion, Pedido
 import random, logging
 from datetime import datetime, timedelta
-
+import networkx as nx
+import matplotlib.pyplot as plt
 ############################## CONFIGURACIÓN DE LOGGING ##############################
 # Configuración inicial para registrar eventos en un archivo de log
 logging.basicConfig(
@@ -184,7 +185,7 @@ def asignar_pedidos_a_camiones(pedidos, capacidad_camion):
     return camiones
 
 # Combina camiones con capacidad sobrante para optimizar recursos
-def combinar_camiones(camiones, capacidad_camiones):
+def combinar_camiones(camiones, capacidad_camiones,coste_medio_km):
     """
     Combina camiones con baja ocupación siempre que compartan destinos y no superen la capacidad máxima.
 
@@ -195,31 +196,116 @@ def combinar_camiones(camiones, capacidad_camiones):
     Retorna:
         - Lista de camiones combinados.
     """
-    camiones_combinados = []
-    camiones_no_combinados = []
+    #----------------------------------------------------------------
+
+    print("*"*10)
+    for camion in camiones:
+            camion_info = {
+                "id_camion": camion.id_camion,
+                "pedidos": [
+                    {
+                        "id_pedido": id_pedido,
+                        "nombre_producto": nombre_producto,
+                        "cantidad": cantidad,
+                        "destino": destino
+                    }
+                    for id_pedido, nombre_producto, cantidad, destino in camion.pedidos
+                ],
+            }
+            print(camion_info)
+    print("*"*10)
+    print(capacidad_camiones)
+
+    #----------------------------------------------------------------
+    # Crear un grafo general
+    G = nx.Graph()
+    # Inicializar los destinos globales (empezando por Mataró)
+    destinos_globales = {"Mataró": "41.532521,2.423604"}  # Coordenadas fijas de Mataró    
+    # Paso 1: Recoger todos los destinos de todos los camiones
+    for camion in camiones:
+    # Añadir destinos de cada camión a los destinos globales
+            destinos_globales.update(camion.destinos)
+
+    # Paso 2: Crear nodos para el grafo usando los destinos combinados
+    for destino, coordenadas in destinos_globales.items():
+            lat, lon = coordenadas.strip().split(',')  # Separar latitud y longitud
+            G.add_node(destino, pos=(float(lon), float(lat)))  # Matplotlib usa (x, y) -> (lon, lat)
+# Paso 3: Añadir aristas con peso entre cada par de nodos basado en la distancia (Haversine)
+    for destino1, coordenadas1 in destinos_globales.items():
+            for destino2, coordenadas2 in destinos_globales.items():
+                if destino1 != destino2 and not G.has_edge(destino1, destino2):  # Evitar duplicar aristas
+                    lat1, lon1 = coordenadas1.strip().split(',')
+                    lat2, lon2 = coordenadas2.strip().split(',')
+
+                    # Calcular distancia usando la función haversine
+                    distancia = haversine(float(lat1), float(lon1), float(lat2), float(lon2))
+                    coste_total = distancia * coste_medio_km  # Calcular coste en base a la distancia
+
+                    G.add_edge(destino1, destino2, weight=round(coste_total, 2))
+
+
+    # Paso 4: Guardar grafo paravisualizar
+
+    # Verificar que el grafo no esté vacío
+    if G.number_of_nodes() == 0 or G.number_of_edges() == 0:
+        raise ValueError("El grafo está vacío")
+
+    # --- Pintar el grafo global ---
+    pos = nx.get_node_attributes(G, 'pos')  # Obtener posiciones de los nodos
+    plt.figure(figsize=(12, 10))  # Ajustar tamaño del gráfico
+    nx.draw(G, pos, with_labels=True, node_size=700, node_color="lightgreen", font_size=10, font_color="black")
+
+    plt.figure(figsize=(12, 10))  # Ajustar tamaño del gráfico
+    nx.draw(G, pos, with_labels=True, node_size=700, node_color="lightgreen", font_size=10, font_color="black")
+
+    # Dibujar las etiquetas de peso (coste) de las aristas
+    labels = nx.get_edge_attributes(G, 'weight')
+    nx.draw_networkx_edge_labels(G, pos, edge_labels=labels, font_size=8)
+
+    plt.title("Grafo Global de Destinos - Todos los Camiones")
+
+    # Guardar el gráfico en un archivo
+    plt.savefig("grafo_global_destinos.png")  # Guarda el gráfico como imagen
+    print("El grafo se ha guardado como 'grafo_global_destinos.png'")
+    #----------------------------------------------------------------
+
+    # Cerrar la figura (importante para liberar memoria)
+    plt.close()
 
     for camion in camiones:
-        if camion.capacidad_restante >= capacidad_camiones / 2:  # Verificar ocupación
-            combinado = False
-            for otro_camion in camiones_no_combinados:
-                if set(camion.destinos).intersection(set(otro_camion.destinos)):
-                    total_pedidos = sum(pedido[2] for pedido in camion.pedidos) + sum(pedido[2] for pedido in otro_camion.pedidos)
-                    if total_pedidos <= capacidad_camiones:
-                        camion.pedidos.extend(otro_camion.pedidos)
-                        camion.destinos.update(otro_camion.destinos)
-                        camion.capacidad_restante = capacidad_camiones - total_pedidos
-                        camiones_combinados.append(camion)
-                        camiones_no_combinados.remove(otro_camion)
-                        log_accion(f"Se ha combinado el camión #{camion.id_camion} con el camión #{otro_camion.id_camion}.")
-                        combinado = True
-                        break
-            if not combinado:
-                camiones_combinados.append(camion)
-        else:
-            camiones_no_combinados.append(camion)
+        if camion.capacidad_restante > 0:  # Verificar ocupación
+            for otro_camion in camiones:
+                #Comparamos capacidad con otros camiones para poder conbinarlos
+                if camion != otro_camion:
+                        total_pedidos = sum(pedido[2] for pedido in camion.pedidos) + sum(pedido[2] for pedido in otro_camion.pedidos)
+                        if total_pedidos <= capacidad_camiones:
+                            camion.pedidos.extend(otro_camion.pedidos)
+                            camion.destinos.update(otro_camion.destinos)
+                            camion.capacidad_restante = capacidad_camiones - total_pedidos
+                            camiones.remove(otro_camion)
+                            log_accion(f"Se ha combinado el camión #{camion.id_camion} con el camión #{otro_camion.id_camion}.")
 
-    camiones_combinados.extend(camiones_no_combinados)
-    return camiones_combinados
+    
+    for camion in camiones:
+        # Añadir destinos de cada camión a los destinos globales
+            camion_info = {
+                "id_camion": camion.id_camion,
+                "pedidos": [
+                    {
+                        "id_pedido": id_pedido,
+                        "nombre_producto": nombre_producto,
+                        "cantidad": cantidad,
+                        "destino": destino
+                    }
+                    for id_pedido, nombre_producto, cantidad, destino in camion.pedidos
+                ],
+            }
+            print(camion_info)
+            
+    print("*"*10)
+    
+    return camiones
+    #----------------------------------------------------------------
 
 # Calcula la distancia entre dos puntos geográficos usando la fórmula de Haversine
 def haversine(lat1: float, lon1: float, lat2: float, lon2: float):

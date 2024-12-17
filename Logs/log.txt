@@ -1,975 +1,664 @@
-2024-12-16 18:11:39 - Se ha creado el camión #1 para el pedido #4275237.
-2024-12-16 18:11:39 - Añadido al camion #1 el pedido #4275237 (Huevos frescos (4 unidades)): 627
-2024-12-16 18:11:39 - Se ha creado el camión #2 para el pedido #3049362.
-2024-12-16 18:11:39 - Añadido al camion #2 el pedido #3049362 (Yogur natural 4 unidades (125gr cada uno)): 624
-2024-12-16 18:11:39 - Se ha creado el camión #3 para el pedido #8719996.
-2024-12-16 18:11:39 - Añadido al camion #3 el pedido #8719996 (Tomates maduros (aprox. 1kg)): 974
-2024-12-16 18:11:39 - Se ha creado el camión #4 para el pedido #1361430.
-2024-12-16 18:11:39 - Añadido al camion #4 el pedido #1361430 (Plátanos maduros (6 unidades, aprox. 1kg)): 861
-2024-12-16 18:11:39 - Se ha creado el camión #5 para el pedido #8347733.
-2024-12-16 18:11:39 - Añadido al camion #5 el pedido #8347733 (Espinacas frescas en bolsa 300gr): 985
-2024-12-16 18:11:39 - Se ha creado el camión #6 para el pedido #9678969.
-2024-12-16 18:11:39 - Añadido al camion #6 el pedido #9678969 (Tomates maduros (aprox. 1kg)): 907
-2024-12-16 18:11:39 - Se ha creado el camión #7 para el pedido #6203112.
-2024-12-16 18:11:39 - Añadido al camion #7 el pedido #6203112 (Pan fresco de hogaza (500gr)): 858
-2024-12-16 18:11:39 - Se ha creado el camión #8 para el pedido #6985971.
-2024-12-16 18:11:39 - Añadido al camion #8 el pedido #6985971 (Plátanos maduros (6 unidades, aprox. 1kg)): 557
-2024-12-16 18:11:39 - Se ha creado el camión #9 para el pedido #4441448.
-2024-12-16 18:11:39 - Añadido al camion #9 el pedido #4441448 (Fresas frescas (caja de 250gr)): 877
-2024-12-16 18:11:39 - Se ha creado el camión #10 para el pedido #8347000.
-2024-12-16 18:11:39 - Añadido al camion #10 el pedido #8347000 (Manzanas rojas (6 unidades, aprox. 1kg)): 751
-2024-12-16 18:11:39 - Se ha creado el camión #11 para el pedido #5947316.
-2024-12-16 18:11:39 - Añadido al camion #11 el pedido #5947316 (Queso cheddar 200gr): 862
-2024-12-16 18:11:39 - Se ha creado el camión #12 para el pedido #9625455.
-2024-12-16 18:11:39 - Añadido al camion #12 el pedido #9625455 (Fresas frescas (caja de 250gr)): 880
-2024-12-16 18:11:39 - Se ha creado el camión #13 para el pedido #9116701.
-2024-12-16 18:11:39 - Añadido al camion #13 el pedido #9116701 (Lechuga romana 1 unidad): 585
-2024-12-16 18:11:39 - Se ha creado el camión #14 para el pedido #8984785.
-2024-12-16 18:11:39 - Añadido al camion #14 el pedido #8984785 (Jamón serrano loncheado 150gr): 775
-2024-12-16 18:11:39 - Se ha creado el camión #15 para el pedido #5374687.
-2024-12-16 18:11:39 - Añadido al camion #15 el pedido #5374687 (Yogur natural 4 unidades (125gr cada uno)): 671
-2024-12-16 18:11:39 - Se ha creado el camión #16 para el pedido #4484101.
-2024-12-16 18:11:39 - Añadido al camion #16 el pedido #4484101 (Filetes de pescado blanco 500gr): 607
-2024-12-16 18:11:39 - Se ha creado el camión #17 para el pedido #9042302.
-2024-12-16 18:11:39 - Añadido al camion #17 el pedido #9042302 (Pan fresco de hogaza (500gr)): 790
-2024-12-16 18:11:39 - Se ha creado el camión #18 para el pedido #2706021.
-2024-12-16 18:11:39 - Añadido al camion #18 el pedido #2706021 (Leche entera 500ml): 599
-2024-12-16 18:11:39 - Se ha creado el camión #19 para el pedido #9593156.
-2024-12-16 18:11:39 - Añadido al camion #19 el pedido #9593156 (Huevos frescos (4 unidades)): 827
-2024-12-16 18:11:39 - Se ha creado el camión #20 para el pedido #1868194.
-2024-12-16 18:11:39 - Añadido al camion #20 el pedido #1868194 (Pechuga de pollo fresca 1kg): 690
-2024-12-16 18:11:39 - Se ha creado el camión #21 para el pedido #8914854.
-2024-12-16 18:11:39 - Añadido al camion #21 el pedido #8914854 (Huevos frescos (4 unidades)): 870
-2024-12-16 18:11:39 - Se ha creado el camión #22 para el pedido #5883728.
-2024-12-16 18:11:39 - Añadido al camion #22 el pedido #5883728 (Leche entera 500ml): 796
-2024-12-16 18:11:39 - Se ha creado el camión #23 para el pedido #9897721.
-2024-12-16 18:11:39 - Añadido al camion #23 el pedido #9897721 (Tocino ahumado en lonchas 200gr): 703
-2024-12-16 18:11:39 - Se ha creado el camión #24 para el pedido #1345918.
-2024-12-16 18:11:39 - Añadido al camion #24 el pedido #1345918 (Filetes de pescado blanco 500gr): 756
-2024-12-16 18:11:39 - Se ha creado el camión #25 para el pedido #1602781.
-2024-12-16 18:11:39 - Añadido al camion #25 el pedido #1602781 (Manzanas rojas (6 unidades, aprox. 1kg)): 625
-2024-12-16 18:11:39 - Se ha creado el camión #26 para el pedido #3729962.
-2024-12-16 18:11:39 - Añadido al camion #26 el pedido #3729962 (Plátanos maduros (6 unidades, aprox. 1kg)): 860
-2024-12-16 18:11:39 - Se ha creado el camión #27 para el pedido #4047778.
-2024-12-16 18:11:39 - Añadido al camion #27 el pedido #4047778 (Cebollas amarillas (aprox. 1kg)): 744
-2024-12-16 18:11:39 - Añadido al camion #27 el pedido #3817614 (Cebollas amarillas (aprox. 1kg)): 669
-2024-12-16 18:11:39 - Se ha creado el camión #28 para el pedido #4401182.
-2024-12-16 18:11:39 - Añadido al camion #28 el pedido #4401182 (Queso cheddar 200gr): 573
-2024-12-16 18:11:39 - Se ha creado el camión #29 para el pedido #9307501.
-2024-12-16 18:11:39 - Añadido al camion #29 el pedido #9307501 (Cebollas amarillas (aprox. 1kg)): 828
-2024-12-16 18:11:39 - Se ha creado el camión #30 para el pedido #2246004.
-2024-12-16 18:11:39 - Añadido al camion #30 el pedido #2246004 (Patatas para cocinar (1kg)): 972
-2024-12-16 18:11:39 - Se ha creado el camión #31 para el pedido #8822149.
-2024-12-16 18:11:39 - Añadido al camion #31 el pedido #8822149 (Mantequilla 100gr): 735
-2024-12-16 18:11:39 - Se ha creado el camión #32 para el pedido #9405786.
-2024-12-16 18:11:39 - Añadido al camion #32 el pedido #9405786 (Yogur natural 4 unidades (125gr cada uno)): 926
-2024-12-16 18:11:39 - Se ha creado el camión #33 para el pedido #1269380.
-2024-12-16 18:11:39 - Añadido al camion #33 el pedido #1269380 (Zanahorias frescas (500gr)): 779
-2024-12-16 18:11:39 - Se ha creado el camión #34 para el pedido #8215702.
-2024-12-16 18:11:39 - Añadido al camion #34 el pedido #8215702 (Pan fresco de hogaza (500gr)): 576
-2024-12-16 18:11:39 - Se ha creado el camión #35 para el pedido #6075934.
-2024-12-16 18:11:39 - Añadido al camion #35 el pedido #6075934 (Huevos frescos (4 unidades)): 813
-2024-12-16 18:11:39 - Se ha creado el camión #36 para el pedido #6883507.
-2024-12-16 18:11:39 - Añadido al camion #36 el pedido #6883507 (Patatas para cocinar (1kg)): 790
-2024-12-16 18:11:39 - Se ha creado el camión #37 para el pedido #5377666.
-2024-12-16 18:11:39 - Añadido al camion #37 el pedido #5377666 (Jamón serrano loncheado 150gr): 914
-2024-12-16 18:11:39 - Se ha creado el camión #38 para el pedido #2594655.
-2024-12-16 18:11:39 - Añadido al camion #38 el pedido #2594655 (Manzanas rojas (6 unidades, aprox. 1kg)): 865
-2024-12-16 18:11:39 - Se ha creado el camión #39 para el pedido #7927109.
-2024-12-16 18:11:39 - Añadido al camion #39 el pedido #7927109 (Cebollas amarillas (aprox. 1kg)): 854
-2024-12-16 18:11:39 - Se ha creado el camión #40 para el pedido #8429968.
-2024-12-16 18:11:39 - Añadido al camion #40 el pedido #8429968 (Pan fresco de hogaza (500gr)): 881
-2024-12-16 18:11:39 - Se ha creado el camión #41 para el pedido #1201063.
-2024-12-16 18:11:39 - Añadido al camion #41 el pedido #1201063 (Espinacas frescas en bolsa 300gr): 710
-2024-12-16 18:11:39 - Se ha creado el camión #42 para el pedido #2552430.
-2024-12-16 18:11:39 - Añadido al camion #42 el pedido #2552430 (Manzanas rojas (6 unidades, aprox. 1kg)): 927
-2024-12-16 18:11:39 - Se ha creado el camión #43 para el pedido #5515581.
-2024-12-16 18:11:39 - Añadido al camion #43 el pedido #5515581 (Carne de ternera picada 500gr): 962
-2024-12-16 18:11:39 - Se ha creado el camión #44 para el pedido #7483266.
-2024-12-16 18:11:39 - Añadido al camion #44 el pedido #7483266 (Leche entera 500ml): 867
-2024-12-16 18:11:39 - Se ha creado el camión #45 para el pedido #5755842.
-2024-12-16 18:11:39 - Añadido al camion #45 el pedido #5755842 (Filetes de pescado blanco 500gr): 790
-2024-12-16 18:11:39 - Se ha creado el camión #46 para el pedido #7553370.
-2024-12-16 18:11:39 - Añadido al camion #46 el pedido #7553370 (Pechuga de pollo fresca 1kg): 824
-2024-12-16 18:11:39 - Se ha creado el camión #47 para el pedido #7899126.
-2024-12-16 18:11:39 - Añadido al camion #47 el pedido #7899126 (Patatas para cocinar (1kg)): 681
-2024-12-16 18:11:39 - Se ha creado el camión #48 para el pedido #8231111.
-2024-12-16 18:11:39 - Añadido al camion #48 el pedido #8231111 (Tocino ahumado en lonchas 200gr): 776
-2024-12-16 18:11:39 - Se ha creado el camión #49 para el pedido #9735539.
-2024-12-16 18:11:39 - Añadido al camion #49 el pedido #9735539 (Zanahorias frescas (500gr)): 723
-2024-12-16 18:11:39 - Se ha creado el camión #50 para el pedido #4901834.
-2024-12-16 18:11:39 - Añadido al camion #50 el pedido #4901834 (Manzanas rojas (6 unidades, aprox. 1kg)): 706
-2024-12-16 18:11:39 - Se ha creado el camión #51 para el pedido #5024015.
-2024-12-16 18:11:39 - Añadido al camion #51 el pedido #5024015 (Tocino ahumado en lonchas 200gr): 919
-2024-12-16 18:11:39 - Se ha creado el camión #52 para el pedido #9518104.
-2024-12-16 18:11:39 - Añadido al camion #52 el pedido #9518104 (Pan fresco de hogaza (500gr)): 607
-2024-12-16 18:11:39 - Se ha creado el camión #53 para el pedido #1410273.
-2024-12-16 18:11:39 - Añadido al camion #53 el pedido #1410273 (Mantequilla 100gr): 817
-2024-12-16 18:11:39 - Se ha creado el camión #54 para el pedido #1593904.
-2024-12-16 18:11:39 - Añadido al camion #54 el pedido #1593904 (Zanahorias frescas (500gr)): 746
-2024-12-16 18:11:39 - Se ha creado el camión #55 para el pedido #9774930.
-2024-12-16 18:11:39 - Añadido al camion #55 el pedido #9774930 (Lechuga romana 1 unidad): 982
-2024-12-16 18:11:39 - Se ha creado el camión #56 para el pedido #6217012.
-2024-12-16 18:11:39 - Añadido al camion #56 el pedido #6217012 (Mantequilla 100gr): 790
-2024-12-16 18:11:39 - Se ha creado el camión #57 para el pedido #7174016.
-2024-12-16 18:11:39 - Añadido al camion #57 el pedido #7174016 (Espinacas frescas en bolsa 300gr): 948
-2024-12-16 18:11:39 - Se ha creado el camión #58 para el pedido #8115712.
-2024-12-16 18:11:39 - Añadido al camion #58 el pedido #8115712 (Queso cheddar 200gr): 696
-2024-12-16 18:11:39 - Se ha creado el camión #59 para el pedido #7691480.
-2024-12-16 18:11:39 - Añadido al camion #59 el pedido #7691480 (Fresas frescas (caja de 250gr)): 710
-2024-12-16 18:11:39 - Se ha creado el camión #60 para el pedido #2683803.
-2024-12-16 18:11:39 - Añadido al camion #60 el pedido #2683803 (Huevos frescos (4 unidades)): 733
-2024-12-16 18:11:39 - Se ha creado el camión #61 para el pedido #1856291.
-2024-12-16 18:11:39 - Añadido al camion #61 el pedido #1856291 (Tomates maduros (aprox. 1kg)): 663
-2024-12-16 18:11:39 - Se ha creado el camión #62 para el pedido #5689396.
-2024-12-16 18:11:39 - Añadido al camion #62 el pedido #5689396 (Zanahorias frescas (500gr)): 832
-2024-12-16 18:11:39 - Se ha creado el camión #63 para el pedido #6035461.
-2024-12-16 18:11:39 - Añadido al camion #63 el pedido #6035461 (Pan fresco de hogaza (500gr)): 561
-2024-12-16 18:11:39 - Añadido al camion #63 el pedido #4263438 (Pan fresco de hogaza (500gr)): 799
-2024-12-16 18:11:39 - Se ha creado el camión #64 para el pedido #6791863.
-2024-12-16 18:11:39 - Añadido al camion #64 el pedido #6791863 (Fresas frescas (caja de 250gr)): 749
-2024-12-16 18:11:39 - Se ha creado el camión #65 para el pedido #9137671.
-2024-12-16 18:11:39 - Añadido al camion #65 el pedido #9137671 (Tomates maduros (aprox. 1kg)): 560
-2024-12-16 18:11:39 - Se ha creado el camión #66 para el pedido #2123796.
-2024-12-16 18:11:39 - Añadido al camion #66 el pedido #2123796 (Plátanos maduros (6 unidades, aprox. 1kg)): 833
-2024-12-16 18:11:39 - Se ha creado el camión #67 para el pedido #8024317.
-2024-12-16 18:11:39 - Añadido al camion #67 el pedido #8024317 (Tomates maduros (aprox. 1kg)): 613
-2024-12-16 18:11:39 - Añadido al camion #67 el pedido #1679488 (Tomates maduros (aprox. 1kg)): 853
-2024-12-16 18:11:39 - Se ha creado el camión #68 para el pedido #8126756.
-2024-12-16 18:11:39 - Añadido al camion #68 el pedido #8126756 (Cebollas amarillas (aprox. 1kg)): 590
-2024-12-16 18:11:39 - Se ha creado el camión #69 para el pedido #7254944.
-2024-12-16 18:11:39 - Añadido al camion #69 el pedido #7254944 (Yogur natural 4 unidades (125gr cada uno)): 793
-2024-12-16 18:11:39 - Añadido al camion #69 el pedido #8567049 (Yogur natural 4 unidades (125gr cada uno)): 896
-2024-12-16 18:11:39 - Se ha creado el camión #70 para el pedido #7186638.
-2024-12-16 18:11:39 - Añadido al camion #70 el pedido #7186638 (Tocino ahumado en lonchas 200gr): 587
-2024-12-16 18:11:39 - Se ha creado el camión #71 para el pedido #4083919.
-2024-12-16 18:11:39 - Añadido al camion #71 el pedido #4083919 (Pan fresco de hogaza (500gr)): 957
-2024-12-16 18:11:39 - Se ha creado el camión #72 para el pedido #4724611.
-2024-12-16 18:11:39 - Añadido al camion #72 el pedido #4724611 (Tomates maduros (aprox. 1kg)): 617
-2024-12-16 18:11:39 - Se ha creado el camión #73 para el pedido #2504110.
-2024-12-16 18:11:39 - Añadido al camion #73 el pedido #2504110 (Plátanos maduros (6 unidades, aprox. 1kg)): 773
-2024-12-16 18:11:39 - Se ha creado el camión #74 para el pedido #4821505.
-2024-12-16 18:11:39 - Añadido al camion #74 el pedido #4821505 (Tocino ahumado en lonchas 200gr): 921
-2024-12-16 18:11:39 - Se ha creado el camión #75 para el pedido #3342923.
-2024-12-16 18:11:39 - Añadido al camion #75 el pedido #3342923 (Fresas frescas (caja de 250gr)): 624
-2024-12-16 18:11:39 - Se ha creado el camión #76 para el pedido #5935553.
-2024-12-16 18:11:39 - Añadido al camion #76 el pedido #5935553 (Lechuga romana 1 unidad): 769
-2024-12-16 18:11:39 - Se ha creado el camión #77 para el pedido #5650641.
-2024-12-16 18:11:39 - Añadido al camion #77 el pedido #5650641 (Plátanos maduros (6 unidades, aprox. 1kg)): 567
-2024-12-16 18:11:39 - Se ha creado el camión #78 para el pedido #2892879.
-2024-12-16 18:11:39 - Añadido al camion #78 el pedido #2892879 (Yogur natural 4 unidades (125gr cada uno)): 765
-2024-12-16 18:11:39 - Se ha creado el camión #79 para el pedido #7840078.
-2024-12-16 18:11:39 - Añadido al camion #79 el pedido #7840078 (Queso cheddar 200gr): 614
-2024-12-16 18:11:39 - Se ha creado el camión #80 para el pedido #6796596.
-2024-12-16 18:11:39 - Añadido al camion #80 el pedido #6796596 (Patatas para cocinar (1kg)): 712
-2024-12-16 18:11:39 - Se ha creado el camión #81 para el pedido #5668087.
-2024-12-16 18:11:39 - Añadido al camion #81 el pedido #5668087 (Manzanas rojas (6 unidades, aprox. 1kg)): 885
-2024-12-16 18:11:39 - Se ha creado el camión #82 para el pedido #1768187.
-2024-12-16 18:11:39 - Añadido al camion #82 el pedido #1768187 (Huevos frescos (4 unidades)): 748
-2024-12-16 18:11:39 - Se ha creado el camión #83 para el pedido #5943436.
-2024-12-16 18:11:39 - Añadido al camion #83 el pedido #5943436 (Mantequilla 100gr): 806
-2024-12-16 18:11:39 - Se ha creado el camión #84 para el pedido #3148197.
-2024-12-16 18:11:39 - Añadido al camion #84 el pedido #3148197 (Carne de ternera picada 500gr): 901
-2024-12-16 18:11:39 - Se ha creado el camión #85 para el pedido #5217809.
-2024-12-16 18:11:39 - Añadido al camion #85 el pedido #5217809 (Leche entera 500ml): 554
-2024-12-16 18:11:39 - Añadido al camion #85 el pedido #8350290 (Leche entera 500ml): 785
-2024-12-16 18:11:39 - Se ha creado el camión #86 para el pedido #7288321.
-2024-12-16 18:11:39 - Añadido al camion #86 el pedido #7288321 (Carne de ternera picada 500gr): 783
-2024-12-16 18:11:39 - Se ha creado el camión #87 para el pedido #8992415.
-2024-12-16 18:11:39 - Añadido al camion #87 el pedido #8992415 (Pechuga de pollo fresca 1kg): 971
-2024-12-16 18:11:39 - Se ha creado el camión #88 para el pedido #6722522.
-2024-12-16 18:11:39 - Añadido al camion #88 el pedido #6722522 (Pan fresco de hogaza (500gr)): 829
-2024-12-16 18:11:39 - Se ha creado el camión #89 para el pedido #5456954.
-2024-12-16 18:11:39 - Añadido al camion #89 el pedido #5456954 (Tocino ahumado en lonchas 200gr): 754
-2024-12-16 18:11:39 - Se ha creado el camión #90 para el pedido #9176657.
-2024-12-16 18:11:39 - Añadido al camion #90 el pedido #9176657 (Mantequilla 100gr): 966
-2024-12-16 18:11:39 - Se ha creado el camión #91 para el pedido #6814332.
-2024-12-16 18:11:39 - Añadido al camion #91 el pedido #6814332 (Filetes de pescado blanco 500gr): 619
-2024-12-16 18:11:39 - Se ha creado el camión #92 para el pedido #5711075.
-2024-12-16 18:11:39 - Añadido al camion #92 el pedido #5711075 (Mantequilla 100gr): 773
-2024-12-16 18:11:39 - Se ha creado el camión #93 para el pedido #8913911.
-2024-12-16 18:11:39 - Añadido al camion #93 el pedido #8913911 (Huevos frescos (4 unidades)): 805
-2024-12-16 18:11:39 - Se ha creado el camión #94 para el pedido #1961113.
-2024-12-16 18:11:39 - Añadido al camion #94 el pedido #1961113 (Mantequilla 100gr): 867
-2024-12-16 18:11:39 - Se ha creado el camión #95 para el pedido #3120107.
-2024-12-16 18:11:39 - Añadido al camion #95 el pedido #3120107 (Yogur natural 4 unidades (125gr cada uno)): 836
-2024-12-16 18:11:39 - Se ha creado el camión #96 para el pedido #4998513.
-2024-12-16 18:11:39 - Añadido al camion #96 el pedido #4998513 (Huevos frescos (4 unidades)): 787
-2024-12-16 18:11:39 - Se ha creado el camión #97 para el pedido #5033392.
-2024-12-16 18:11:39 - Añadido al camion #97 el pedido #5033392 (Pan fresco de hogaza (500gr)): 880
-2024-12-16 18:11:39 - Se ha creado el camión #98 para el pedido #3028799.
-2024-12-16 18:11:39 - Añadido al camion #98 el pedido #3028799 (Carne de ternera picada 500gr): 704
-2024-12-16 18:11:39 - Se ha creado el camión #99 para el pedido #8715273.
-2024-12-16 18:11:39 - Añadido al camion #99 el pedido #8715273 (Tomates maduros (aprox. 1kg)): 783
-2024-12-16 18:11:39 - Se ha creado el camión #100 para el pedido #7423724.
-2024-12-16 18:11:39 - Añadido al camion #100 el pedido #7423724 (Tocino ahumado en lonchas 200gr): 648
-2024-12-16 18:11:39 - Se ha creado el camión #101 para el pedido #4027820.
-2024-12-16 18:11:39 - Añadido al camion #101 el pedido #4027820 (Queso cheddar 200gr): 576
-2024-12-16 18:11:39 - Se ha creado el camión #102 para el pedido #9156294.
-2024-12-16 18:11:39 - Añadido al camion #102 el pedido #9156294 (Jamón serrano loncheado 150gr): 617
-2024-12-16 18:11:39 - Se ha creado el camión #103 para el pedido #3364566.
-2024-12-16 18:11:39 - Añadido al camion #103 el pedido #3364566 (Tomates maduros (aprox. 1kg)): 609
-2024-12-16 18:11:39 - Se ha creado el camión #104 para el pedido #3964283.
-2024-12-16 18:11:39 - Añadido al camion #104 el pedido #3964283 (Patatas para cocinar (1kg)): 931
-2024-12-16 18:11:39 - Se ha creado el camión #105 para el pedido #2175046.
-2024-12-16 18:11:39 - Añadido al camion #105 el pedido #2175046 (Huevos frescos (4 unidades)): 916
-2024-12-16 18:11:39 - Se ha creado el camión #106 para el pedido #4789077.
-2024-12-16 18:11:39 - Añadido al camion #106 el pedido #4789077 (Tocino ahumado en lonchas 200gr): 935
-2024-12-16 18:11:39 - Se ha creado el camión #107 para el pedido #6480269.
-2024-12-16 18:11:39 - Añadido al camion #107 el pedido #6480269 (Pan fresco de hogaza (500gr)): 952
-2024-12-16 18:11:39 - Se ha creado el camión #108 para el pedido #7809321.
-2024-12-16 18:11:39 - Añadido al camion #108 el pedido #7809321 (Tocino ahumado en lonchas 200gr): 972
-2024-12-16 18:11:39 - Se ha creado el camión #109 para el pedido #4506578.
-2024-12-16 18:11:39 - Añadido al camion #109 el pedido #4506578 (Queso cheddar 200gr): 648
-2024-12-16 18:11:39 - Se ha creado el camión #110 para el pedido #7097062.
-2024-12-16 18:11:39 - Añadido al camion #110 el pedido #7097062 (Tomates maduros (aprox. 1kg)): 896
-2024-12-16 18:11:39 - Se ha creado el camión #111 para el pedido #7062546.
-2024-12-16 18:11:39 - Añadido al camion #111 el pedido #7062546 (Carne de ternera picada 500gr): 808
-2024-12-16 18:11:39 - Se ha creado el camión #112 para el pedido #4437839.
-2024-12-16 18:11:39 - Añadido al camion #112 el pedido #4437839 (Zanahorias frescas (500gr)): 598
-2024-12-16 18:11:39 - Se ha creado el camión #113 para el pedido #7037832.
-2024-12-16 18:11:39 - Añadido al camion #113 el pedido #7037832 (Mantequilla 100gr): 876
-2024-12-16 18:11:39 - Añadido al camion #113 el pedido #6507643 (Mantequilla 100gr): 825
-2024-12-16 18:11:39 - Se ha creado el camión #114 para el pedido #7687349.
-2024-12-16 18:11:39 - Añadido al camion #114 el pedido #7687349 (Plátanos maduros (6 unidades, aprox. 1kg)): 555
-2024-12-16 18:11:39 - Se ha creado el camión #115 para el pedido #9150280.
-2024-12-16 18:11:39 - Añadido al camion #115 el pedido #9150280 (Filetes de pescado blanco 500gr): 714
-2024-12-16 18:11:39 - Se ha creado el camión #116 para el pedido #3897659.
-2024-12-16 18:11:39 - Añadido al camion #116 el pedido #3897659 (Yogur natural 4 unidades (125gr cada uno)): 838
-2024-12-16 18:11:39 - Se ha creado el camión #117 para el pedido #9276547.
-2024-12-16 18:11:39 - Añadido al camion #117 el pedido #9276547 (Patatas para cocinar (1kg)): 623
-2024-12-16 18:11:39 - Se ha creado el camión #118 para el pedido #8790477.
-2024-12-16 18:11:39 - Añadido al camion #118 el pedido #8790477 (Cebollas amarillas (aprox. 1kg)): 736
-2024-12-16 18:11:39 - Se ha creado el camión #119 para el pedido #5165557.
-2024-12-16 18:11:39 - Añadido al camion #119 el pedido #5165557 (Jamón serrano loncheado 150gr): 969
-2024-12-16 18:11:39 - Se ha creado el camión #120 para el pedido #3096797.
-2024-12-16 18:11:39 - Añadido al camion #120 el pedido #3096797 (Huevos frescos (4 unidades)): 861
-2024-12-16 18:11:39 - Se ha creado el camión #121 para el pedido #8556896.
-2024-12-16 18:11:39 - Añadido al camion #121 el pedido #8556896 (Tocino ahumado en lonchas 200gr): 669
-2024-12-16 18:11:39 - Se ha creado el camión #122 para el pedido #7246032.
-2024-12-16 18:11:39 - Añadido al camion #122 el pedido #7246032 (Cebollas amarillas (aprox. 1kg)): 831
-2024-12-16 18:11:39 - Se ha creado el camión #123 para el pedido #9799962.
-2024-12-16 18:11:39 - Añadido al camion #123 el pedido #9799962 (Leche entera 500ml): 676
-2024-12-16 18:11:39 - Se ha creado el camión #124 para el pedido #4998041.
-2024-12-16 18:11:39 - Añadido al camion #124 el pedido #4998041 (Espinacas frescas en bolsa 300gr): 840
-2024-12-16 18:11:39 - Se ha creado el camión #125 para el pedido #6524654.
-2024-12-16 18:11:39 - Añadido al camion #125 el pedido #6524654 (Huevos frescos (4 unidades)): 818
-2024-12-16 18:11:39 - Se ha creado el camión #126 para el pedido #5167999.
-2024-12-16 18:11:39 - Añadido al camion #126 el pedido #5167999 (Zanahorias frescas (500gr)): 888
-2024-12-16 18:11:39 - Se ha creado el camión #127 para el pedido #8100144.
-2024-12-16 18:11:39 - Añadido al camion #127 el pedido #8100144 (Queso cheddar 200gr): 866
-2024-12-16 18:11:39 - Se ha creado el camión #128 para el pedido #5101606.
-2024-12-16 18:11:39 - Añadido al camion #128 el pedido #5101606 (Huevos frescos (4 unidades)): 611
-2024-12-16 18:11:39 - Se ha creado el camión #129 para el pedido #2834010.
-2024-12-16 18:11:39 - Añadido al camion #129 el pedido #2834010 (Tocino ahumado en lonchas 200gr): 613
-2024-12-16 18:11:39 - Se ha creado el camión #130 para el pedido #7539698.
-2024-12-16 18:11:39 - Añadido al camion #130 el pedido #7539698 (Queso cheddar 200gr): 850
-2024-12-16 18:11:39 - Se ha creado el camión #131 para el pedido #6554913.
-2024-12-16 18:11:39 - Añadido al camion #131 el pedido #6554913 (Leche entera 500ml): 861
-2024-12-16 18:11:39 - Se ha creado el camión #132 para el pedido #9647235.
-2024-12-16 18:11:39 - Añadido al camion #132 el pedido #9647235 (Lechuga romana 1 unidad): 760
-2024-12-16 18:11:39 - Se ha creado el camión #133 para el pedido #8311562.
-2024-12-16 18:11:39 - Añadido al camion #133 el pedido #8311562 (Pan fresco de hogaza (500gr)): 831
-2024-12-16 18:11:39 - Se ha creado el camión #134 para el pedido #9686163.
-2024-12-16 18:11:39 - Añadido al camion #134 el pedido #9686163 (Huevos frescos (4 unidades)): 732
-2024-12-16 18:11:39 - Se ha creado el camión #135 para el pedido #2650625.
-2024-12-16 18:11:39 - Añadido al camion #135 el pedido #2650625 (Queso cheddar 200gr): 824
-2024-12-16 18:11:39 - Se ha creado el camión #136 para el pedido #6660953.
-2024-12-16 18:11:39 - Añadido al camion #136 el pedido #6660953 (Mantequilla 100gr): 773
-2024-12-16 18:11:39 - Se ha creado el camión #137 para el pedido #8995731.
-2024-12-16 18:11:39 - Añadido al camion #137 el pedido #8995731 (Patatas para cocinar (1kg)): 572
-2024-12-16 18:11:39 - Se ha creado el camión #138 para el pedido #5855264.
-2024-12-16 18:11:39 - Añadido al camion #138 el pedido #5855264 (Queso cheddar 200gr): 931
-2024-12-16 18:11:39 - Se ha creado el camión #139 para el pedido #9391890.
-2024-12-16 18:11:39 - Añadido al camion #139 el pedido #9391890 (Tocino ahumado en lonchas 200gr): 753
-2024-12-16 18:11:39 - Se ha creado el camión #140 para el pedido #1213914.
-2024-12-16 18:11:39 - Añadido al camion #140 el pedido #1213914 (Pan fresco de hogaza (500gr)): 677
-2024-12-16 18:11:39 - Se ha creado el camión #141 para el pedido #7913469.
-2024-12-16 18:11:39 - Añadido al camion #141 el pedido #7913469 (Tocino ahumado en lonchas 200gr): 975
-2024-12-16 18:11:39 - Se ha creado el camión #142 para el pedido #5013778.
-2024-12-16 18:11:39 - Añadido al camion #142 el pedido #5013778 (Jamón serrano loncheado 150gr): 838
-2024-12-16 18:11:39 - Se ha creado el camión #143 para el pedido #6946352.
-2024-12-16 18:11:39 - Añadido al camion #143 el pedido #6946352 (Cebollas amarillas (aprox. 1kg)): 753
-2024-12-16 18:11:39 - Añadido al camion #143 el pedido #6551528 (Cebollas amarillas (aprox. 1kg)): 632
-2024-12-16 18:11:39 - Se ha creado el camión #144 para el pedido #7063201.
-2024-12-16 18:11:39 - Añadido al camion #144 el pedido #7063201 (Filetes de pescado blanco 500gr): 575
-2024-12-16 18:11:39 - Se ha creado el camión #145 para el pedido #1631549.
-2024-12-16 18:11:39 - Añadido al camion #145 el pedido #1631549 (Fresas frescas (caja de 250gr)): 879
-2024-12-16 18:11:39 - Se ha creado el camión #146 para el pedido #3204686.
-2024-12-16 18:11:39 - Añadido al camion #146 el pedido #3204686 (Jamón serrano loncheado 150gr): 823
-2024-12-16 18:11:39 - Se ha creado el camión #147 para el pedido #5084858.
-2024-12-16 18:11:39 - Añadido al camion #147 el pedido #5084858 (Pan fresco de hogaza (500gr)): 882
-2024-12-16 18:11:39 - Se ha creado el camión #148 para el pedido #2484294.
-2024-12-16 18:11:39 - Añadido al camion #148 el pedido #2484294 (Fresas frescas (caja de 250gr)): 638
-2024-12-16 18:11:39 - Se ha creado el camión #149 para el pedido #2125247.
-2024-12-16 18:11:39 - Añadido al camion #149 el pedido #2125247 (Lechuga romana 1 unidad): 951
-2024-12-16 18:11:39 - Se ha creado el camión #150 para el pedido #1349974.
-2024-12-16 18:11:39 - Añadido al camion #150 el pedido #1349974 (Espinacas frescas en bolsa 300gr): 741
-2024-12-16 18:11:39 - Se ha creado el camión #151 para el pedido #4096224.
-2024-12-16 18:11:39 - Añadido al camion #151 el pedido #4096224 (Queso cheddar 200gr): 905
-2024-12-16 18:11:39 - Se ha creado el camión #152 para el pedido #2170298.
-2024-12-16 18:11:39 - Añadido al camion #152 el pedido #2170298 (Mantequilla 100gr): 650
-2024-12-16 18:11:39 - Se ha creado el camión #153 para el pedido #4043148.
-2024-12-16 18:11:39 - Añadido al camion #153 el pedido #4043148 (Zanahorias frescas (500gr)): 573
-2024-12-16 18:11:39 - Se ha creado el camión #154 para el pedido #9419752.
-2024-12-16 18:11:39 - Añadido al camion #154 el pedido #9419752 (Tocino ahumado en lonchas 200gr): 889
-2024-12-16 18:11:39 - Se ha creado el camión #155 para el pedido #7895150.
-2024-12-16 18:11:39 - Añadido al camion #155 el pedido #7895150 (Lechuga romana 1 unidad): 643
-2024-12-16 18:11:39 - Se ha creado el camión #156 para el pedido #8232983.
-2024-12-16 18:11:39 - Añadido al camion #156 el pedido #8232983 (Tomates maduros (aprox. 1kg)): 561
-2024-12-16 18:11:39 - Se ha creado el camión #157 para el pedido #2619699.
-2024-12-16 18:11:39 - Añadido al camion #157 el pedido #2619699 (Jamón serrano loncheado 150gr): 943
-2024-12-16 18:11:39 - Se ha creado el camión #158 para el pedido #3844257.
-2024-12-16 18:11:39 - Añadido al camion #158 el pedido #3844257 (Yogur natural 4 unidades (125gr cada uno)): 719
-2024-12-16 18:11:39 - Se ha creado el camión #159 para el pedido #1816241.
-2024-12-16 18:11:39 - Añadido al camion #159 el pedido #1816241 (Tomates maduros (aprox. 1kg)): 919
-2024-12-16 18:11:39 - Se ha creado el camión #160 para el pedido #5801961.
-2024-12-16 18:11:39 - Añadido al camion #160 el pedido #5801961 (Carne de ternera picada 500gr): 982
-2024-12-16 18:11:39 - Se ha creado el camión #161 para el pedido #1235185.
-2024-12-16 18:11:39 - Añadido al camion #161 el pedido #1235185 (Fresas frescas (caja de 250gr)): 777
-2024-12-16 18:11:39 - Se ha creado el camión #162 para el pedido #5560918.
-2024-12-16 18:11:39 - Añadido al camion #162 el pedido #5560918 (Plátanos maduros (6 unidades, aprox. 1kg)): 960
-2024-12-16 18:11:39 - Se ha creado el camión #163 para el pedido #3227380.
-2024-12-16 18:11:39 - Añadido al camion #163 el pedido #3227380 (Fresas frescas (caja de 250gr)): 942
-2024-12-16 18:11:39 - Añadido al camion #163 el pedido #3413037 (Fresas frescas (caja de 250gr)): 911
-2024-12-16 18:11:39 - Se ha creado el camión #164 para el pedido #5193810.
-2024-12-16 18:11:39 - Añadido al camion #164 el pedido #5193810 (Mantequilla 100gr): 676
-2024-12-16 18:11:39 - Se ha creado el camión #165 para el pedido #1575963.
-2024-12-16 18:11:39 - Añadido al camion #165 el pedido #1575963 (Pechuga de pollo fresca 1kg): 623
-2024-12-16 18:11:39 - Se ha creado el camión #166 para el pedido #9575127.
-2024-12-16 18:11:39 - Añadido al camion #166 el pedido #9575127 (Espinacas frescas en bolsa 300gr): 888
-2024-12-16 18:11:39 - Se ha creado el camión #167 para el pedido #6816809.
-2024-12-16 18:11:39 - Añadido al camion #167 el pedido #6816809 (Mantequilla 100gr): 974
-2024-12-16 18:11:39 - Se ha creado el camión #168 para el pedido #5910141.
-2024-12-16 18:11:39 - Añadido al camion #168 el pedido #5910141 (Espinacas frescas en bolsa 300gr): 838
-2024-12-16 18:11:39 - Se ha creado el camión #169 para el pedido #3290170.
-2024-12-16 18:11:39 - Añadido al camion #169 el pedido #3290170 (Huevos frescos (4 unidades)): 618
-2024-12-16 18:11:39 - Se ha creado el camión #170 para el pedido #9578069.
-2024-12-16 18:11:39 - Añadido al camion #170 el pedido #9578069 (Lechuga romana 1 unidad): 815
-2024-12-16 18:11:39 - Se ha creado el camión #171 para el pedido #2176188.
-2024-12-16 18:11:39 - Añadido al camion #171 el pedido #2176188 (Plátanos maduros (6 unidades, aprox. 1kg)): 580
-2024-12-16 18:11:39 - Se ha creado el camión #172 para el pedido #9770479.
-2024-12-16 18:11:39 - Añadido al camion #172 el pedido #9770479 (Pechuga de pollo fresca 1kg): 979
-2024-12-16 18:11:39 - Se ha creado el camión #173 para el pedido #6021839.
-2024-12-16 18:11:39 - Añadido al camion #173 el pedido #6021839 (Pan fresco de hogaza (500gr)): 597
-2024-12-16 18:11:39 - Se ha creado el camión #174 para el pedido #4363230.
-2024-12-16 18:11:39 - Añadido al camion #174 el pedido #4363230 (Jamón serrano loncheado 150gr): 587
-2024-12-16 18:11:39 - Se ha creado el camión #175 para el pedido #9624549.
-2024-12-16 18:11:39 - Añadido al camion #175 el pedido #9624549 (Huevos frescos (4 unidades)): 755
-2024-12-16 18:11:39 - Añadido al camion #175 el pedido #3068668 (Huevos frescos (4 unidades)): 749
-2024-12-16 18:11:39 - Se ha creado el camión #176 para el pedido #2263110.
-2024-12-16 18:11:39 - Añadido al camion #176 el pedido #2263110 (Manzanas rojas (6 unidades, aprox. 1kg)): 703
-2024-12-16 18:11:39 - Se ha creado el camión #177 para el pedido #4169064.
-2024-12-16 18:11:39 - Añadido al camion #177 el pedido #4169064 (Carne de ternera picada 500gr): 979
-2024-12-16 18:11:39 - Se ha creado el camión #178 para el pedido #8839786.
-2024-12-16 18:11:39 - Añadido al camion #178 el pedido #8839786 (Tomates maduros (aprox. 1kg)): 909
-2024-12-16 18:11:39 - Se ha creado el camión #179 para el pedido #1795942.
-2024-12-16 18:11:39 - Añadido al camion #179 el pedido #1795942 (Manzanas rojas (6 unidades, aprox. 1kg)): 919
-2024-12-16 18:11:39 - Se ha creado el camión #180 para el pedido #6943698.
-2024-12-16 18:11:39 - Añadido al camion #180 el pedido #6943698 (Fresas frescas (caja de 250gr)): 758
-2024-12-16 18:11:39 - Se ha creado el camión #181 para el pedido #8038321.
-2024-12-16 18:11:39 - Añadido al camion #181 el pedido #8038321 (Huevos frescos (4 unidades)): 879
-2024-12-16 18:11:39 - Se ha creado el camión #182 para el pedido #9574623.
-2024-12-16 18:11:39 - Añadido al camion #182 el pedido #9574623 (Queso cheddar 200gr): 735
-2024-12-16 18:11:39 - Se ha creado el camión #183 para el pedido #1259241.
-2024-12-16 18:11:39 - Añadido al camion #183 el pedido #1259241 (Tomates maduros (aprox. 1kg)): 726
-2024-12-16 18:11:39 - Se ha creado el camión #184 para el pedido #8118572.
-2024-12-16 18:11:39 - Añadido al camion #184 el pedido #8118572 (Jamón serrano loncheado 150gr): 829
-2024-12-16 18:11:39 - Se ha creado el camión #185 para el pedido #4395530.
-2024-12-16 18:11:39 - Añadido al camion #185 el pedido #4395530 (Lechuga romana 1 unidad): 746
-2024-12-16 18:11:39 - Se ha creado el camión #186 para el pedido #9722394.
-2024-12-16 18:11:39 - Añadido al camion #186 el pedido #9722394 (Manzanas rojas (6 unidades, aprox. 1kg)): 868
-2024-12-16 18:11:39 - Se ha creado el camión #187 para el pedido #3747153.
-2024-12-16 18:11:39 - Añadido al camion #187 el pedido #3747153 (Carne de ternera picada 500gr): 572
-2024-12-16 18:11:39 - Se ha creado el camión #188 para el pedido #2095542.
-2024-12-16 18:11:39 - Añadido al camion #188 el pedido #2095542 (Leche entera 500ml): 985
-2024-12-16 18:11:39 - Se ha creado el camión #189 para el pedido #1511520.
-2024-12-16 18:11:39 - Añadido al camion #189 el pedido #1511520 (Cebollas amarillas (aprox. 1kg)): 649
-2024-12-16 18:11:39 - Se ha creado el camión #190 para el pedido #9205562.
-2024-12-16 18:11:39 - Añadido al camion #190 el pedido #9205562 (Pechuga de pollo fresca 1kg): 789
-2024-12-16 18:11:39 - Se ha creado el camión #191 para el pedido #5875171.
-2024-12-16 18:11:39 - Añadido al camion #191 el pedido #5875171 (Queso cheddar 200gr): 917
-2024-12-16 18:11:39 - Se ha creado el camión #192 para el pedido #7826944.
-2024-12-16 18:11:39 - Añadido al camion #192 el pedido #7826944 (Pechuga de pollo fresca 1kg): 884
-2024-12-16 18:11:39 - Se ha creado el camión #193 para el pedido #2368033.
-2024-12-16 18:11:39 - Añadido al camion #193 el pedido #2368033 (Plátanos maduros (6 unidades, aprox. 1kg)): 923
-2024-12-16 18:11:39 - Se ha creado el camión #194 para el pedido #4900780.
-2024-12-16 18:11:39 - Añadido al camion #194 el pedido #4900780 (Jamón serrano loncheado 150gr): 586
-2024-12-16 18:11:39 - Se ha creado el camión #195 para el pedido #4411686.
-2024-12-16 18:11:39 - Añadido al camion #195 el pedido #4411686 (Leche entera 500ml): 662
-2024-12-16 18:11:39 - Se ha creado el camión #196 para el pedido #8764427.
-2024-12-16 18:11:39 - Añadido al camion #196 el pedido #8764427 (Pechuga de pollo fresca 1kg): 734
-2024-12-16 18:11:39 - Se ha creado el camión #197 para el pedido #8359916.
-2024-12-16 18:11:39 - Añadido al camion #197 el pedido #8359916 (Filetes de pescado blanco 500gr): 845
-2024-12-16 18:11:39 - Se ha creado el camión #198 para el pedido #3444947.
-2024-12-16 18:11:39 - Añadido al camion #198 el pedido #3444947 (Tocino ahumado en lonchas 200gr): 910
-2024-12-16 18:11:39 - Se ha creado el camión #199 para el pedido #3525674.
-2024-12-16 18:11:39 - Añadido al camion #199 el pedido #3525674 (Jamón serrano loncheado 150gr): 713
-2024-12-16 18:11:39 - Se ha creado el camión #200 para el pedido #4886700.
-2024-12-16 18:11:39 - Añadido al camion #200 el pedido #4886700 (Yogur natural 4 unidades (125gr cada uno)): 724
-2024-12-16 18:11:39 - Se ha creado el camión #201 para el pedido #7411235.
-2024-12-16 18:11:39 - Añadido al camion #201 el pedido #7411235 (Plátanos maduros (6 unidades, aprox. 1kg)): 627
-2024-12-16 18:11:39 - Se ha creado el camión #202 para el pedido #4508952.
-2024-12-16 18:11:39 - Añadido al camion #202 el pedido #4508952 (Espinacas frescas en bolsa 300gr): 865
-2024-12-16 18:11:39 - Se ha creado el camión #203 para el pedido #1038946.
-2024-12-16 18:11:39 - Añadido al camion #203 el pedido #1038946 (Patatas para cocinar (1kg)): 661
-2024-12-16 18:11:39 - Se ha creado el camión #204 para el pedido #9817564.
-2024-12-16 18:11:39 - Añadido al camion #204 el pedido #9817564 (Mantequilla 100gr): 615
-2024-12-16 18:11:39 - Añadido al camion #204 el pedido #8180406 (Mantequilla 100gr): 606
-2024-12-16 18:11:39 - Se ha creado el camión #205 para el pedido #7101892.
-2024-12-16 18:11:39 - Añadido al camion #205 el pedido #7101892 (Plátanos maduros (6 unidades, aprox. 1kg)): 686
-2024-12-16 18:11:39 - Se ha creado el camión #206 para el pedido #5010992.
-2024-12-16 18:11:39 - Añadido al camion #206 el pedido #5010992 (Tocino ahumado en lonchas 200gr): 925
-2024-12-16 18:11:39 - Se ha creado el camión #207 para el pedido #3746949.
-2024-12-16 18:11:39 - Añadido al camion #207 el pedido #3746949 (Patatas para cocinar (1kg)): 901
-2024-12-16 18:11:39 - Se ha creado el camión #208 para el pedido #3481314.
-2024-12-16 18:11:39 - Añadido al camion #208 el pedido #3481314 (Mantequilla 100gr): 839
-2024-12-16 18:11:39 - Se ha creado el camión #209 para el pedido #1924601.
-2024-12-16 18:11:39 - Añadido al camion #209 el pedido #1924601 (Huevos frescos (4 unidades)): 711
-2024-12-16 18:11:39 - Se ha creado el camión #210 para el pedido #6734062.
-2024-12-16 18:11:39 - Añadido al camion #210 el pedido #6734062 (Queso cheddar 200gr): 797
-2024-12-16 18:11:39 - Se ha creado el camión #211 para el pedido #3527942.
-2024-12-16 18:11:39 - Añadido al camion #211 el pedido #3527942 (Carne de ternera picada 500gr): 949
-2024-12-16 18:11:39 - Se ha creado el camión #212 para el pedido #8726378.
-2024-12-16 18:11:39 - Añadido al camion #212 el pedido #8726378 (Lechuga romana 1 unidad): 707
-2024-12-16 18:11:39 - Se ha creado el camión #213 para el pedido #9548230.
-2024-12-16 18:11:39 - Añadido al camion #213 el pedido #9548230 (Tocino ahumado en lonchas 200gr): 843
-2024-12-16 18:11:39 - Se ha creado el camión #214 para el pedido #5565150.
-2024-12-16 18:11:39 - Añadido al camion #214 el pedido #5565150 (Jamón serrano loncheado 150gr): 819
-2024-12-16 18:11:39 - Se ha creado el camión #215 para el pedido #6574604.
-2024-12-16 18:11:39 - Añadido al camion #215 el pedido #6574604 (Queso cheddar 200gr): 834
-2024-12-16 18:11:39 - Se ha creado el camión #216 para el pedido #4711728.
-2024-12-16 18:11:39 - Añadido al camion #216 el pedido #4711728 (Patatas para cocinar (1kg)): 940
-2024-12-16 18:11:39 - Se ha creado el camión #217 para el pedido #4155433.
-2024-12-16 18:11:39 - Añadido al camion #217 el pedido #4155433 (Filetes de pescado blanco 500gr): 884
-2024-12-16 18:11:39 - Se ha creado el camión #218 para el pedido #7406370.
-2024-12-16 18:11:39 - Añadido al camion #218 el pedido #7406370 (Tomates maduros (aprox. 1kg)): 878
-2024-12-16 18:11:39 - Se ha creado el camión #219 para el pedido #3217920.
-2024-12-16 18:11:39 - Añadido al camion #219 el pedido #3217920 (Patatas para cocinar (1kg)): 637
-2024-12-16 18:11:39 - Se ha creado el camión #220 para el pedido #1105715.
-2024-12-16 18:11:39 - Añadido al camion #220 el pedido #1105715 (Yogur natural 4 unidades (125gr cada uno)): 557
-2024-12-16 18:11:39 - Se ha creado el camión #221 para el pedido #2204967.
-2024-12-16 18:11:39 - Añadido al camion #221 el pedido #2204967 (Leche entera 500ml): 833
-2024-12-16 18:11:39 - Se ha creado el camión #222 para el pedido #5385415.
-2024-12-16 18:11:39 - Añadido al camion #222 el pedido #5385415 (Mantequilla 100gr): 613
-2024-12-16 18:11:39 - Se ha creado el camión #223 para el pedido #6548008.
-2024-12-16 18:11:39 - Añadido al camion #223 el pedido #6548008 (Leche entera 500ml): 739
-2024-12-16 18:11:39 - Añadido al camion #223 el pedido #1986926 (Leche entera 500ml): 712
-2024-12-16 18:11:39 - Se ha creado el camión #224 para el pedido #5858467.
-2024-12-16 18:11:39 - Añadido al camion #224 el pedido #5858467 (Filetes de pescado blanco 500gr): 982
-2024-12-16 18:11:39 - Se ha creado el camión #225 para el pedido #7834628.
-2024-12-16 18:11:39 - Añadido al camion #225 el pedido #7834628 (Plátanos maduros (6 unidades, aprox. 1kg)): 711
-2024-12-16 18:11:39 - Se ha creado el camión #226 para el pedido #2649588.
-2024-12-16 18:11:39 - Añadido al camion #226 el pedido #2649588 (Patatas para cocinar (1kg)): 815
-2024-12-16 18:11:39 - Se ha creado el camión #227 para el pedido #6424646.
-2024-12-16 18:11:39 - Añadido al camion #227 el pedido #6424646 (Jamón serrano loncheado 150gr): 612
-2024-12-16 18:11:39 - Se ha creado el camión #228 para el pedido #2173264.
-2024-12-16 18:11:39 - Añadido al camion #228 el pedido #2173264 (Fresas frescas (caja de 250gr)): 769
-2024-12-16 18:11:39 - Se ha creado el camión #229 para el pedido #8029357.
-2024-12-16 18:11:39 - Añadido al camion #229 el pedido #8029357 (Pan fresco de hogaza (500gr)): 786
-2024-12-16 18:11:39 - Se ha creado el camión #230 para el pedido #8018633.
-2024-12-16 18:11:39 - Añadido al camion #230 el pedido #8018633 (Leche entera 500ml): 617
-2024-12-16 18:11:39 - Se ha creado el camión #231 para el pedido #9159853.
-2024-12-16 18:11:39 - Añadido al camion #231 el pedido #9159853 (Espinacas frescas en bolsa 300gr): 726
-2024-12-16 18:11:39 - Se ha creado el camión #232 para el pedido #6533383.
-2024-12-16 18:11:39 - Añadido al camion #232 el pedido #6533383 (Tomates maduros (aprox. 1kg)): 664
-2024-12-16 18:11:39 - Se ha creado el camión #233 para el pedido #8189817.
-2024-12-16 18:11:39 - Añadido al camion #233 el pedido #8189817 (Queso cheddar 200gr): 711
-2024-12-16 18:11:39 - Se ha creado el camión #234 para el pedido #6519556.
-2024-12-16 18:11:39 - Añadido al camion #234 el pedido #6519556 (Cebollas amarillas (aprox. 1kg)): 650
-2024-12-16 18:11:39 - Se ha creado el camión #235 para el pedido #1569512.
-2024-12-16 18:11:39 - Añadido al camion #235 el pedido #1569512 (Carne de ternera picada 500gr): 807
-2024-12-16 18:11:39 - Se ha creado el camión #236 para el pedido #8243511.
-2024-12-16 18:11:39 - Añadido al camion #236 el pedido #8243511 (Huevos frescos (4 unidades)): 652
-2024-12-16 18:11:39 - Se ha creado el camión #237 para el pedido #8865032.
-2024-12-16 18:11:39 - Añadido al camion #237 el pedido #8865032 (Plátanos maduros (6 unidades, aprox. 1kg)): 711
-2024-12-16 18:11:39 - Añadido al camion #237 el pedido #5329419 (Plátanos maduros (6 unidades, aprox. 1kg)): 642
-2024-12-16 18:11:39 - Se ha creado el camión #238 para el pedido #2063987.
-2024-12-16 18:11:39 - Añadido al camion #238 el pedido #2063987 (Yogur natural 4 unidades (125gr cada uno)): 671
-2024-12-16 18:11:39 - Se ha creado el camión #239 para el pedido #9632510.
-2024-12-16 18:11:39 - Añadido al camion #239 el pedido #9632510 (Tomates maduros (aprox. 1kg)): 810
-2024-12-16 18:11:39 - Se ha creado el camión #240 para el pedido #3634286.
-2024-12-16 18:11:39 - Añadido al camion #240 el pedido #3634286 (Lechuga romana 1 unidad): 877
-2024-12-16 18:11:39 - Se ha creado el camión #241 para el pedido #7872146.
-2024-12-16 18:11:39 - Añadido al camion #241 el pedido #7872146 (Carne de ternera picada 500gr): 633
-2024-12-16 18:11:39 - Se ha creado el camión #242 para el pedido #1755313.
-2024-12-16 18:11:39 - Añadido al camion #242 el pedido #1755313 (Manzanas rojas (6 unidades, aprox. 1kg)): 845
-2024-12-16 18:11:39 - Se ha creado el camión #243 para el pedido #5796039.
-2024-12-16 18:11:39 - Añadido al camion #243 el pedido #5796039 (Yogur natural 4 unidades (125gr cada uno)): 615
-2024-12-16 18:11:39 - Se ha creado el camión #244 para el pedido #3382223.
-2024-12-16 18:11:39 - Añadido al camion #244 el pedido #3382223 (Plátanos maduros (6 unidades, aprox. 1kg)): 810
-2024-12-16 18:11:39 - Se ha creado el camión #245 para el pedido #5054920.
-2024-12-16 18:11:39 - Añadido al camion #245 el pedido #5054920 (Pechuga de pollo fresca 1kg): 612
-2024-12-16 18:11:39 - Se ha creado el camión #246 para el pedido #8428382.
-2024-12-16 18:11:39 - Añadido al camion #246 el pedido #8428382 (Mantequilla 100gr): 988
-2024-12-16 18:11:39 - Se ha creado el camión #247 para el pedido #6870562.
-2024-12-16 18:11:39 - Añadido al camion #247 el pedido #6870562 (Jamón serrano loncheado 150gr): 813
-2024-12-16 18:11:39 - Se ha creado el camión #248 para el pedido #3172529.
-2024-12-16 18:11:39 - Añadido al camion #248 el pedido #3172529 (Cebollas amarillas (aprox. 1kg)): 681
-2024-12-16 18:11:39 - Se ha creado el camión #249 para el pedido #3026704.
-2024-12-16 18:11:39 - Añadido al camion #249 el pedido #3026704 (Huevos frescos (4 unidades)): 621
-2024-12-16 18:11:39 - Se ha creado el camión #250 para el pedido #3151697.
-2024-12-16 18:11:39 - Añadido al camion #250 el pedido #3151697 (Manzanas rojas (6 unidades, aprox. 1kg)): 867
-2024-12-16 18:11:39 - Se ha creado el camión #251 para el pedido #7035413.
-2024-12-16 18:11:39 - Añadido al camion #251 el pedido #7035413 (Filetes de pescado blanco 500gr): 697
-2024-12-16 18:11:39 - Se ha creado el camión #252 para el pedido #6559366.
-2024-12-16 18:11:39 - Añadido al camion #252 el pedido #6559366 (Lechuga romana 1 unidad): 819
-2024-12-16 18:11:39 - Se ha creado el camión #253 para el pedido #5287263.
-2024-12-16 18:11:39 - Añadido al camion #253 el pedido #5287263 (Mantequilla 100gr): 755
-2024-12-16 18:11:39 - Se ha creado el camión #254 para el pedido #6092358.
-2024-12-16 18:11:39 - Añadido al camion #254 el pedido #6092358 (Fresas frescas (caja de 250gr)): 654
-2024-12-16 18:11:39 - Se ha creado el camión #255 para el pedido #5301223.
-2024-12-16 18:11:39 - Añadido al camion #255 el pedido #5301223 (Manzanas rojas (6 unidades, aprox. 1kg)): 681
-2024-12-16 18:11:39 - Se ha creado el camión #256 para el pedido #1547271.
-2024-12-16 18:11:39 - Añadido al camion #256 el pedido #1547271 (Zanahorias frescas (500gr)): 987
-2024-12-16 18:11:39 - Se ha creado el camión #257 para el pedido #4040548.
-2024-12-16 18:11:39 - Añadido al camion #257 el pedido #4040548 (Manzanas rojas (6 unidades, aprox. 1kg)): 903
-2024-12-16 18:11:39 - Se ha creado el camión #258 para el pedido #3073386.
-2024-12-16 18:11:39 - Añadido al camion #258 el pedido #3073386 (Filetes de pescado blanco 500gr): 710
-2024-12-16 18:11:39 - Se ha creado el camión #259 para el pedido #5831387.
-2024-12-16 18:11:39 - Añadido al camion #259 el pedido #5831387 (Manzanas rojas (6 unidades, aprox. 1kg)): 927
-2024-12-16 18:11:39 - Se ha creado el camión #260 para el pedido #7705228.
-2024-12-16 18:11:39 - Añadido al camion #260 el pedido #7705228 (Huevos frescos (4 unidades)): 965
-2024-12-16 18:11:39 - Se ha creado el camión #261 para el pedido #8505457.
-2024-12-16 18:11:39 - Añadido al camion #261 el pedido #8505457 (Tocino ahumado en lonchas 200gr): 885
-2024-12-16 18:11:39 - Se ha creado el camión #262 para el pedido #7773908.
-2024-12-16 18:11:39 - Añadido al camion #262 el pedido #7773908 (Carne de ternera picada 500gr): 836
-2024-12-16 18:11:39 - Se ha creado el camión #263 para el pedido #2061449.
-2024-12-16 18:11:39 - Añadido al camion #263 el pedido #2061449 (Huevos frescos (4 unidades)): 752
-2024-12-16 18:11:39 - Se ha creado el camión #264 para el pedido #2000989.
-2024-12-16 18:11:39 - Añadido al camion #264 el pedido #2000989 (Fresas frescas (caja de 250gr)): 695
-2024-12-16 18:11:39 - Se ha creado el camión #265 para el pedido #8579048.
-2024-12-16 18:11:39 - Añadido al camion #265 el pedido #8579048 (Yogur natural 4 unidades (125gr cada uno)): 870
-2024-12-16 18:11:39 - Añadido al camion #265 el pedido #7008311 (Yogur natural 4 unidades (125gr cada uno)): 574
-2024-12-16 18:11:39 - Se ha creado el camión #266 para el pedido #5379324.
-2024-12-16 18:11:39 - Añadido al camion #266 el pedido #5379324 (Lechuga romana 1 unidad): 754
-2024-12-16 18:11:39 - Se ha creado el camión #267 para el pedido #3433230.
-2024-12-16 18:11:39 - Añadido al camion #267 el pedido #3433230 (Queso cheddar 200gr): 663
-2024-12-16 18:11:39 - Se ha creado el camión #268 para el pedido #3847830.
-2024-12-16 18:11:39 - Añadido al camion #268 el pedido #3847830 (Carne de ternera picada 500gr): 590
-2024-12-16 18:11:39 - Se ha creado el camión #269 para el pedido #1691910.
-2024-12-16 18:11:39 - Añadido al camion #269 el pedido #1691910 (Manzanas rojas (6 unidades, aprox. 1kg)): 910
-2024-12-16 18:11:39 - Se ha creado el camión #270 para el pedido #5773125.
-2024-12-16 18:11:39 - Añadido al camion #270 el pedido #5773125 (Patatas para cocinar (1kg)): 792
-2024-12-16 18:11:39 - Se ha creado el camión #271 para el pedido #9762093.
-2024-12-16 18:11:39 - Añadido al camion #271 el pedido #9762093 (Yogur natural 4 unidades (125gr cada uno)): 609
-2024-12-16 18:11:39 - Se ha creado el camión #272 para el pedido #3590649.
-2024-12-16 18:11:39 - Añadido al camion #272 el pedido #3590649 (Filetes de pescado blanco 500gr): 772
-2024-12-16 18:11:39 - Se ha creado el camión #273 para el pedido #5981515.
-2024-12-16 18:11:39 - Añadido al camion #273 el pedido #5981515 (Leche entera 500ml): 948
-2024-12-16 18:11:39 - Se ha creado el camión #274 para el pedido #4343817.
-2024-12-16 18:11:39 - Añadido al camion #274 el pedido #4343817 (Plátanos maduros (6 unidades, aprox. 1kg)): 638
-2024-12-16 18:11:39 - Se ha creado el camión #275 para el pedido #3740016.
-2024-12-16 18:11:39 - Añadido al camion #275 el pedido #3740016 (Carne de ternera picada 500gr): 984
-2024-12-16 18:11:39 - Se ha creado el camión #276 para el pedido #4792221.
-2024-12-16 18:11:39 - Añadido al camion #276 el pedido #4792221 (Pan fresco de hogaza (500gr)): 665
-2024-12-16 18:11:39 - Se ha creado el camión #277 para el pedido #6239784.
-2024-12-16 18:11:39 - Añadido al camion #277 el pedido #6239784 (Manzanas rojas (6 unidades, aprox. 1kg)): 819
-2024-12-16 18:11:39 - Se ha creado el camión #278 para el pedido #1571105.
-2024-12-16 18:11:39 - Añadido al camion #278 el pedido #1571105 (Pan fresco de hogaza (500gr)): 610
-2024-12-16 18:11:39 - Se ha creado el camión #279 para el pedido #8264678.
-2024-12-16 18:11:39 - Añadido al camion #279 el pedido #8264678 (Huevos frescos (4 unidades)): 845
-2024-12-16 18:11:39 - Se ha creado el camión #280 para el pedido #1327205.
-2024-12-16 18:11:39 - Añadido al camion #280 el pedido #1327205 (Plátanos maduros (6 unidades, aprox. 1kg)): 696
-2024-12-16 18:11:39 - Se ha creado el camión #281 para el pedido #9808917.
-2024-12-16 18:11:39 - Añadido al camion #281 el pedido #9808917 (Leche entera 500ml): 924
-2024-12-16 18:11:39 - Se ha creado el camión #282 para el pedido #1504019.
-2024-12-16 18:11:39 - Añadido al camion #282 el pedido #1504019 (Pan fresco de hogaza (500gr)): 793
-2024-12-16 18:11:39 - Se ha creado el camión #283 para el pedido #7752365.
-2024-12-16 18:11:39 - Añadido al camion #283 el pedido #7752365 (Tocino ahumado en lonchas 200gr): 766
-2024-12-16 18:11:39 - Se ha creado el camión #284 para el pedido #7931491.
-2024-12-16 18:11:39 - Añadido al camion #284 el pedido #7931491 (Tomates maduros (aprox. 1kg)): 611
-2024-12-16 18:11:39 - Se ha creado el camión #285 para el pedido #2338706.
-2024-12-16 18:11:39 - Añadido al camion #285 el pedido #2338706 (Mantequilla 100gr): 829
-2024-12-16 18:11:39 - Se ha creado el camión #286 para el pedido #2138341.
-2024-12-16 18:11:39 - Añadido al camion #286 el pedido #2138341 (Carne de ternera picada 500gr): 573
-2024-12-16 18:11:39 - Se ha creado el camión #287 para el pedido #8893437.
-2024-12-16 18:11:39 - Añadido al camion #287 el pedido #8893437 (Jamón serrano loncheado 150gr): 905
-2024-12-16 18:11:39 - Se ha creado el camión #288 para el pedido #5049703.
-2024-12-16 18:11:39 - Añadido al camion #288 el pedido #5049703 (Huevos frescos (4 unidades)): 799
-2024-12-16 18:11:39 - Se ha creado el camión #289 para el pedido #1805564.
-2024-12-16 18:11:39 - Añadido al camion #289 el pedido #1805564 (Mantequilla 100gr): 986
-2024-12-16 18:11:39 - Se ha creado el camión #290 para el pedido #5567338.
-2024-12-16 18:11:39 - Añadido al camion #290 el pedido #5567338 (Pan fresco de hogaza (500gr)): 635
-2024-12-16 18:11:39 - Se ha creado el camión #291 para el pedido #1157371.
-2024-12-16 18:11:39 - Añadido al camion #291 el pedido #1157371 (Lechuga romana 1 unidad): 743
-2024-12-16 18:11:39 - Se ha creado el camión #292 para el pedido #1547482.
-2024-12-16 18:11:39 - Añadido al camion #292 el pedido #1547482 (Leche entera 500ml): 930
-2024-12-16 18:11:39 - Se ha creado el camión #293 para el pedido #5116773.
-2024-12-16 18:11:39 - Añadido al camion #293 el pedido #5116773 (Pan fresco de hogaza (500gr)): 908
-2024-12-16 18:11:39 - Se ha creado el camión #294 para el pedido #6014343.
-2024-12-16 18:11:39 - Añadido al camion #294 el pedido #6014343 (Tocino ahumado en lonchas 200gr): 785
-2024-12-16 18:11:39 - Se ha creado el camión #295 para el pedido #1750753.
-2024-12-16 18:11:39 - Añadido al camion #295 el pedido #1750753 (Zanahorias frescas (500gr)): 760
-2024-12-16 18:11:39 - Se ha creado el camión #296 para el pedido #3699737.
-2024-12-16 18:11:39 - Añadido al camion #296 el pedido #3699737 (Plátanos maduros (6 unidades, aprox. 1kg)): 855
-2024-12-16 18:11:39 - Se ha creado el camión #297 para el pedido #9329990.
-2024-12-16 18:11:39 - Añadido al camion #297 el pedido #9329990 (Patatas para cocinar (1kg)): 899
-2024-12-16 18:11:39 - Se ha creado el camión #298 para el pedido #7657259.
-2024-12-16 18:11:39 - Añadido al camion #298 el pedido #7657259 (Lechuga romana 1 unidad): 949
-2024-12-16 18:11:39 - Se ha creado el camión #299 para el pedido #5502482.
-2024-12-16 18:11:39 - Añadido al camion #299 el pedido #5502482 (Pan fresco de hogaza (500gr)): 570
-2024-12-16 18:11:39 - Se ha creado el camión #300 para el pedido #4473476.
-2024-12-16 18:11:39 - Añadido al camion #300 el pedido #4473476 (Tomates maduros (aprox. 1kg)): 589
-2024-12-16 18:11:39 - Se ha creado el camión #301 para el pedido #8504231.
-2024-12-16 18:11:39 - Añadido al camion #301 el pedido #8504231 (Huevos frescos (4 unidades)): 801
-2024-12-16 18:11:39 - Se ha creado el camión #302 para el pedido #7214667.
-2024-12-16 18:11:39 - Añadido al camion #302 el pedido #7214667 (Tocino ahumado en lonchas 200gr): 572
-2024-12-16 18:11:39 - Añadido al camion #302 el pedido #6755197 (Tocino ahumado en lonchas 200gr): 789
-2024-12-16 18:11:39 - Se ha creado el camión #303 para el pedido #3030255.
-2024-12-16 18:11:39 - Añadido al camion #303 el pedido #3030255 (Huevos frescos (4 unidades)): 594
-2024-12-16 18:11:39 - Se ha creado el camión #304 para el pedido #9441387.
-2024-12-16 18:11:39 - Añadido al camion #304 el pedido #9441387 (Yogur natural 4 unidades (125gr cada uno)): 965
-2024-12-16 18:11:39 - Se ha creado el camión #305 para el pedido #6060445.
-2024-12-16 18:11:39 - Añadido al camion #305 el pedido #6060445 (Fresas frescas (caja de 250gr)): 605
-2024-12-16 18:11:39 - Se ha creado el camión #306 para el pedido #5258002.
-2024-12-16 18:11:39 - Añadido al camion #306 el pedido #5258002 (Espinacas frescas en bolsa 300gr): 759
-2024-12-16 18:11:39 - Se ha creado el camión #307 para el pedido #9210089.
-2024-12-16 18:11:39 - Añadido al camion #307 el pedido #9210089 (Manzanas rojas (6 unidades, aprox. 1kg)): 921
-2024-12-16 18:11:39 - Añadido al camion #307 el pedido #5306200 (Manzanas rojas (6 unidades, aprox. 1kg)): 659
-2024-12-16 18:11:39 - Se ha creado el camión #308 para el pedido #4890521.
-2024-12-16 18:11:39 - Añadido al camion #308 el pedido #4890521 (Tomates maduros (aprox. 1kg)): 722
-2024-12-16 18:11:39 - Se ha creado el camión #309 para el pedido #7384346.
-2024-12-16 18:11:39 - Añadido al camion #309 el pedido #7384346 (Lechuga romana 1 unidad): 673
-2024-12-16 18:11:39 - Se ha creado el camión #310 para el pedido #2797899.
-2024-12-16 18:11:39 - Añadido al camion #310 el pedido #2797899 (Queso cheddar 200gr): 920
-2024-12-16 18:11:39 - Se ha creado el camión #311 para el pedido #8602922.
-2024-12-16 18:11:39 - Añadido al camion #311 el pedido #8602922 (Tomates maduros (aprox. 1kg)): 946
-2024-12-16 18:11:39 - Se ha creado el camión #312 para el pedido #9599739.
-2024-12-16 18:11:39 - Añadido al camion #312 el pedido #9599739 (Carne de ternera picada 500gr): 588
-2024-12-16 18:11:39 - Se ha creado el camión #313 para el pedido #1301957.
-2024-12-16 18:11:39 - Añadido al camion #313 el pedido #1301957 (Pan fresco de hogaza (500gr)): 751
-2024-12-16 18:11:39 - Se ha creado el camión #314 para el pedido #5525338.
-2024-12-16 18:11:39 - Añadido al camion #314 el pedido #5525338 (Patatas para cocinar (1kg)): 646
-2024-12-16 18:11:39 - Se ha creado el camión #315 para el pedido #9636826.
-2024-12-16 18:11:39 - Añadido al camion #315 el pedido #9636826 (Jamón serrano loncheado 150gr): 623
-2024-12-16 18:11:39 - Se ha creado el camión #316 para el pedido #1068215.
-2024-12-16 18:11:39 - Añadido al camion #316 el pedido #1068215 (Queso cheddar 200gr): 837
-2024-12-16 18:11:39 - Se ha creado el camión #317 para el pedido #4999010.
-2024-12-16 18:11:39 - Añadido al camion #317 el pedido #4999010 (Filetes de pescado blanco 500gr): 593
-2024-12-16 18:11:39 - Se ha creado el camión #318 para el pedido #9671361.
-2024-12-16 18:11:39 - Añadido al camion #318 el pedido #9671361 (Mantequilla 100gr): 678
-2024-12-16 18:11:39 - Se ha creado el camión #319 para el pedido #6313601.
-2024-12-16 18:11:39 - Añadido al camion #319 el pedido #6313601 (Filetes de pescado blanco 500gr): 962
-2024-12-16 18:11:39 - Se ha creado el camión #320 para el pedido #1760899.
-2024-12-16 18:11:39 - Añadido al camion #320 el pedido #1760899 (Cebollas amarillas (aprox. 1kg)): 645
-2024-12-16 18:11:39 - Se ha creado el camión #321 para el pedido #9645546.
-2024-12-16 18:11:39 - Añadido al camion #321 el pedido #9645546 (Huevos frescos (4 unidades)): 820
-2024-12-16 18:11:39 - Se ha creado el camión #322 para el pedido #1944509.
-2024-12-16 18:11:39 - Añadido al camion #322 el pedido #1944509 (Plátanos maduros (6 unidades, aprox. 1kg)): 820
-2024-12-16 18:11:39 - Se ha creado el camión #323 para el pedido #2871747.
-2024-12-16 18:11:39 - Añadido al camion #323 el pedido #2871747 (Leche entera 500ml): 970
-2024-12-16 18:11:39 - Se ha creado el camión #324 para el pedido #1739273.
-2024-12-16 18:11:39 - Añadido al camion #324 el pedido #1739273 (Huevos frescos (4 unidades)): 678
-2024-12-16 18:11:39 - Se ha creado el camión #325 para el pedido #9866243.
-2024-12-16 18:11:39 - Añadido al camion #325 el pedido #9866243 (Cebollas amarillas (aprox. 1kg)): 797
-2024-12-16 18:11:39 - Se ha creado el camión #326 para el pedido #8487703.
-2024-12-16 18:11:39 - Añadido al camion #326 el pedido #8487703 (Huevos frescos (4 unidades)): 676
-2024-12-16 18:11:39 - Se ha creado el camión #327 para el pedido #2637175.
-2024-12-16 18:11:39 - Añadido al camion #327 el pedido #2637175 (Fresas frescas (caja de 250gr)): 642
-2024-12-16 18:11:39 - Se ha creado el camión #328 para el pedido #4387785.
-2024-12-16 18:11:39 - Añadido al camion #328 el pedido #4387785 (Espinacas frescas en bolsa 300gr): 831
-2024-12-16 18:11:39 - Se ha creado el camión #329 para el pedido #1297200.
-2024-12-16 18:11:39 - Añadido al camion #329 el pedido #1297200 (Manzanas rojas (6 unidades, aprox. 1kg)): 628
-2024-12-16 18:11:39 - Se ha creado el camión #330 para el pedido #2467281.
-2024-12-16 18:11:39 - Añadido al camion #330 el pedido #2467281 (Pan fresco de hogaza (500gr)): 690
-2024-12-16 18:11:39 - Se ha creado el camión #331 para el pedido #9726959.
-2024-12-16 18:11:39 - Añadido al camion #331 el pedido #9726959 (Zanahorias frescas (500gr)): 668
-2024-12-16 18:11:39 - Se ha creado el camión #332 para el pedido #3391354.
-2024-12-16 18:11:39 - Añadido al camion #332 el pedido #3391354 (Lechuga romana 1 unidad): 721
-2024-12-16 18:11:39 - Se ha creado el camión #333 para el pedido #6894787.
-2024-12-16 18:11:39 - Añadido al camion #333 el pedido #6894787 (Zanahorias frescas (500gr)): 899
-2024-12-16 18:11:39 - Se ha creado el camión #334 para el pedido #8763193.
-2024-12-16 18:11:39 - Añadido al camion #334 el pedido #8763193 (Tomates maduros (aprox. 1kg)): 809
-2024-12-16 18:11:39 - Se ha creado el camión #335 para el pedido #8989574.
-2024-12-16 18:11:39 - Añadido al camion #335 el pedido #8989574 (Pechuga de pollo fresca 1kg): 796
-2024-12-16 18:11:39 - Se ha creado el camión #336 para el pedido #4011999.
-2024-12-16 18:11:39 - Añadido al camion #336 el pedido #4011999 (Queso cheddar 200gr): 609
-2024-12-16 18:11:39 - Se ha creado el camión #337 para el pedido #9526656.
-2024-12-16 18:11:39 - Añadido al camion #337 el pedido #9526656 (Plátanos maduros (6 unidades, aprox. 1kg)): 657
-2024-12-16 18:11:39 - Se ha creado el camión #338 para el pedido #1211891.
-2024-12-16 18:11:39 - Añadido al camion #338 el pedido #1211891 (Mantequilla 100gr): 854
-2024-12-16 18:11:39 - Se ha creado el camión #339 para el pedido #4977559.
-2024-12-16 18:11:39 - Añadido al camion #339 el pedido #4977559 (Pechuga de pollo fresca 1kg): 841
-2024-12-16 18:11:39 - Se ha creado el camión #340 para el pedido #6785718.
-2024-12-16 18:11:39 - Añadido al camion #340 el pedido #6785718 (Tocino ahumado en lonchas 200gr): 693
-2024-12-16 18:11:39 - Se ha creado el camión #341 para el pedido #9944295.
-2024-12-16 18:11:39 - Añadido al camion #341 el pedido #9944295 (Leche entera 500ml): 986
-2024-12-16 18:11:39 - Se ha creado el camión #342 para el pedido #8891627.
-2024-12-16 18:11:39 - Añadido al camion #342 el pedido #8891627 (Yogur natural 4 unidades (125gr cada uno)): 550
-2024-12-16 18:11:39 - Se ha creado el camión #343 para el pedido #7689711.
-2024-12-16 18:11:39 - Añadido al camion #343 el pedido #7689711 (Manzanas rojas (6 unidades, aprox. 1kg)): 624
-2024-12-16 18:11:39 - Se ha creado el camión #344 para el pedido #7980702.
-2024-12-16 18:11:39 - Añadido al camion #344 el pedido #7980702 (Lechuga romana 1 unidad): 746
-2024-12-16 18:11:39 - Se ha creado el camión #345 para el pedido #3578548.
-2024-12-16 18:11:39 - Añadido al camion #345 el pedido #3578548 (Pan fresco de hogaza (500gr)): 982
-2024-12-16 18:11:39 - Se ha creado el camión #346 para el pedido #9420381.
-2024-12-16 18:11:39 - Añadido al camion #346 el pedido #9420381 (Lechuga romana 1 unidad): 570
-2024-12-16 18:11:39 - Se ha creado el camión #347 para el pedido #3890351.
-2024-12-16 18:11:39 - Añadido al camion #347 el pedido #3890351 (Cebollas amarillas (aprox. 1kg)): 739
-2024-12-16 18:11:39 - Se ha creado el camión #348 para el pedido #4221887.
-2024-12-16 18:11:39 - Añadido al camion #348 el pedido #4221887 (Plátanos maduros (6 unidades, aprox. 1kg)): 910
-2024-12-16 18:11:39 - Se ha creado el camión #349 para el pedido #3501971.
-2024-12-16 18:11:39 - Añadido al camion #349 el pedido #3501971 (Mantequilla 100gr): 733
-2024-12-16 18:11:39 - Se ha creado el camión #350 para el pedido #5908356.
-2024-12-16 18:11:39 - Añadido al camion #350 el pedido #5908356 (Tomates maduros (aprox. 1kg)): 966
-2024-12-16 18:11:39 - Se ha creado el camión #351 para el pedido #8021014.
-2024-12-16 18:11:39 - Añadido al camion #351 el pedido #8021014 (Huevos frescos (4 unidades)): 964
-2024-12-16 18:11:39 - Se ha creado el camión #352 para el pedido #6735309.
-2024-12-16 18:11:39 - Añadido al camion #352 el pedido #6735309 (Mantequilla 100gr): 874
-2024-12-16 18:11:39 - Se ha creado el camión #353 para el pedido #5112167.
-2024-12-16 18:11:39 - Añadido al camion #353 el pedido #5112167 (Zanahorias frescas (500gr)): 841
-2024-12-16 18:11:39 - Se ha creado el camión #354 para el pedido #3100548.
-2024-12-16 18:11:39 - Añadido al camion #354 el pedido #3100548 (Tomates maduros (aprox. 1kg)): 851
-2024-12-16 18:11:39 - Se ha creado el camión #355 para el pedido #3863023.
-2024-12-16 18:11:39 - Añadido al camion #355 el pedido #3863023 (Pechuga de pollo fresca 1kg): 630
-2024-12-16 18:11:39 - Añadido al camion #355 el pedido #3641514 (Pechuga de pollo fresca 1kg): 725
-2024-12-16 18:11:39 - Añadido al camion #355 el pedido #6904605 (Pechuga de pollo fresca 1kg): 798
-2024-12-16 18:11:39 - Se ha creado el camión #356 para el pedido #6296698.
-2024-12-16 18:11:39 - Añadido al camion #356 el pedido #6296698 (Fresas frescas (caja de 250gr)): 749
-2024-12-16 18:11:39 - Se ha creado el camión #357 para el pedido #8163197.
-2024-12-16 18:11:39 - Añadido al camion #357 el pedido #8163197 (Huevos frescos (4 unidades)): 662
-2024-12-16 18:11:39 - Se ha creado el camión #358 para el pedido #6999130.
-2024-12-16 18:11:39 - Añadido al camion #358 el pedido #6999130 (Carne de ternera picada 500gr): 839
-2024-12-16 18:11:39 - Se ha creado el camión #359 para el pedido #6984516.
-2024-12-16 18:11:39 - Añadido al camion #359 el pedido #6984516 (Patatas para cocinar (1kg)): 828
-2024-12-16 18:11:39 - Añadido al camion #359 el pedido #5101838 (Patatas para cocinar (1kg)): 586
-2024-12-16 18:11:39 - Se ha creado el camión #360 para el pedido #5655095.
-2024-12-16 18:11:39 - Añadido al camion #360 el pedido #5655095 (Jamón serrano loncheado 150gr): 922
-2024-12-16 18:11:39 - Añadido al camion #360 el pedido #8796112 (Jamón serrano loncheado 150gr): 851
-2024-12-16 18:11:39 - Se ha creado el camión #361 para el pedido #8384238.
-2024-12-16 18:11:39 - Añadido al camion #361 el pedido #8384238 (Lechuga romana 1 unidad): 735
-2024-12-16 18:11:39 - Se ha creado el camión #362 para el pedido #9584991.
-2024-12-16 18:11:39 - Añadido al camion #362 el pedido #9584991 (Manzanas rojas (6 unidades, aprox. 1kg)): 745
-2024-12-16 18:11:39 - Se ha creado el camión #363 para el pedido #2469591.
-2024-12-16 18:11:39 - Añadido al camion #363 el pedido #2469591 (Jamón serrano loncheado 150gr): 820
-2024-12-16 18:11:39 - Se ha creado el camión #364 para el pedido #3501520.
-2024-12-16 18:11:39 - Añadido al camion #364 el pedido #3501520 (Carne de ternera picada 500gr): 751
-2024-12-16 18:11:39 - Se ha creado el camión #365 para el pedido #1815472.
-2024-12-16 18:11:39 - Añadido al camion #365 el pedido #1815472 (Patatas para cocinar (1kg)): 953
-2024-12-16 18:11:39 - Se ha creado el camión #366 para el pedido #6797257.
-2024-12-16 18:11:39 - Añadido al camion #366 el pedido #6797257 (Lechuga romana 1 unidad): 874
-2024-12-16 18:11:39 - Se ha creado el camión #367 para el pedido #3027798.
-2024-12-16 18:11:39 - Añadido al camion #367 el pedido #3027798 (Queso cheddar 200gr): 639
-2024-12-16 18:11:39 - Añadido al camion #367 el pedido #4108697 (Queso cheddar 200gr): 720
-2024-12-16 18:11:39 - Se ha creado el camión #368 para el pedido #5239233.
-2024-12-16 18:11:39 - Añadido al camion #368 el pedido #5239233 (Tomates maduros (aprox. 1kg)): 935
-2024-12-16 18:11:39 - Se ha creado el camión #369 para el pedido #5828703.
-2024-12-16 18:11:39 - Añadido al camion #369 el pedido #5828703 (Jamón serrano loncheado 150gr): 738
-2024-12-16 18:11:39 - Se ha creado el camión #370 para el pedido #8883774.
-2024-12-16 18:11:39 - Añadido al camion #370 el pedido #8883774 (Espinacas frescas en bolsa 300gr): 724
-2024-12-16 18:11:39 - Se ha creado el camión #371 para el pedido #1744738.
-2024-12-16 18:11:39 - Añadido al camion #371 el pedido #1744738 (Patatas para cocinar (1kg)): 849
-2024-12-16 18:11:39 - Se ha creado el camión #372 para el pedido #4221059.
-2024-12-16 18:11:39 - Añadido al camion #372 el pedido #4221059 (Yogur natural 4 unidades (125gr cada uno)): 749
-2024-12-16 18:11:39 - Se ha creado el camión #373 para el pedido #9089037.
-2024-12-16 18:11:39 - Añadido al camion #373 el pedido #9089037 (Fresas frescas (caja de 250gr)): 796
-2024-12-16 18:11:39 - Añadido al camion #373 el pedido #5748135 (Fresas frescas (caja de 250gr)): 719
-2024-12-16 18:11:39 - Se ha creado el camión #374 para el pedido #8360814.
-2024-12-16 18:11:39 - Añadido al camion #374 el pedido #8360814 (Plátanos maduros (6 unidades, aprox. 1kg)): 562
-2024-12-16 18:11:39 - Se ha creado el camión #375 para el pedido #3988842.
-2024-12-16 18:11:39 - Añadido al camion #375 el pedido #3988842 (Queso cheddar 200gr): 853
-2024-12-16 18:11:39 - Se ha creado el camión #376 para el pedido #1384928.
-2024-12-16 18:11:39 - Añadido al camion #376 el pedido #1384928 (Tocino ahumado en lonchas 200gr): 937
-2024-12-16 18:11:39 - Se ha creado el camión #377 para el pedido #9965054.
-2024-12-16 18:11:39 - Añadido al camion #377 el pedido #9965054 (Jamón serrano loncheado 150gr): 843
-2024-12-16 18:11:39 - Se ha creado el camión #378 para el pedido #6855645.
-2024-12-16 18:11:39 - Añadido al camion #378 el pedido #6855645 (Manzanas rojas (6 unidades, aprox. 1kg)): 560
-2024-12-16 18:11:39 - Se ha creado el camión #379 para el pedido #5623581.
-2024-12-16 18:11:39 - Añadido al camion #379 el pedido #5623581 (Jamón serrano loncheado 150gr): 835
-2024-12-16 18:11:39 - Se ha creado el camión #380 para el pedido #9688301.
-2024-12-16 18:11:39 - Añadido al camion #380 el pedido #9688301 (Manzanas rojas (6 unidades, aprox. 1kg)): 952
-2024-12-16 18:11:39 - Se ha creado el camión #381 para el pedido #1644511.
-2024-12-16 18:11:39 - Añadido al camion #381 el pedido #1644511 (Jamón serrano loncheado 150gr): 693
-2024-12-16 18:11:39 - Añadido al camion #381 el pedido #3445450 (Jamón serrano loncheado 150gr): 723
-2024-12-16 18:11:39 - Se ha creado el camión #382 para el pedido #9724272.
-2024-12-16 18:11:39 - Añadido al camion #382 el pedido #9724272 (Pan fresco de hogaza (500gr)): 953
-2024-12-16 18:11:39 - Añadido al camion #382 el pedido #5370948 (Pan fresco de hogaza (500gr)): 695
-2024-12-16 18:11:39 - Se ha creado el camión #383 para el pedido #5148355.
-2024-12-16 18:11:39 - Añadido al camion #383 el pedido #5148355 (Filetes de pescado blanco 500gr): 798
-2024-12-16 18:11:39 - Se ha creado el camión #384 para el pedido #9913776.
-2024-12-16 18:11:39 - Añadido al camion #384 el pedido #9913776 (Leche entera 500ml): 847
-2024-12-16 18:11:39 - Se ha creado el camión #385 para el pedido #5032327.
-2024-12-16 18:11:39 - Añadido al camion #385 el pedido #5032327 (Patatas para cocinar (1kg)): 628
-2024-12-16 18:11:39 - Se ha creado el camión #386 para el pedido #4282875.
-2024-12-16 18:11:39 - Añadido al camion #386 el pedido #4282875 (Tocino ahumado en lonchas 200gr): 921
-2024-12-16 18:11:39 - Se ha creado el camión #387 para el pedido #3529125.
-2024-12-16 18:11:39 - Añadido al camion #387 el pedido #3529125 (Yogur natural 4 unidades (125gr cada uno)): 842
-2024-12-16 18:11:39 - Se ha creado el camión #388 para el pedido #3656326.
-2024-12-16 18:11:39 - Añadido al camion #388 el pedido #3656326 (Pan fresco de hogaza (500gr)): 740
-2024-12-16 18:11:39 - Se ha creado el camión #389 para el pedido #8012060.
-2024-12-16 18:11:39 - Añadido al camion #389 el pedido #8012060 (Espinacas frescas en bolsa 300gr): 708
-2024-12-16 18:11:39 - Se ha creado el camión #390 para el pedido #6842860.
-2024-12-16 18:11:39 - Añadido al camion #390 el pedido #6842860 (Pechuga de pollo fresca 1kg): 587
-2024-12-16 18:11:39 - Se ha creado el camión #391 para el pedido #6827490.
-2024-12-16 18:11:39 - Añadido al camion #391 el pedido #6827490 (Cebollas amarillas (aprox. 1kg)): 648
-2024-12-16 18:11:39 - Se ha creado el camión #392 para el pedido #5090088.
-2024-12-16 18:11:39 - Añadido al camion #392 el pedido #5090088 (Espinacas frescas en bolsa 300gr): 919
-2024-12-16 18:11:39 - Se ha creado el camión #393 para el pedido #9257342.
-2024-12-16 18:11:39 - Añadido al camion #393 el pedido #9257342 (Fresas frescas (caja de 250gr)): 631
-2024-12-16 18:11:39 - Se ha creado el camión #394 para el pedido #3026258.
-2024-12-16 18:11:39 - Añadido al camion #394 el pedido #3026258 (Queso cheddar 200gr): 736
-2024-12-16 18:11:39 - Se ha creado el camión #395 para el pedido #9552627.
-2024-12-16 18:11:39 - Añadido al camion #395 el pedido #9552627 (Huevos frescos (4 unidades)): 962
-2024-12-16 18:11:39 - Se ha creado el camión #396 para el pedido #9909883.
-2024-12-16 18:11:39 - Añadido al camion #396 el pedido #9909883 (Plátanos maduros (6 unidades, aprox. 1kg)): 669
-2024-12-16 18:11:39 - Se ha creado el camión #397 para el pedido #7817497.
-2024-12-16 18:11:39 - Añadido al camion #397 el pedido #7817497 (Zanahorias frescas (500gr)): 830
-2024-12-16 18:11:39 - Se ha creado el camión #398 para el pedido #3859402.
-2024-12-16 18:11:39 - Añadido al camion #398 el pedido #3859402 (Espinacas frescas en bolsa 300gr): 892
-2024-12-16 18:11:39 - Se ha creado el camión #399 para el pedido #7989685.
-2024-12-16 18:11:39 - Añadido al camion #399 el pedido #7989685 (Pan fresco de hogaza (500gr)): 921
-2024-12-16 18:11:39 - Añadido al camion #399 el pedido #7708070 (Pan fresco de hogaza (500gr)): 810
-2024-12-16 18:11:39 - Se ha creado el camión #400 para el pedido #1933472.
-2024-12-16 18:11:39 - Añadido al camion #400 el pedido #1933472 (Zanahorias frescas (500gr)): 593
-2024-12-16 18:11:39 - Se ha creado el camión #401 para el pedido #5271399.
-2024-12-16 18:11:39 - Añadido al camion #401 el pedido #5271399 (Jamón serrano loncheado 150gr): 801
-2024-12-16 18:11:39 - Se ha creado el camión #402 para el pedido #2535135.
-2024-12-16 18:11:39 - Añadido al camion #402 el pedido #2535135 (Queso cheddar 200gr): 790
-2024-12-16 18:11:39 - Se ha creado el camión #403 para el pedido #8980539.
-2024-12-16 18:11:39 - Añadido al camion #403 el pedido #8980539 (Filetes de pescado blanco 500gr): 617
-2024-12-16 18:11:39 - Se ha creado el camión #404 para el pedido #8898252.
-2024-12-16 18:11:39 - Añadido al camion #404 el pedido #8898252 (Yogur natural 4 unidades (125gr cada uno)): 970
-2024-12-16 18:11:39 - Se ha creado el camión #405 para el pedido #6337117.
-2024-12-16 18:11:39 - Añadido al camion #405 el pedido #6337117 (Lechuga romana 1 unidad): 583
-2024-12-16 18:11:39 - Se ha creado el camión #406 para el pedido #4106030.
-2024-12-16 18:11:39 - Añadido al camion #406 el pedido #4106030 (Patatas para cocinar (1kg)): 778
-2024-12-16 18:11:39 - Se ha creado el camión #407 para el pedido #6618500.
-2024-12-16 18:11:39 - Añadido al camion #407 el pedido #6618500 (Pechuga de pollo fresca 1kg): 622
-2024-12-16 18:11:39 - Se ha creado el camión #408 para el pedido #5289042.
-2024-12-16 18:11:39 - Añadido al camion #408 el pedido #5289042 (Mantequilla 100gr): 611
-2024-12-16 18:11:39 - Se ha creado el camión #409 para el pedido #7190506.
-2024-12-16 18:11:39 - Añadido al camion #409 el pedido #7190506 (Manzanas rojas (6 unidades, aprox. 1kg)): 658
-2024-12-16 18:11:39 - Se ha creado el camión #410 para el pedido #3184266.
-2024-12-16 18:11:39 - Añadido al camion #410 el pedido #3184266 (Espinacas frescas en bolsa 300gr): 598
-2024-12-16 18:11:39 - Se ha creado el camión #411 para el pedido #5693339.
-2024-12-16 18:11:39 - Añadido al camion #411 el pedido #5693339 (Queso cheddar 200gr): 627
-2024-12-16 18:11:39 - Se ha creado el camión #412 para el pedido #9645596.
-2024-12-16 18:11:39 - Añadido al camion #412 el pedido #9645596 (Huevos frescos (4 unidades)): 923
-2024-12-16 18:11:39 - Se ha creado el camión #413 para el pedido #2283929.
-2024-12-16 18:11:39 - Añadido al camion #413 el pedido #2283929 (Zanahorias frescas (500gr)): 838
-2024-12-16 18:11:39 - Se ha creado el camión #414 para el pedido #6315442.
-2024-12-16 18:11:39 - Añadido al camion #414 el pedido #6315442 (Mantequilla 100gr): 965
-2024-12-16 18:11:39 - Se ha creado el camión #415 para el pedido #4374339.
-2024-12-16 18:11:39 - Añadido al camion #415 el pedido #4374339 (Espinacas frescas en bolsa 300gr): 791
-2024-12-16 18:11:39 - Se ha creado el camión #416 para el pedido #2707089.
-2024-12-16 18:11:39 - Añadido al camion #416 el pedido #2707089 (Pechuga de pollo fresca 1kg): 626
-2024-12-16 18:11:39 - Se ha creado el camión #417 para el pedido #8320870.
-2024-12-16 18:11:39 - Añadido al camion #417 el pedido #8320870 (Tomates maduros (aprox. 1kg)): 652
-2024-12-16 18:11:39 - Se ha creado el camión #418 para el pedido #9306209.
-2024-12-16 18:11:39 - Añadido al camion #418 el pedido #9306209 (Patatas para cocinar (1kg)): 909
-2024-12-16 18:11:39 - Se ha creado el camión #419 para el pedido #2784000.
-2024-12-16 18:11:39 - Añadido al camion #419 el pedido #2784000 (Manzanas rojas (6 unidades, aprox. 1kg)): 638
-2024-12-16 18:11:39 - Se ha creado el camión #420 para el pedido #9759405.
-2024-12-16 18:11:39 - Añadido al camion #420 el pedido #9759405 (Patatas para cocinar (1kg)): 817
-2024-12-16 18:11:39 - Se ha creado el camión #421 para el pedido #2855259.
-2024-12-16 18:11:39 - Añadido al camion #421 el pedido #2855259 (Tomates maduros (aprox. 1kg)): 973
-2024-12-16 18:11:39 - Se ha creado el camión #422 para el pedido #2998228.
-2024-12-16 18:11:39 - Añadido al camion #422 el pedido #2998228 (Plátanos maduros (6 unidades, aprox. 1kg)): 793
-2024-12-16 18:11:39 - Se ha creado el camión #423 para el pedido #6539569.
-2024-12-16 18:11:39 - Añadido al camion #423 el pedido #6539569 (Tomates maduros (aprox. 1kg)): 936
-2024-12-16 18:11:39 - Se ha creado el camión #424 para el pedido #2304870.
-2024-12-16 18:11:39 - Añadido al camion #424 el pedido #2304870 (Mantequilla 100gr): 914
-2024-12-16 18:11:39 - Se ha creado el camión #425 para el pedido #3905133.
-2024-12-16 18:11:39 - Añadido al camion #425 el pedido #3905133 (Patatas para cocinar (1kg)): 688
-2024-12-16 18:11:39 - Se ha creado el camión #426 para el pedido #4837161.
-2024-12-16 18:11:39 - Añadido al camion #426 el pedido #4837161 (Pan fresco de hogaza (500gr)): 688
-2024-12-16 18:11:39 - Se ha creado el camión #427 para el pedido #1136654.
-2024-12-16 18:11:39 - Añadido al camion #427 el pedido #1136654 (Cebollas amarillas (aprox. 1kg)): 982
-2024-12-16 18:11:39 - Se ha creado el camión #428 para el pedido #7802954.
-2024-12-16 18:11:39 - Añadido al camion #428 el pedido #7802954 (Leche entera 500ml): 700
-2024-12-16 18:11:39 - Se ha creado el camión #429 para el pedido #3931645.
-2024-12-16 18:11:39 - Añadido al camion #429 el pedido #3931645 (Yogur natural 4 unidades (125gr cada uno)): 944
-2024-12-16 18:11:39 - Se ha creado el camión #430 para el pedido #9062479.
-2024-12-16 18:11:39 - Añadido al camion #430 el pedido #9062479 (Queso cheddar 200gr): 614
-2024-12-16 18:11:39 - Se ha creado el camión #431 para el pedido #9484744.
-2024-12-16 18:11:39 - Añadido al camion #431 el pedido #9484744 (Pan fresco de hogaza (500gr)): 712
-2024-12-16 18:11:39 - Se ha creado el camión #432 para el pedido #4586745.
-2024-12-16 18:11:39 - Añadido al camion #432 el pedido #4586745 (Lechuga romana 1 unidad): 975
-2024-12-16 18:11:39 - Se ha creado el camión #433 para el pedido #4666115.
-2024-12-16 18:11:39 - Añadido al camion #433 el pedido #4666115 (Pan fresco de hogaza (500gr)): 720
-2024-12-16 18:11:39 - Se ha creado el camión #434 para el pedido #3695543.
-2024-12-16 18:11:39 - Añadido al camion #434 el pedido #3695543 (Tocino ahumado en lonchas 200gr): 599
-2024-12-16 18:11:39 - Se ha creado el camión #435 para el pedido #2763925.
-2024-12-16 18:11:39 - Añadido al camion #435 el pedido #2763925 (Cebollas amarillas (aprox. 1kg)): 833
-2024-12-16 18:11:39 - Se ha creado el camión #436 para el pedido #1564936.
-2024-12-16 18:11:39 - Añadido al camion #436 el pedido #1564936 (Filetes de pescado blanco 500gr): 580
-2024-12-16 18:11:39 - Se ha creado el camión #437 para el pedido #3981301.
-2024-12-16 18:11:39 - Añadido al camion #437 el pedido #3981301 (Pan fresco de hogaza (500gr)): 875
-2024-12-16 18:11:39 - Se ha creado el camión #438 para el pedido #1615692.
-2024-12-16 18:11:39 - Añadido al camion #438 el pedido #1615692 (Tocino ahumado en lonchas 200gr): 895
-2024-12-16 18:11:39 - Se ha creado el camión #439 para el pedido #2389083.
-2024-12-16 18:11:39 - Añadido al camion #439 el pedido #2389083 (Yogur natural 4 unidades (125gr cada uno)): 844
-2024-12-16 18:11:39 - Se ha creado el camión #440 para el pedido #1329747.
-2024-12-16 18:11:39 - Añadido al camion #440 el pedido #1329747 (Leche entera 500ml): 758
-2024-12-16 18:11:39 - Se ha creado el camión #441 para el pedido #3551213.
-2024-12-16 18:11:39 - Añadido al camion #441 el pedido #3551213 (Tocino ahumado en lonchas 200gr): 664
-2024-12-16 18:11:39 - Se ha creado el camión #442 para el pedido #1269776.
-2024-12-16 18:11:39 - Añadido al camion #442 el pedido #1269776 (Mantequilla 100gr): 724
-2024-12-16 18:11:39 - Se ha creado el camión #443 para el pedido #7587845.
-2024-12-16 18:11:39 - Añadido al camion #443 el pedido #7587845 (Pechuga de pollo fresca 1kg): 987
-2024-12-16 18:11:39 - Se ha creado el camión #444 para el pedido #7994835.
-2024-12-16 18:11:39 - Añadido al camion #444 el pedido #7994835 (Leche entera 500ml): 828
-2024-12-16 18:11:39 - Se ha creado el camión #445 para el pedido #4982452.
-2024-12-16 18:11:39 - Añadido al camion #445 el pedido #4982452 (Lechuga romana 1 unidad): 820
-2024-12-16 18:11:39 - Se ha creado el camión #446 para el pedido #6085441.
-2024-12-16 18:11:39 - Añadido al camion #446 el pedido #6085441 (Zanahorias frescas (500gr)): 650
-2024-12-16 18:11:39 - Se ha creado el camión #447 para el pedido #2799949.
-2024-12-16 18:11:39 - Añadido al camion #447 el pedido #2799949 (Tocino ahumado en lonchas 200gr): 773
-2024-12-16 18:11:39 - Se ha creado el camión #448 para el pedido #4907279.
-2024-12-16 18:11:39 - Añadido al camion #448 el pedido #4907279 (Mantequilla 100gr): 598
-2024-12-16 18:11:39 - Se ha creado el camión #449 para el pedido #8270824.
-2024-12-16 18:11:39 - Añadido al camion #449 el pedido #8270824 (Filetes de pescado blanco 500gr): 624
-2024-12-16 18:11:39 - Se ha creado el camión #450 para el pedido #7520186.
-2024-12-16 18:11:39 - Añadido al camion #450 el pedido #7520186 (Yogur natural 4 unidades (125gr cada uno)): 734
-2024-12-16 18:11:39 - Se ha creado el camión #451 para el pedido #1908754.
-2024-12-16 18:11:39 - Añadido al camion #451 el pedido #1908754 (Pechuga de pollo fresca 1kg): 625
-2024-12-16 18:11:39 - Se ha creado el camión #452 para el pedido #8575278.
-2024-12-16 18:11:39 - Añadido al camion #452 el pedido #8575278 (Espinacas frescas en bolsa 300gr): 736
-2024-12-16 18:11:39 - Se ha creado el camión #453 para el pedido #5917242.
-2024-12-16 18:11:39 - Añadido al camion #453 el pedido #5917242 (Pechuga de pollo fresca 1kg): 955
-2024-12-16 18:11:39 - Se ha creado el camión #454 para el pedido #5385254.
-2024-12-16 18:11:39 - Añadido al camion #454 el pedido #5385254 (Fresas frescas (caja de 250gr)): 603
-2024-12-16 18:11:39 - Añadido al camion #454 el pedido #5445864 (Fresas frescas (caja de 250gr)): 970
-2024-12-16 18:11:39 - Se ha creado el camión #455 para el pedido #3511373.
-2024-12-16 18:11:39 - Añadido al camion #455 el pedido #3511373 (Patatas para cocinar (1kg)): 777
-2024-12-16 18:11:39 - Se ha creado el camión #456 para el pedido #3352584.
-2024-12-16 18:11:39 - Añadido al camion #456 el pedido #3352584 (Plátanos maduros (6 unidades, aprox. 1kg)): 882
-2024-12-16 18:11:39 - Se ha creado el camión #457 para el pedido #4851219.
-2024-12-16 18:11:39 - Añadido al camion #457 el pedido #4851219 (Mantequilla 100gr): 607
-2024-12-16 18:11:39 - Se ha creado el camión #458 para el pedido #2232810.
-2024-12-16 18:11:39 - Añadido al camion #458 el pedido #2232810 (Fresas frescas (caja de 250gr)): 788
-2024-12-16 18:11:39 - Se ha creado el camión #459 para el pedido #6084915.
-2024-12-16 18:11:39 - Añadido al camion #459 el pedido #6084915 (Cebollas amarillas (aprox. 1kg)): 679
-2024-12-16 18:11:39 - Se ha creado el camión #460 para el pedido #6925569.
-2024-12-16 18:11:39 - Añadido al camion #460 el pedido #6925569 (Pan fresco de hogaza (500gr)): 838
-2024-12-16 18:11:39 - Se ha creado el camión #461 para el pedido #3899068.
-2024-12-16 18:11:39 - Añadido al camion #461 el pedido #3899068 (Cebollas amarillas (aprox. 1kg)): 676
-2024-12-16 18:11:39 - Se ha creado el camión #462 para el pedido #3143934.
-2024-12-16 18:11:39 - Añadido al camion #462 el pedido #3143934 (Mantequilla 100gr): 722
-2024-12-16 18:11:39 - Se ha creado el camión #463 para el pedido #9223447.
-2024-12-16 18:11:39 - Añadido al camion #463 el pedido #9223447 (Leche entera 500ml): 741
-2024-12-16 18:11:39 - Se ha creado el camión #464 para el pedido #4273427.
-2024-12-16 18:11:39 - Añadido al camion #464 el pedido #4273427 (Plátanos maduros (6 unidades, aprox. 1kg)): 979
-2024-12-16 18:11:39 - Se ha creado el camión #465 para el pedido #4540935.
-2024-12-16 18:11:39 - Añadido al camion #465 el pedido #4540935 (Jamón serrano loncheado 150gr): 904
-2024-12-16 18:11:39 - Se ha creado el camión #466 para el pedido #7113372.
-2024-12-16 18:11:39 - Añadido al camion #466 el pedido #7113372 (Cebollas amarillas (aprox. 1kg)): 915
-2024-12-16 18:11:39 - Añadido al camion #466 el pedido #8284736 (Cebollas amarillas (aprox. 1kg)): 552
-2024-12-16 18:11:39 - Añadido al camion #466 el pedido #6540513 (Cebollas amarillas (aprox. 1kg)): 932
-2024-12-16 18:11:39 - Se ha creado el camión #467 para el pedido #5340665.
-2024-12-16 18:11:39 - Añadido al camion #467 el pedido #5340665 (Tocino ahumado en lonchas 200gr): 596
-2024-12-16 18:11:39 - Se ha creado el camión #468 para el pedido #3159939.
-2024-12-16 18:11:39 - Añadido al camion #468 el pedido #3159939 (Lechuga romana 1 unidad): 795
-2024-12-16 18:11:39 - Se ha creado el camión #469 para el pedido #6574932.
-2024-12-16 18:11:39 - Añadido al camion #469 el pedido #6574932 (Filetes de pescado blanco 500gr): 862
-2024-12-16 18:11:39 - Añadido al camion #469 el pedido #1894589 (Filetes de pescado blanco 500gr): 748
-2024-12-16 18:11:39 - Se ha creado el camión #470 para el pedido #9904623.
-2024-12-16 18:11:39 - Añadido al camion #470 el pedido #9904623 (Manzanas rojas (6 unidades, aprox. 1kg)): 758
-2024-12-16 18:11:39 - Se ha creado el camión #471 para el pedido #5126594.
-2024-12-16 18:11:39 - Añadido al camion #471 el pedido #5126594 (Mantequilla 100gr): 743
-2024-12-16 18:11:39 - Se ha creado el camión #472 para el pedido #3609073.
-2024-12-16 18:11:39 - Añadido al camion #472 el pedido #3609073 (Leche entera 500ml): 878
-2024-12-16 18:11:39 - Se ha combinado el camión #218 con el camión #163.
-2024-12-16 18:11:39 - Se ha combinado el camión #358 con el camión #355.
-2024-12-16 18:11:39 - Se ha combinado el camión #367 con el camión #360.
+2024-12-17 17:18:57 - Se ha creado el camión #1 para el pedido #2328737.
+2024-12-17 17:18:57 - Añadido al camion #1 el pedido #2328737 (Leche entera 500ml): 698
+2024-12-17 17:18:57 - Añadido al camion #1 el pedido #8347717 (Leche entera 500ml): 608
+2024-12-17 17:18:57 - Añadido al camion #1 el pedido #9983178 (Leche entera 500ml): 847
+2024-12-17 17:18:57 - Se ha creado el camión #2 para el pedido #4670006.
+2024-12-17 17:18:57 - Añadido al camion #2 el pedido #4670006 (Leche entera 500ml): 850
+2024-12-17 17:18:57 - Añadido al camion #2 el pedido #3916232 (Leche entera 500ml): 967
+2024-12-17 17:18:57 - Añadido al camion #2 el pedido #7184385 (Leche entera 500ml): 977
+2024-12-17 17:18:57 - Se ha creado el camión #3 para el pedido #1307372.
+2024-12-17 17:18:57 - Añadido al camion #3 el pedido #1307372 (Leche entera 500ml): 556
+2024-12-17 17:18:57 - Añadido al camion #3 el pedido #1305936 (Leche entera 500ml): 650
+2024-12-17 17:18:57 - Añadido al camion #3 el pedido #9617979 (Leche entera 500ml): 944
+2024-12-17 17:18:57 - Añadido al camion #3 el pedido #4276166 (Leche entera 500ml): 752
+2024-12-17 17:18:57 - Se ha creado el camión #4 para el pedido #1784288.
+2024-12-17 17:18:57 - Añadido al camion #4 el pedido #1784288 (Leche entera 500ml): 3000
+2024-12-17 17:18:57 - Se ha creado el camión #5 para el pedido #1784288.
+2024-12-17 17:18:57 - Añadido al camion #5 el pedido #1784288 (Leche entera 500ml): 137
+2024-12-17 17:18:57 - Añadido al camion #5 el pedido #6189739 (Leche entera 500ml): 891
+2024-12-17 17:18:57 - Añadido al camion #5 el pedido #9389119 (Leche entera 500ml): 951
+2024-12-17 17:18:57 - Añadido al camion #5 el pedido #2564111 (Leche entera 500ml): 832
+2024-12-17 17:18:57 - Se ha creado el camión #6 para el pedido #1012150.
+2024-12-17 17:18:57 - Añadido al camion #6 el pedido #1012150 (Leche entera 500ml): 1814
+2024-12-17 17:18:57 - Se ha creado el camión #7 para el pedido #3155601.
+2024-12-17 17:18:57 - Añadido al camion #7 el pedido #3155601 (Tocino ahumado en lonchas 200gr): 1790
+2024-12-17 17:18:57 - Añadido al camion #7 el pedido #1752347 (Tocino ahumado en lonchas 200gr): 871
+2024-12-17 17:18:57 - Se ha creado el camión #8 para el pedido #5122898.
+2024-12-17 17:18:57 - Añadido al camion #8 el pedido #5122898 (Tocino ahumado en lonchas 200gr): 578
+2024-12-17 17:18:57 - Añadido al camion #8 el pedido #7682548 (Tocino ahumado en lonchas 200gr): 714
+2024-12-17 17:18:57 - Añadido al camion #8 el pedido #6944289 (Tocino ahumado en lonchas 200gr): 903
+2024-12-17 17:18:57 - Se ha creado el camión #9 para el pedido #2281729.
+2024-12-17 17:18:57 - Añadido al camion #9 el pedido #2281729 (Tocino ahumado en lonchas 200gr): 989
+2024-12-17 17:18:57 - Añadido al camion #9 el pedido #8833386 (Tocino ahumado en lonchas 200gr): 818
+2024-12-17 17:18:57 - Añadido al camion #9 el pedido #7311979 (Tocino ahumado en lonchas 200gr): 984
+2024-12-17 17:18:57 - Se ha creado el camión #10 para el pedido #4175224.
+2024-12-17 17:18:57 - Añadido al camion #10 el pedido #4175224 (Tocino ahumado en lonchas 200gr): 805
+2024-12-17 17:18:57 - Añadido al camion #10 el pedido #3300673 (Tocino ahumado en lonchas 200gr): 801
+2024-12-17 17:18:57 - Añadido al camion #10 el pedido #4234557 (Tocino ahumado en lonchas 200gr): 650
+2024-12-17 17:18:57 - Añadido al camion #10 el pedido #2404383 (Tocino ahumado en lonchas 200gr): 674
+2024-12-17 17:18:57 - Se ha creado el camión #11 para el pedido #5799799.
+2024-12-17 17:18:57 - Añadido al camion #11 el pedido #5799799 (Tocino ahumado en lonchas 200gr): 854
+2024-12-17 17:18:57 - Añadido al camion #11 el pedido #8258992 (Tocino ahumado en lonchas 200gr): 782
+2024-12-17 17:18:57 - Añadido al camion #11 el pedido #8722764 (Tocino ahumado en lonchas 200gr): 826
+2024-12-17 17:18:57 - Se ha creado el camión #12 para el pedido #3334860.
+2024-12-17 17:18:57 - Añadido al camion #12 el pedido #3334860 (Tocino ahumado en lonchas 200gr): 837
+2024-12-17 17:18:57 - Añadido al camion #12 el pedido #2175696 (Tocino ahumado en lonchas 200gr): 619
+2024-12-17 17:18:57 - Añadido al camion #12 el pedido #5996957 (Tocino ahumado en lonchas 200gr): 850
+2024-12-17 17:18:57 - Se ha creado el camión #13 para el pedido #3063610.
+2024-12-17 17:18:57 - Añadido al camion #13 el pedido #3063610 (Tocino ahumado en lonchas 200gr): 890
+2024-12-17 17:18:57 - Se ha creado el camión #14 para el pedido #2176686.
+2024-12-17 17:18:57 - Añadido al camion #14 el pedido #2176686 (Manzanas rojas (6 unidades, aprox. 1kg)): 658
+2024-12-17 17:18:57 - Añadido al camion #14 el pedido #5658703 (Manzanas rojas (6 unidades, aprox. 1kg)): 653
+2024-12-17 17:18:57 - Añadido al camion #14 el pedido #3074265 (Manzanas rojas (6 unidades, aprox. 1kg)): 1235
+2024-12-17 17:18:57 - Se ha creado el camión #15 para el pedido #6433000.
+2024-12-17 17:18:57 - Añadido al camion #15 el pedido #6433000 (Manzanas rojas (6 unidades, aprox. 1kg)): 927
+2024-12-17 17:18:57 - Añadido al camion #15 el pedido #5693619 (Manzanas rojas (6 unidades, aprox. 1kg)): 964
+2024-12-17 17:18:57 - Añadido al camion #15 el pedido #9693296 (Manzanas rojas (6 unidades, aprox. 1kg)): 927
+2024-12-17 17:18:57 - Se ha creado el camión #16 para el pedido #9053564.
+2024-12-17 17:18:57 - Añadido al camion #16 el pedido #9053564 (Manzanas rojas (6 unidades, aprox. 1kg)): 984
+2024-12-17 17:18:57 - Añadido al camion #16 el pedido #5189672 (Manzanas rojas (6 unidades, aprox. 1kg)): 1564
+2024-12-17 17:18:57 - Se ha creado el camión #17 para el pedido #5284228.
+2024-12-17 17:18:57 - Añadido al camion #17 el pedido #5284228 (Manzanas rojas (6 unidades, aprox. 1kg)): 811
+2024-12-17 17:18:57 - Añadido al camion #17 el pedido #6093587 (Manzanas rojas (6 unidades, aprox. 1kg)): 978
+2024-12-17 17:18:57 - Añadido al camion #17 el pedido #9358120 (Manzanas rojas (6 unidades, aprox. 1kg)): 883
+2024-12-17 17:18:57 - Se ha creado el camión #18 para el pedido #6479915.
+2024-12-17 17:18:57 - Añadido al camion #18 el pedido #6479915 (Manzanas rojas (6 unidades, aprox. 1kg)): 727
+2024-12-17 17:18:57 - Añadido al camion #18 el pedido #3171006 (Manzanas rojas (6 unidades, aprox. 1kg)): 580
+2024-12-17 17:18:57 - Añadido al camion #18 el pedido #8078221 (Manzanas rojas (6 unidades, aprox. 1kg)): 592
+2024-12-17 17:18:57 - Añadido al camion #18 el pedido #3045984 (Manzanas rojas (6 unidades, aprox. 1kg)): 974
+2024-12-17 17:18:57 - Se ha creado el camión #19 para el pedido #6307040.
+2024-12-17 17:18:57 - Añadido al camion #19 el pedido #6307040 (Manzanas rojas (6 unidades, aprox. 1kg)): 804
+2024-12-17 17:18:57 - Añadido al camion #19 el pedido #2852141 (Manzanas rojas (6 unidades, aprox. 1kg)): 570
+2024-12-17 17:18:57 - Añadido al camion #19 el pedido #5734484 (Manzanas rojas (6 unidades, aprox. 1kg)): 592
+2024-12-17 17:18:57 - Añadido al camion #19 el pedido #5846593 (Manzanas rojas (6 unidades, aprox. 1kg)): 562
+2024-12-17 17:18:57 - Se ha creado el camión #20 para el pedido #7292912.
+2024-12-17 17:18:57 - Añadido al camion #20 el pedido #7292912 (Manzanas rojas (6 unidades, aprox. 1kg)): 1712
+2024-12-17 17:18:57 - Añadido al camion #20 el pedido #6418142 (Manzanas rojas (6 unidades, aprox. 1kg)): 773
+2024-12-17 17:18:57 - Se ha creado el camión #21 para el pedido #2021274.
+2024-12-17 17:18:57 - Añadido al camion #21 el pedido #2021274 (Manzanas rojas (6 unidades, aprox. 1kg)): 796
+2024-12-17 17:18:57 - Añadido al camion #21 el pedido #9960349 (Manzanas rojas (6 unidades, aprox. 1kg)): 671
+2024-12-17 17:18:57 - Añadido al camion #21 el pedido #4967000 (Manzanas rojas (6 unidades, aprox. 1kg)): 754
+2024-12-17 17:18:57 - Se ha creado el camión #22 para el pedido #4603120.
+2024-12-17 17:18:57 - Añadido al camion #22 el pedido #4603120 (Manzanas rojas (6 unidades, aprox. 1kg)): 832
+2024-12-17 17:18:57 - Añadido al camion #22 el pedido #1136902 (Manzanas rojas (6 unidades, aprox. 1kg)): 652
+2024-12-17 17:18:57 - Añadido al camion #22 el pedido #6504733 (Manzanas rojas (6 unidades, aprox. 1kg)): 1415
+2024-12-17 17:18:57 - Se ha creado el camión #23 para el pedido #7227110.
+2024-12-17 17:18:57 - Añadido al camion #23 el pedido #7227110 (Manzanas rojas (6 unidades, aprox. 1kg)): 921
+2024-12-17 17:18:57 - Se ha creado el camión #24 para el pedido #6497615.
+2024-12-17 17:18:57 - Añadido al camion #24 el pedido #6497615 (Plátanos maduros (6 unidades, aprox. 1kg)): 828
+2024-12-17 17:18:57 - Añadido al camion #24 el pedido #7735647 (Plátanos maduros (6 unidades, aprox. 1kg)): 862
+2024-12-17 17:18:57 - Añadido al camion #24 el pedido #4646141 (Plátanos maduros (6 unidades, aprox. 1kg)): 834
+2024-12-17 17:18:57 - Se ha creado el camión #25 para el pedido #6955122.
+2024-12-17 17:18:57 - Añadido al camion #25 el pedido #6955122 (Plátanos maduros (6 unidades, aprox. 1kg)): 837
+2024-12-17 17:18:57 - Añadido al camion #25 el pedido #5797056 (Plátanos maduros (6 unidades, aprox. 1kg)): 661
+2024-12-17 17:18:57 - Añadido al camion #25 el pedido #6308850 (Plátanos maduros (6 unidades, aprox. 1kg)): 720
+2024-12-17 17:18:57 - Añadido al camion #25 el pedido #9009000 (Plátanos maduros (6 unidades, aprox. 1kg)): 594
+2024-12-17 17:18:57 - Se ha creado el camión #26 para el pedido #2640704.
+2024-12-17 17:18:57 - Añadido al camion #26 el pedido #2640704 (Plátanos maduros (6 unidades, aprox. 1kg)): 766
+2024-12-17 17:18:57 - Añadido al camion #26 el pedido #1254086 (Plátanos maduros (6 unidades, aprox. 1kg)): 1277
+2024-12-17 17:18:57 - Añadido al camion #26 el pedido #7214048 (Plátanos maduros (6 unidades, aprox. 1kg)): 750
+2024-12-17 17:18:57 - Se ha creado el camión #27 para el pedido #6216381.
+2024-12-17 17:18:57 - Añadido al camion #27 el pedido #6216381 (Plátanos maduros (6 unidades, aprox. 1kg)): 949
+2024-12-17 17:18:57 - Añadido al camion #27 el pedido #8138146 (Plátanos maduros (6 unidades, aprox. 1kg)): 807
+2024-12-17 17:18:57 - Añadido al camion #27 el pedido #7318572 (Plátanos maduros (6 unidades, aprox. 1kg)): 814
+2024-12-17 17:18:57 - Se ha creado el camión #28 para el pedido #8198413.
+2024-12-17 17:18:57 - Añadido al camion #28 el pedido #8198413 (Plátanos maduros (6 unidades, aprox. 1kg)): 910
+2024-12-17 17:18:57 - Añadido al camion #28 el pedido #3991990 (Plátanos maduros (6 unidades, aprox. 1kg)): 765
+2024-12-17 17:18:57 - Añadido al camion #28 el pedido #6151801 (Plátanos maduros (6 unidades, aprox. 1kg)): 856
+2024-12-17 17:18:57 - Se ha creado el camión #29 para el pedido #7997432.
+2024-12-17 17:18:57 - Añadido al camion #29 el pedido #7997432 (Plátanos maduros (6 unidades, aprox. 1kg)): 633
+2024-12-17 17:18:57 - Añadido al camion #29 el pedido #5515925 (Plátanos maduros (6 unidades, aprox. 1kg)): 664
+2024-12-17 17:18:57 - Añadido al camion #29 el pedido #6278031 (Plátanos maduros (6 unidades, aprox. 1kg)): 809
+2024-12-17 17:18:57 - Se ha creado el camión #30 para el pedido #9606584.
+2024-12-17 17:18:57 - Añadido al camion #30 el pedido #9606584 (Plátanos maduros (6 unidades, aprox. 1kg)): 973
+2024-12-17 17:18:57 - Añadido al camion #30 el pedido #3626869 (Plátanos maduros (6 unidades, aprox. 1kg)): 1459
+2024-12-17 17:18:57 - Se ha creado el camión #31 para el pedido #1946633.
+2024-12-17 17:18:57 - Añadido al camion #31 el pedido #1946633 (Fresas frescas (caja de 250gr)): 573
+2024-12-17 17:18:57 - Añadido al camion #31 el pedido #7900089 (Fresas frescas (caja de 250gr)): 989
+2024-12-17 17:18:57 - Añadido al camion #31 el pedido #9594591 (Fresas frescas (caja de 250gr)): 936
+2024-12-17 17:18:57 - Se ha creado el camión #32 para el pedido #1232808.
+2024-12-17 17:18:57 - Añadido al camion #32 el pedido #1232808 (Fresas frescas (caja de 250gr)): 712
+2024-12-17 17:18:57 - Añadido al camion #32 el pedido #1764953 (Fresas frescas (caja de 250gr)): 1557
+2024-12-17 17:18:57 - Se ha creado el camión #33 para el pedido #2649067.
+2024-12-17 17:18:57 - Añadido al camion #33 el pedido #2649067 (Fresas frescas (caja de 250gr)): 1591
+2024-12-17 17:18:57 - Añadido al camion #33 el pedido #4378463 (Fresas frescas (caja de 250gr)): 815
+2024-12-17 17:18:57 - Se ha creado el camión #34 para el pedido #7437603.
+2024-12-17 17:18:57 - Añadido al camion #34 el pedido #7437603 (Fresas frescas (caja de 250gr)): 797
+2024-12-17 17:18:57 - Se ha creado el camión #35 para el pedido #5291486.
+2024-12-17 17:18:57 - Añadido al camion #35 el pedido #5291486 (Fresas frescas (caja de 250gr)): 2482
+2024-12-17 17:18:57 - Se ha creado el camión #36 para el pedido #5216722.
+2024-12-17 17:18:57 - Añadido al camion #36 el pedido #5216722 (Fresas frescas (caja de 250gr)): 769
+2024-12-17 17:18:57 - Añadido al camion #36 el pedido #9097630 (Fresas frescas (caja de 250gr)): 723
+2024-12-17 17:18:57 - Añadido al camion #36 el pedido #1368429 (Fresas frescas (caja de 250gr)): 642
+2024-12-17 17:18:57 - Añadido al camion #36 el pedido #6084018 (Fresas frescas (caja de 250gr)): 551
+2024-12-17 17:18:57 - Se ha creado el camión #37 para el pedido #1964162.
+2024-12-17 17:18:57 - Añadido al camion #37 el pedido #1964162 (Fresas frescas (caja de 250gr)): 1578
+2024-12-17 17:18:57 - Añadido al camion #37 el pedido #8198825 (Fresas frescas (caja de 250gr)): 583
+2024-12-17 17:18:57 - Se ha creado el camión #38 para el pedido #1724374.
+2024-12-17 17:18:57 - Añadido al camion #38 el pedido #1724374 (Fresas frescas (caja de 250gr)): 919
+2024-12-17 17:18:57 - Añadido al camion #38 el pedido #1527828 (Fresas frescas (caja de 250gr)): 578
+2024-12-17 17:18:57 - Añadido al camion #38 el pedido #4060791 (Fresas frescas (caja de 250gr)): 915
+2024-12-17 17:18:57 - Se ha creado el camión #39 para el pedido #2775417.
+2024-12-17 17:18:57 - Añadido al camion #39 el pedido #2775417 (Fresas frescas (caja de 250gr)): 676
+2024-12-17 17:18:57 - Añadido al camion #39 el pedido #8681730 (Fresas frescas (caja de 250gr)): 712
+2024-12-17 17:18:57 - Se ha creado el camión #40 para el pedido #1046835.
+2024-12-17 17:18:57 - Añadido al camion #40 el pedido #1046835 (Fresas frescas (caja de 250gr)): 3000
+2024-12-17 17:18:57 - Se ha creado el camión #41 para el pedido #1046835.
+2024-12-17 17:18:57 - Añadido al camion #41 el pedido #1046835 (Fresas frescas (caja de 250gr)): 347
+2024-12-17 17:18:57 - Añadido al camion #41 el pedido #8669105 (Fresas frescas (caja de 250gr)): 689
+2024-12-17 17:18:57 - Se ha creado el camión #42 para el pedido #3062147.
+2024-12-17 17:18:57 - Añadido al camion #42 el pedido #3062147 (Espinacas frescas en bolsa 300gr): 1778
+2024-12-17 17:18:57 - Añadido al camion #42 el pedido #7333798 (Espinacas frescas en bolsa 300gr): 939
+2024-12-17 17:18:57 - Se ha creado el camión #43 para el pedido #1676811.
+2024-12-17 17:18:57 - Añadido al camion #43 el pedido #1676811 (Espinacas frescas en bolsa 300gr): 2295
+2024-12-17 17:18:57 - Se ha creado el camión #44 para el pedido #8754958.
+2024-12-17 17:18:57 - Añadido al camion #44 el pedido #8754958 (Espinacas frescas en bolsa 300gr): 855
+2024-12-17 17:18:57 - Añadido al camion #44 el pedido #5517204 (Espinacas frescas en bolsa 300gr): 581
+2024-12-17 17:18:57 - Se ha creado el camión #45 para el pedido #2032001.
+2024-12-17 17:18:57 - Añadido al camion #45 el pedido #2032001 (Espinacas frescas en bolsa 300gr): 1661
+2024-12-17 17:18:57 - Añadido al camion #45 el pedido #6319425 (Espinacas frescas en bolsa 300gr): 623
+2024-12-17 17:18:57 - Se ha creado el camión #46 para el pedido #8062456.
+2024-12-17 17:18:57 - Añadido al camion #46 el pedido #8062456 (Espinacas frescas en bolsa 300gr): 884
+2024-12-17 17:18:57 - Añadido al camion #46 el pedido #3400238 (Espinacas frescas en bolsa 300gr): 830
+2024-12-17 17:18:57 - Se ha creado el camión #47 para el pedido #6068428.
+2024-12-17 17:18:57 - Añadido al camion #47 el pedido #6068428 (Espinacas frescas en bolsa 300gr): 1482
+2024-12-17 17:18:57 - Añadido al camion #47 el pedido #1789220 (Espinacas frescas en bolsa 300gr): 873
+2024-12-17 17:18:57 - Añadido al camion #47 el pedido #9481496 (Espinacas frescas en bolsa 300gr): 583
+2024-12-17 17:18:57 - Se ha creado el camión #48 para el pedido #4341938.
+2024-12-17 17:18:57 - Añadido al camion #48 el pedido #4341938 (Espinacas frescas en bolsa 300gr): 697
+2024-12-17 17:18:57 - Añadido al camion #48 el pedido #6032746 (Espinacas frescas en bolsa 300gr): 1676
+2024-12-17 17:18:57 - Se ha creado el camión #49 para el pedido #7681535.
+2024-12-17 17:18:57 - Añadido al camion #49 el pedido #7681535 (Espinacas frescas en bolsa 300gr): 888
+2024-12-17 17:18:57 - Se ha creado el camión #50 para el pedido #6487406.
+2024-12-17 17:18:57 - Añadido al camion #50 el pedido #6487406 (Espinacas frescas en bolsa 300gr): 2248
+2024-12-17 17:18:57 - Se ha creado el camión #51 para el pedido #9334288.
+2024-12-17 17:18:57 - Añadido al camion #51 el pedido #9334288 (Espinacas frescas en bolsa 300gr): 957
+2024-12-17 17:18:57 - Añadido al camion #51 el pedido #1606053 (Espinacas frescas en bolsa 300gr): 935
+2024-12-17 17:18:57 - Añadido al camion #51 el pedido #2916227 (Espinacas frescas en bolsa 300gr): 965
+2024-12-17 17:18:57 - Se ha creado el camión #52 para el pedido #7681637.
+2024-12-17 17:18:57 - Añadido al camion #52 el pedido #7681637 (Espinacas frescas en bolsa 300gr): 864
+2024-12-17 17:18:57 - Añadido al camion #52 el pedido #6464138 (Espinacas frescas en bolsa 300gr): 1690
+2024-12-17 17:18:57 - Se ha creado el camión #53 para el pedido #1342764.
+2024-12-17 17:18:57 - Añadido al camion #53 el pedido #1342764 (Espinacas frescas en bolsa 300gr): 2124
+2024-12-17 17:18:57 - Se ha creado el camión #54 para el pedido #1189841.
+2024-12-17 17:18:57 - Añadido al camion #54 el pedido #1189841 (Espinacas frescas en bolsa 300gr): 954
+2024-12-17 17:18:57 - Añadido al camion #54 el pedido #6120205 (Espinacas frescas en bolsa 300gr): 1497
+2024-12-17 17:18:57 - Se ha creado el camión #55 para el pedido #4167495.
+2024-12-17 17:18:57 - Añadido al camion #55 el pedido #4167495 (Espinacas frescas en bolsa 300gr): 886
+2024-12-17 17:18:57 - Añadido al camion #55 el pedido #8640552 (Espinacas frescas en bolsa 300gr): 769
+2024-12-17 17:18:57 - Añadido al camion #55 el pedido #1168333 (Espinacas frescas en bolsa 300gr): 655
+2024-12-17 17:18:57 - Añadido al camion #55 el pedido #4441819 (Espinacas frescas en bolsa 300gr): 568
+2024-12-17 17:18:57 - Se ha creado el camión #56 para el pedido #7712252.
+2024-12-17 17:18:57 - Añadido al camion #56 el pedido #7712252 (Lechuga romana 1 unidad): 960
+2024-12-17 17:18:57 - Añadido al camion #56 el pedido #5409170 (Lechuga romana 1 unidad): 882
+2024-12-17 17:18:57 - Añadido al camion #56 el pedido #4910994 (Lechuga romana 1 unidad): 887
+2024-12-17 17:18:57 - Se ha creado el camión #57 para el pedido #7301016.
+2024-12-17 17:18:57 - Añadido al camion #57 el pedido #7301016 (Lechuga romana 1 unidad): 763
+2024-12-17 17:18:57 - Añadido al camion #57 el pedido #4361258 (Lechuga romana 1 unidad): 648
+2024-12-17 17:18:57 - Añadido al camion #57 el pedido #5662818 (Lechuga romana 1 unidad): 903
+2024-12-17 17:18:57 - Se ha creado el camión #58 para el pedido #1294630.
+2024-12-17 17:18:57 - Añadido al camion #58 el pedido #1294630 (Lechuga romana 1 unidad): 1727
+2024-12-17 17:18:57 - Añadido al camion #58 el pedido #6847681 (Lechuga romana 1 unidad): 935
+2024-12-17 17:18:57 - Se ha creado el camión #59 para el pedido #3562375.
+2024-12-17 17:18:57 - Añadido al camion #59 el pedido #3562375 (Lechuga romana 1 unidad): 807
+2024-12-17 17:18:57 - Añadido al camion #59 el pedido #7616497 (Lechuga romana 1 unidad): 954
+2024-12-17 17:18:57 - Añadido al camion #59 el pedido #8677388 (Lechuga romana 1 unidad): 877
+2024-12-17 17:18:57 - Se ha creado el camión #60 para el pedido #9776642.
+2024-12-17 17:18:57 - Añadido al camion #60 el pedido #9776642 (Lechuga romana 1 unidad): 826
+2024-12-17 17:18:57 - Añadido al camion #60 el pedido #3992598 (Lechuga romana 1 unidad): 716
+2024-12-17 17:18:57 - Añadido al camion #60 el pedido #8564346 (Lechuga romana 1 unidad): 567
+2024-12-17 17:18:57 - Añadido al camion #60 el pedido #4197490 (Lechuga romana 1 unidad): 652
+2024-12-17 17:18:57 - Se ha creado el camión #61 para el pedido #1824611.
+2024-12-17 17:18:57 - Añadido al camion #61 el pedido #1824611 (Lechuga romana 1 unidad): 882
+2024-12-17 17:18:57 - Añadido al camion #61 el pedido #6404867 (Lechuga romana 1 unidad): 554
+2024-12-17 17:18:57 - Añadido al camion #61 el pedido #2851718 (Lechuga romana 1 unidad): 713
+2024-12-17 17:18:57 - Añadido al camion #61 el pedido #1597787 (Lechuga romana 1 unidad): 561
+2024-12-17 17:18:57 - Se ha creado el camión #62 para el pedido #9910200.
+2024-12-17 17:18:57 - Añadido al camion #62 el pedido #9910200 (Lechuga romana 1 unidad): 676
+2024-12-17 17:18:57 - Añadido al camion #62 el pedido #4732512 (Lechuga romana 1 unidad): 958
+2024-12-17 17:18:57 - Añadido al camion #62 el pedido #4945180 (Lechuga romana 1 unidad): 615
+2024-12-17 17:18:57 - Añadido al camion #62 el pedido #2182752 (Lechuga romana 1 unidad): 725
+2024-12-17 17:18:57 - Se ha creado el camión #63 para el pedido #8392487.
+2024-12-17 17:18:57 - Añadido al camion #63 el pedido #8392487 (Tomates maduros (aprox. 1kg)): 1286
+2024-12-17 17:18:57 - Añadido al camion #63 el pedido #9010871 (Tomates maduros (aprox. 1kg)): 797
+2024-12-17 17:18:57 - Añadido al camion #63 el pedido #2701028 (Tomates maduros (aprox. 1kg)): 772
+2024-12-17 17:18:57 - Se ha creado el camión #64 para el pedido #5204034.
+2024-12-17 17:18:57 - Añadido al camion #64 el pedido #5204034 (Tomates maduros (aprox. 1kg)): 901
+2024-12-17 17:18:57 - Añadido al camion #64 el pedido #9996551 (Tomates maduros (aprox. 1kg)): 889
+2024-12-17 17:18:57 - Añadido al camion #64 el pedido #6119353 (Tomates maduros (aprox. 1kg)): 787
+2024-12-17 17:18:57 - Se ha creado el camión #65 para el pedido #4354228.
+2024-12-17 17:18:57 - Añadido al camion #65 el pedido #4354228 (Tomates maduros (aprox. 1kg)): 574
+2024-12-17 17:18:57 - Añadido al camion #65 el pedido #2501781 (Tomates maduros (aprox. 1kg)): 769
+2024-12-17 17:18:57 - Añadido al camion #65 el pedido #6649510 (Tomates maduros (aprox. 1kg)): 990
+2024-12-17 17:18:57 - Se ha creado el camión #66 para el pedido #1663415.
+2024-12-17 17:18:57 - Añadido al camion #66 el pedido #1663415 (Tomates maduros (aprox. 1kg)): 835
+2024-12-17 17:18:57 - Añadido al camion #66 el pedido #3218713 (Tomates maduros (aprox. 1kg)): 1701
+2024-12-17 17:18:57 - Se ha creado el camión #67 para el pedido #5725514.
+2024-12-17 17:18:57 - Añadido al camion #67 el pedido #5725514 (Tomates maduros (aprox. 1kg)): 856
+2024-12-17 17:18:57 - Añadido al camion #67 el pedido #5462614 (Tomates maduros (aprox. 1kg)): 702
+2024-12-17 17:18:57 - Añadido al camion #67 el pedido #8047887 (Tomates maduros (aprox. 1kg)): 818
+2024-12-17 17:18:57 - Se ha creado el camión #68 para el pedido #8849814.
+2024-12-17 17:18:57 - Añadido al camion #68 el pedido #8849814 (Tomates maduros (aprox. 1kg)): 862
+2024-12-17 17:18:57 - Añadido al camion #68 el pedido #1281611 (Tomates maduros (aprox. 1kg)): 634
+2024-12-17 17:18:57 - Añadido al camion #68 el pedido #4496674 (Tomates maduros (aprox. 1kg)): 783
+2024-12-17 17:18:57 - Se ha creado el camión #69 para el pedido #8368220.
+2024-12-17 17:18:57 - Añadido al camion #69 el pedido #8368220 (Tomates maduros (aprox. 1kg)): 834
+2024-12-17 17:18:57 - Añadido al camion #69 el pedido #1093738 (Tomates maduros (aprox. 1kg)): 774
+2024-12-17 17:18:57 - Se ha creado el camión #70 para el pedido #3722940.
+2024-12-17 17:18:57 - Añadido al camion #70 el pedido #3722940 (Tomates maduros (aprox. 1kg)): 2418
+2024-12-17 17:18:57 - Se ha creado el camión #71 para el pedido #8635714.
+2024-12-17 17:18:57 - Añadido al camion #71 el pedido #8635714 (Tomates maduros (aprox. 1kg)): 1704
+2024-12-17 17:18:57 - Se ha creado el camión #72 para el pedido #8489398.
+2024-12-17 17:18:57 - Añadido al camion #72 el pedido #8489398 (Cebollas amarillas (aprox. 1kg)): 788
+2024-12-17 17:18:57 - Se ha creado el camión #73 para el pedido #2300317.
+2024-12-17 17:18:57 - Añadido al camion #73 el pedido #2300317 (Cebollas amarillas (aprox. 1kg)): 2254
+2024-12-17 17:18:57 - Añadido al camion #73 el pedido #8885743 (Cebollas amarillas (aprox. 1kg)): 554
+2024-12-17 17:18:57 - Se ha creado el camión #74 para el pedido #9052497.
+2024-12-17 17:18:57 - Añadido al camion #74 el pedido #9052497 (Cebollas amarillas (aprox. 1kg)): 612
+2024-12-17 17:18:57 - Añadido al camion #74 el pedido #8013922 (Cebollas amarillas (aprox. 1kg)): 872
+2024-12-17 17:18:57 - Añadido al camion #74 el pedido #3914937 (Cebollas amarillas (aprox. 1kg)): 625
+2024-12-17 17:18:57 - Añadido al camion #74 el pedido #2057907 (Cebollas amarillas (aprox. 1kg)): 586
+2024-12-17 17:18:57 - Se ha creado el camión #75 para el pedido #4471907.
+2024-12-17 17:18:57 - Añadido al camion #75 el pedido #4471907 (Cebollas amarillas (aprox. 1kg)): 836
+2024-12-17 17:18:57 - Añadido al camion #75 el pedido #7710763 (Cebollas amarillas (aprox. 1kg)): 796
+2024-12-17 17:18:57 - Se ha creado el camión #76 para el pedido #3362989.
+2024-12-17 17:18:57 - Añadido al camion #76 el pedido #3362989 (Cebollas amarillas (aprox. 1kg)): 1714
+2024-12-17 17:18:57 - Se ha creado el camión #77 para el pedido #5105931.
+2024-12-17 17:18:57 - Añadido al camion #77 el pedido #5105931 (Cebollas amarillas (aprox. 1kg)): 1617
+2024-12-17 17:18:57 - Se ha creado el camión #78 para el pedido #2397390.
+2024-12-17 17:18:57 - Añadido al camion #78 el pedido #2397390 (Cebollas amarillas (aprox. 1kg)): 1791
+2024-12-17 17:18:57 - Añadido al camion #78 el pedido #1602144 (Cebollas amarillas (aprox. 1kg)): 811
+2024-12-17 17:18:57 - Se ha creado el camión #79 para el pedido #9982104.
+2024-12-17 17:18:57 - Añadido al camion #79 el pedido #9982104 (Cebollas amarillas (aprox. 1kg)): 835
+2024-12-17 17:18:57 - Añadido al camion #79 el pedido #1250123 (Cebollas amarillas (aprox. 1kg)): 590
+2024-12-17 17:18:57 - Añadido al camion #79 el pedido #6283659 (Cebollas amarillas (aprox. 1kg)): 587
+2024-12-17 17:18:57 - Añadido al camion #79 el pedido #4990110 (Cebollas amarillas (aprox. 1kg)): 944
+2024-12-17 17:18:57 - Se ha creado el camión #80 para el pedido #9585713.
+2024-12-17 17:18:57 - Añadido al camion #80 el pedido #9585713 (Cebollas amarillas (aprox. 1kg)): 837
+2024-12-17 17:18:57 - Añadido al camion #80 el pedido #5157970 (Cebollas amarillas (aprox. 1kg)): 867
+2024-12-17 17:18:57 - Se ha creado el camión #81 para el pedido #5629546.
+2024-12-17 17:18:57 - Añadido al camion #81 el pedido #5629546 (Cebollas amarillas (aprox. 1kg)): 1567
+2024-12-17 17:18:57 - Añadido al camion #81 el pedido #4706212 (Cebollas amarillas (aprox. 1kg)): 1283
+2024-12-17 17:18:57 - Se ha creado el camión #82 para el pedido #7867957.
+2024-12-17 17:18:57 - Añadido al camion #82 el pedido #7867957 (Cebollas amarillas (aprox. 1kg)): 616
+2024-12-17 17:18:57 - Añadido al camion #82 el pedido #3748759 (Cebollas amarillas (aprox. 1kg)): 916
+2024-12-17 17:18:57 - Añadido al camion #82 el pedido #2526134 (Cebollas amarillas (aprox. 1kg)): 822
+2024-12-17 17:18:57 - Se ha creado el camión #83 para el pedido #4204905.
+2024-12-17 17:18:57 - Añadido al camion #83 el pedido #4204905 (Cebollas amarillas (aprox. 1kg)): 840
+2024-12-17 17:18:57 - Añadido al camion #83 el pedido #3636762 (Cebollas amarillas (aprox. 1kg)): 604
+2024-12-17 17:18:57 - Añadido al camion #83 el pedido #3748238 (Cebollas amarillas (aprox. 1kg)): 927
+2024-12-17 17:18:57 - Se ha creado el camión #84 para el pedido #4075249.
+2024-12-17 17:18:57 - Añadido al camion #84 el pedido #4075249 (Zanahorias frescas (500gr)): 583
+2024-12-17 17:18:57 - Añadido al camion #84 el pedido #8150367 (Zanahorias frescas (500gr)): 967
+2024-12-17 17:18:57 - Se ha creado el camión #85 para el pedido #4967457.
+2024-12-17 17:18:57 - Añadido al camion #85 el pedido #4967457 (Zanahorias frescas (500gr)): 1458
+2024-12-17 17:18:57 - Añadido al camion #85 el pedido #6621656 (Zanahorias frescas (500gr)): 914
+2024-12-17 17:18:57 - Se ha creado el camión #86 para el pedido #8102867.
+2024-12-17 17:18:57 - Añadido al camion #86 el pedido #8102867 (Zanahorias frescas (500gr)): 947
+2024-12-17 17:18:57 - Añadido al camion #86 el pedido #5542061 (Zanahorias frescas (500gr)): 1149
+2024-12-17 17:18:57 - Se ha creado el camión #87 para el pedido #5303457.
+2024-12-17 17:18:57 - Añadido al camion #87 el pedido #5303457 (Zanahorias frescas (500gr)): 1825
+2024-12-17 17:18:57 - Añadido al camion #87 el pedido #2184286 (Zanahorias frescas (500gr)): 622
+2024-12-17 17:18:57 - Se ha creado el camión #88 para el pedido #2497758.
+2024-12-17 17:18:57 - Añadido al camion #88 el pedido #2497758 (Zanahorias frescas (500gr)): 676
+2024-12-17 17:18:57 - Añadido al camion #88 el pedido #2150394 (Zanahorias frescas (500gr)): 597
+2024-12-17 17:18:57 - Añadido al camion #88 el pedido #8521420 (Zanahorias frescas (500gr)): 898
+2024-12-17 17:18:57 - Se ha creado el camión #89 para el pedido #8057938.
+2024-12-17 17:18:57 - Añadido al camion #89 el pedido #8057938 (Zanahorias frescas (500gr)): 831
+2024-12-17 17:18:57 - Añadido al camion #89 el pedido #6866466 (Zanahorias frescas (500gr)): 557
+2024-12-17 17:18:57 - Añadido al camion #89 el pedido #3123692 (Zanahorias frescas (500gr)): 846
+2024-12-17 17:18:57 - Añadido al camion #89 el pedido #8183727 (Zanahorias frescas (500gr)): 762
+2024-12-17 17:18:57 - Se ha creado el camión #90 para el pedido #8153419.
+2024-12-17 17:18:57 - Añadido al camion #90 el pedido #8153419 (Zanahorias frescas (500gr)): 699
+2024-12-17 17:18:57 - Añadido al camion #90 el pedido #2255564 (Zanahorias frescas (500gr)): 1519
+2024-12-17 17:18:57 - Se ha creado el camión #91 para el pedido #7465752.
+2024-12-17 17:18:57 - Añadido al camion #91 el pedido #7465752 (Zanahorias frescas (500gr)): 915
+2024-12-17 17:18:57 - Añadido al camion #91 el pedido #6704786 (Zanahorias frescas (500gr)): 888
+2024-12-17 17:18:57 - Añadido al camion #91 el pedido #2986281 (Zanahorias frescas (500gr)): 857
+2024-12-17 17:18:57 - Se ha creado el camión #92 para el pedido #4333469.
+2024-12-17 17:18:57 - Añadido al camion #92 el pedido #4333469 (Zanahorias frescas (500gr)): 946
+2024-12-17 17:18:57 - Añadido al camion #92 el pedido #5023111 (Zanahorias frescas (500gr)): 712
+2024-12-17 17:18:57 - Añadido al camion #92 el pedido #6338384 (Zanahorias frescas (500gr)): 821
+2024-12-17 17:18:57 - Se ha creado el camión #93 para el pedido #3703481.
+2024-12-17 17:18:57 - Añadido al camion #93 el pedido #3703481 (Zanahorias frescas (500gr)): 616
+2024-12-17 17:18:57 - Añadido al camion #93 el pedido #1468686 (Zanahorias frescas (500gr)): 1132
+2024-12-17 17:18:57 - Añadido al camion #93 el pedido #2397707 (Zanahorias frescas (500gr)): 821
+2024-12-17 17:18:57 - Se ha creado el camión #94 para el pedido #2494850.
+2024-12-17 17:18:57 - Añadido al camion #94 el pedido #2494850 (Zanahorias frescas (500gr)): 759
+2024-12-17 17:18:57 - Se ha creado el camión #95 para el pedido #6208400.
+2024-12-17 17:18:57 - Añadido al camion #95 el pedido #6208400 (Patatas para cocinar (1kg)): 587
+2024-12-17 17:18:57 - Añadido al camion #95 el pedido #5171428 (Patatas para cocinar (1kg)): 844
+2024-12-17 17:18:57 - Añadido al camion #95 el pedido #3062931 (Patatas para cocinar (1kg)): 1199
+2024-12-17 17:18:57 - Se ha creado el camión #96 para el pedido #7371650.
+2024-12-17 17:18:57 - Añadido al camion #96 el pedido #7371650 (Patatas para cocinar (1kg)): 889
+2024-12-17 17:18:57 - Añadido al camion #96 el pedido #1514341 (Patatas para cocinar (1kg)): 990
+2024-12-17 17:18:57 - Se ha creado el camión #97 para el pedido #8361897.
+2024-12-17 17:18:57 - Añadido al camion #97 el pedido #8361897 (Patatas para cocinar (1kg)): 1518
+2024-12-17 17:18:57 - Añadido al camion #97 el pedido #5565465 (Patatas para cocinar (1kg)): 761
+2024-12-17 17:18:57 - Se ha creado el camión #98 para el pedido #7758832.
+2024-12-17 17:18:57 - Añadido al camion #98 el pedido #7758832 (Patatas para cocinar (1kg)): 806
+2024-12-17 17:18:57 - Añadido al camion #98 el pedido #6954128 (Patatas para cocinar (1kg)): 677
+2024-12-17 17:18:57 - Añadido al camion #98 el pedido #6364133 (Patatas para cocinar (1kg)): 697
+2024-12-17 17:18:57 - Añadido al camion #98 el pedido #3105541 (Patatas para cocinar (1kg)): 653
+2024-12-17 17:18:57 - Se ha creado el camión #99 para el pedido #8054675.
+2024-12-17 17:18:57 - Añadido al camion #99 el pedido #8054675 (Patatas para cocinar (1kg)): 645
+2024-12-17 17:18:57 - Añadido al camion #99 el pedido #7834938 (Patatas para cocinar (1kg)): 1682
+2024-12-17 17:18:57 - Se ha creado el camión #100 para el pedido #8673482.
+2024-12-17 17:18:57 - Añadido al camion #100 el pedido #8673482 (Patatas para cocinar (1kg)): 933
+2024-12-17 17:18:57 - Añadido al camion #100 el pedido #8570143 (Patatas para cocinar (1kg)): 770
+2024-12-17 17:18:57 - Se ha creado el camión #101 para el pedido #8283164.
+2024-12-17 17:18:57 - Añadido al camion #101 el pedido #8283164 (Patatas para cocinar (1kg)): 1622
+2024-12-17 17:18:57 - Añadido al camion #101 el pedido #7407546 (Patatas para cocinar (1kg)): 718
+2024-12-17 17:18:57 - Se ha creado el camión #102 para el pedido #3724692.
+2024-12-17 17:18:57 - Añadido al camion #102 el pedido #3724692 (Patatas para cocinar (1kg)): 676
+2024-12-17 17:18:57 - Añadido al camion #102 el pedido #9449730 (Patatas para cocinar (1kg)): 927
+2024-12-17 17:18:57 - Añadido al camion #102 el pedido #2573036 (Patatas para cocinar (1kg)): 570
+2024-12-17 17:18:57 - Añadido al camion #102 el pedido #6422999 (Patatas para cocinar (1kg)): 826
+2024-12-17 17:18:57 - Se ha creado el camión #103 para el pedido #9409582.
+2024-12-17 17:18:57 - Añadido al camion #103 el pedido #9409582 (Patatas para cocinar (1kg)): 878
+2024-12-17 17:18:57 - Se ha creado el camión #104 para el pedido #4020902.
+2024-12-17 17:18:57 - Añadido al camion #104 el pedido #4020902 (Huevos frescos (4 unidades)): 613
+2024-12-17 17:18:57 - Añadido al camion #104 el pedido #5425138 (Huevos frescos (4 unidades)): 1331
+2024-12-17 17:18:57 - Añadido al camion #104 el pedido #4233525 (Huevos frescos (4 unidades)): 914
+2024-12-17 17:18:57 - Se ha creado el camión #105 para el pedido #8513281.
+2024-12-17 17:18:57 - Añadido al camion #105 el pedido #8513281 (Huevos frescos (4 unidades)): 897
+2024-12-17 17:18:57 - Añadido al camion #105 el pedido #5550925 (Huevos frescos (4 unidades)): 740
+2024-12-17 17:18:57 - Añadido al camion #105 el pedido #6340894 (Huevos frescos (4 unidades)): 659
+2024-12-17 17:18:57 - Añadido al camion #105 el pedido #4921831 (Huevos frescos (4 unidades)): 647
+2024-12-17 17:18:57 - Se ha creado el camión #106 para el pedido #3929060.
+2024-12-17 17:18:57 - Añadido al camion #106 el pedido #3929060 (Huevos frescos (4 unidades)): 1499
+2024-12-17 17:18:57 - Añadido al camion #106 el pedido #9623077 (Huevos frescos (4 unidades)): 921
+2024-12-17 17:18:57 - Se ha creado el camión #107 para el pedido #8089607.
+2024-12-17 17:18:57 - Añadido al camion #107 el pedido #8089607 (Huevos frescos (4 unidades)): 854
+2024-12-17 17:18:57 - Añadido al camion #107 el pedido #5179687 (Huevos frescos (4 unidades)): 1790
+2024-12-17 17:18:57 - Se ha creado el camión #108 para el pedido #2573833.
+2024-12-17 17:18:57 - Añadido al camion #108 el pedido #2573833 (Huevos frescos (4 unidades)): 761
+2024-12-17 17:18:57 - Añadido al camion #108 el pedido #6718429 (Huevos frescos (4 unidades)): 685
+2024-12-17 17:18:57 - Añadido al camion #108 el pedido #5308254 (Huevos frescos (4 unidades)): 713
+2024-12-17 17:18:57 - Añadido al camion #108 el pedido #8468600 (Huevos frescos (4 unidades)): 664
+2024-12-17 17:18:57 - Se ha creado el camión #109 para el pedido #3889239.
+2024-12-17 17:18:57 - Añadido al camion #109 el pedido #3889239 (Huevos frescos (4 unidades)): 825
+2024-12-17 17:18:57 - Añadido al camion #109 el pedido #7857528 (Huevos frescos (4 unidades)): 751
+2024-12-17 17:18:57 - Añadido al camion #109 el pedido #8223615 (Huevos frescos (4 unidades)): 742
+2024-12-17 17:18:57 - Se ha creado el camión #110 para el pedido #1328854.
+2024-12-17 17:18:57 - Añadido al camion #110 el pedido #1328854 (Huevos frescos (4 unidades)): 1536
+2024-12-17 17:18:57 - Añadido al camion #110 el pedido #6521617 (Huevos frescos (4 unidades)): 769
+2024-12-17 17:18:57 - Se ha creado el camión #111 para el pedido #5467114.
+2024-12-17 17:18:57 - Añadido al camion #111 el pedido #5467114 (Pan fresco de hogaza (500gr)): 768
+2024-12-17 17:18:57 - Añadido al camion #111 el pedido #1730573 (Pan fresco de hogaza (500gr)): 953
+2024-12-17 17:18:57 - Añadido al camion #111 el pedido #7395654 (Pan fresco de hogaza (500gr)): 810
+2024-12-17 17:18:57 - Se ha creado el camión #112 para el pedido #3089618.
+2024-12-17 17:18:57 - Añadido al camion #112 el pedido #3089618 (Pan fresco de hogaza (500gr)): 835
+2024-12-17 17:18:57 - Añadido al camion #112 el pedido #3219694 (Pan fresco de hogaza (500gr)): 1537
+2024-12-17 17:18:57 - Añadido al camion #112 el pedido #1517826 (Pan fresco de hogaza (500gr)): 566
+2024-12-17 17:18:57 - Se ha creado el camión #113 para el pedido #9873061.
+2024-12-17 17:18:57 - Añadido al camion #113 el pedido #9873061 (Pan fresco de hogaza (500gr)): 747
+2024-12-17 17:18:57 - Añadido al camion #113 el pedido #4944599 (Pan fresco de hogaza (500gr)): 739
+2024-12-17 17:18:57 - Añadido al camion #113 el pedido #4556503 (Pan fresco de hogaza (500gr)): 979
+2024-12-17 17:18:57 - Se ha creado el camión #114 para el pedido #2552078.
+2024-12-17 17:18:57 - Añadido al camion #114 el pedido #2552078 (Pan fresco de hogaza (500gr)): 1677
+2024-12-17 17:18:57 - Añadido al camion #114 el pedido #7943498 (Pan fresco de hogaza (500gr)): 687
+2024-12-17 17:18:57 - Se ha creado el camión #115 para el pedido #1026026.
+2024-12-17 17:18:57 - Añadido al camion #115 el pedido #1026026 (Pan fresco de hogaza (500gr)): 950
+2024-12-17 17:18:57 - Añadido al camion #115 el pedido #6669382 (Pan fresco de hogaza (500gr)): 725
+2024-12-17 17:18:57 - Añadido al camion #115 el pedido #5943991 (Pan fresco de hogaza (500gr)): 956
+2024-12-17 17:18:57 - Se ha creado el camión #116 para el pedido #2031451.
+2024-12-17 17:18:57 - Añadido al camion #116 el pedido #2031451 (Pan fresco de hogaza (500gr)): 939
+2024-12-17 17:18:57 - Añadido al camion #116 el pedido #4272201 (Pan fresco de hogaza (500gr)): 1850
+2024-12-17 17:18:57 - Se ha creado el camión #117 para el pedido #3885218.
+2024-12-17 17:18:57 - Añadido al camion #117 el pedido #3885218 (Pan fresco de hogaza (500gr)): 979
+2024-12-17 17:18:57 - Añadido al camion #117 el pedido #2837211 (Pan fresco de hogaza (500gr)): 872
+2024-12-17 17:18:57 - Se ha creado el camión #118 para el pedido #4183489.
+2024-12-17 17:18:57 - Añadido al camion #118 el pedido #4183489 (Pan fresco de hogaza (500gr)): 2571
+2024-12-17 17:18:57 - Se ha creado el camión #119 para el pedido #6517608.
+2024-12-17 17:18:57 - Añadido al camion #119 el pedido #6517608 (Pan fresco de hogaza (500gr)): 922
+2024-12-17 17:18:57 - Añadido al camion #119 el pedido #9499240 (Pan fresco de hogaza (500gr)): 819
+2024-12-17 17:18:57 - Añadido al camion #119 el pedido #1003307 (Pan fresco de hogaza (500gr)): 783
+2024-12-17 17:18:57 - Se ha creado el camión #120 para el pedido #5380373.
+2024-12-17 17:18:57 - Añadido al camion #120 el pedido #5380373 (Pan fresco de hogaza (500gr)): 613
+2024-12-17 17:18:57 - Añadido al camion #120 el pedido #9000799 (Pan fresco de hogaza (500gr)): 971
+2024-12-17 17:18:57 - Añadido al camion #120 el pedido #3511307 (Pan fresco de hogaza (500gr)): 602
+2024-12-17 17:18:57 - Añadido al camion #120 el pedido #7291396 (Pan fresco de hogaza (500gr)): 679
+2024-12-17 17:18:57 - Se ha creado el camión #121 para el pedido #8191799.
+2024-12-17 17:18:57 - Añadido al camion #121 el pedido #8191799 (Pan fresco de hogaza (500gr)): 957
+2024-12-17 17:18:57 - Añadido al camion #121 el pedido #1130932 (Pan fresco de hogaza (500gr)): 624
+2024-12-17 17:18:57 - Añadido al camion #121 el pedido #5259458 (Pan fresco de hogaza (500gr)): 595
+2024-12-17 17:18:57 - Se ha creado el camión #122 para el pedido #5087960.
+2024-12-17 17:18:57 - Añadido al camion #122 el pedido #5087960 (Pan fresco de hogaza (500gr)): 1728
+2024-12-17 17:18:57 - Añadido al camion #122 el pedido #8123456 (Pan fresco de hogaza (500gr)): 980
+2024-12-17 17:18:57 - Se ha creado el camión #123 para el pedido #2575632.
+2024-12-17 17:18:57 - Añadido al camion #123 el pedido #2575632 (Queso cheddar 200gr): 950
+2024-12-17 17:18:57 - Añadido al camion #123 el pedido #9230188 (Queso cheddar 200gr): 815
+2024-12-17 17:18:57 - Añadido al camion #123 el pedido #6998780 (Queso cheddar 200gr): 850
+2024-12-17 17:18:57 - Se ha creado el camión #124 para el pedido #9511444.
+2024-12-17 17:18:57 - Añadido al camion #124 el pedido #9511444 (Queso cheddar 200gr): 736
+2024-12-17 17:18:57 - Añadido al camion #124 el pedido #2697128 (Queso cheddar 200gr): 1410
+2024-12-17 17:18:57 - Añadido al camion #124 el pedido #4385040 (Queso cheddar 200gr): 650
+2024-12-17 17:18:57 - Se ha creado el camión #125 para el pedido #7867121.
+2024-12-17 17:18:57 - Añadido al camion #125 el pedido #7867121 (Queso cheddar 200gr): 852
+2024-12-17 17:18:57 - Añadido al camion #125 el pedido #6255485 (Queso cheddar 200gr): 945
+2024-12-17 17:18:57 - Añadido al camion #125 el pedido #9714828 (Queso cheddar 200gr): 589
+2024-12-17 17:18:57 - Se ha creado el camión #126 para el pedido #3984473.
+2024-12-17 17:18:57 - Añadido al camion #126 el pedido #3984473 (Queso cheddar 200gr): 933
+2024-12-17 17:18:57 - Añadido al camion #126 el pedido #7832599 (Queso cheddar 200gr): 808
+2024-12-17 17:18:57 - Añadido al camion #126 el pedido #4831057 (Queso cheddar 200gr): 791
+2024-12-17 17:18:57 - Se ha creado el camión #127 para el pedido #6682704.
+2024-12-17 17:18:57 - Añadido al camion #127 el pedido #6682704 (Queso cheddar 200gr): 760
+2024-12-17 17:18:57 - Añadido al camion #127 el pedido #5631111 (Queso cheddar 200gr): 770
+2024-12-17 17:18:57 - Añadido al camion #127 el pedido #1685066 (Queso cheddar 200gr): 922
+2024-12-17 17:18:57 - Se ha creado el camión #128 para el pedido #2589301.
+2024-12-17 17:18:57 - Añadido al camion #128 el pedido #2589301 (Queso cheddar 200gr): 814
+2024-12-17 17:18:57 - Añadido al camion #128 el pedido #1536328 (Queso cheddar 200gr): 621
+2024-12-17 17:18:57 - Añadido al camion #128 el pedido #3278452 (Queso cheddar 200gr): 741
+2024-12-17 17:18:57 - Se ha creado el camión #129 para el pedido #2825344.
+2024-12-17 17:18:57 - Añadido al camion #129 el pedido #2825344 (Queso cheddar 200gr): 918
+2024-12-17 17:18:57 - Añadido al camion #129 el pedido #7231149 (Queso cheddar 200gr): 843
+2024-12-17 17:18:57 - Se ha creado el camión #130 para el pedido #3407001.
+2024-12-17 17:18:57 - Añadido al camion #130 el pedido #3407001 (Queso cheddar 200gr): 1614
+2024-12-17 17:18:57 - Añadido al camion #130 el pedido #9940831 (Queso cheddar 200gr): 822
+2024-12-17 17:18:57 - Se ha creado el camión #131 para el pedido #9590675.
+2024-12-17 17:18:57 - Añadido al camion #131 el pedido #9590675 (Queso cheddar 200gr): 622
+2024-12-17 17:18:57 - Añadido al camion #131 el pedido #9561468 (Queso cheddar 200gr): 833
+2024-12-17 17:18:57 - Añadido al camion #131 el pedido #1882364 (Queso cheddar 200gr): 1409
+2024-12-17 17:18:57 - Se ha creado el camión #132 para el pedido #2718644.
+2024-12-17 17:18:57 - Añadido al camion #132 el pedido #2718644 (Queso cheddar 200gr): 620
+2024-12-17 17:18:57 - Añadido al camion #132 el pedido #8095459 (Queso cheddar 200gr): 860
+2024-12-17 17:18:57 - Se ha creado el camión #133 para el pedido #2268290.
+2024-12-17 17:18:57 - Añadido al camion #133 el pedido #2268290 (Yogur natural 4 unidades (125gr cada uno)): 1369
+2024-12-17 17:18:57 - Añadido al camion #133 el pedido #5578591 (Yogur natural 4 unidades (125gr cada uno)): 647
+2024-12-17 17:18:57 - Se ha creado el camión #134 para el pedido #6277468.
+2024-12-17 17:18:57 - Añadido al camion #134 el pedido #6277468 (Yogur natural 4 unidades (125gr cada uno)): 1436
+2024-12-17 17:18:57 - Añadido al camion #134 el pedido #1842583 (Yogur natural 4 unidades (125gr cada uno)): 643
+2024-12-17 17:18:57 - Añadido al camion #134 el pedido #7927091 (Yogur natural 4 unidades (125gr cada uno)): 753
+2024-12-17 17:18:57 - Se ha creado el camión #135 para el pedido #7065540.
+2024-12-17 17:18:57 - Añadido al camion #135 el pedido #7065540 (Yogur natural 4 unidades (125gr cada uno)): 876
+2024-12-17 17:18:57 - Añadido al camion #135 el pedido #3631523 (Yogur natural 4 unidades (125gr cada uno)): 664
+2024-12-17 17:18:57 - Añadido al camion #135 el pedido #6369391 (Yogur natural 4 unidades (125gr cada uno)): 713
+2024-12-17 17:18:57 - Se ha creado el camión #136 para el pedido #3794782.
+2024-12-17 17:18:57 - Añadido al camion #136 el pedido #3794782 (Yogur natural 4 unidades (125gr cada uno)): 914
+2024-12-17 17:18:57 - Añadido al camion #136 el pedido #4885602 (Yogur natural 4 unidades (125gr cada uno)): 624
+2024-12-17 17:18:57 - Añadido al camion #136 el pedido #8974626 (Yogur natural 4 unidades (125gr cada uno)): 552
+2024-12-17 17:18:57 - Se ha creado el camión #137 para el pedido #7406001.
+2024-12-17 17:18:57 - Añadido al camion #137 el pedido #7406001 (Yogur natural 4 unidades (125gr cada uno)): 918
+2024-12-17 17:18:57 - Añadido al camion #137 el pedido #9832636 (Yogur natural 4 unidades (125gr cada uno)): 934
+2024-12-17 17:18:57 - Añadido al camion #137 el pedido #1288563 (Yogur natural 4 unidades (125gr cada uno)): 617
+2024-12-17 17:18:57 - Se ha creado el camión #138 para el pedido #3179350.
+2024-12-17 17:18:57 - Añadido al camion #138 el pedido #3179350 (Yogur natural 4 unidades (125gr cada uno)): 801
+2024-12-17 17:18:57 - Añadido al camion #138 el pedido #8668839 (Yogur natural 4 unidades (125gr cada uno)): 823
+2024-12-17 17:18:57 - Añadido al camion #138 el pedido #7083220 (Yogur natural 4 unidades (125gr cada uno)): 619
+2024-12-17 17:18:57 - Se ha creado el camión #139 para el pedido #4136582.
+2024-12-17 17:18:57 - Añadido al camion #139 el pedido #4136582 (Yogur natural 4 unidades (125gr cada uno)): 1694
+2024-12-17 17:18:57 - Se ha creado el camión #140 para el pedido #8474599.
+2024-12-17 17:18:57 - Añadido al camion #140 el pedido #8474599 (Mantequilla 100gr): 974
+2024-12-17 17:18:57 - Añadido al camion #140 el pedido #1975060 (Mantequilla 100gr): 1777
+2024-12-17 17:18:57 - Se ha creado el camión #141 para el pedido #3699711.
+2024-12-17 17:18:57 - Añadido al camion #141 el pedido #3699711 (Mantequilla 100gr): 905
+2024-12-17 17:18:57 - Añadido al camion #141 el pedido #9459700 (Mantequilla 100gr): 774
+2024-12-17 17:18:57 - Añadido al camion #141 el pedido #1502790 (Mantequilla 100gr): 596
+2024-12-17 17:18:57 - Añadido al camion #141 el pedido #4952036 (Mantequilla 100gr): 628
+2024-12-17 17:18:57 - Se ha creado el camión #142 para el pedido #1187845.
+2024-12-17 17:18:57 - Añadido al camion #142 el pedido #1187845 (Mantequilla 100gr): 698
+2024-12-17 17:18:57 - Añadido al camion #142 el pedido #3492776 (Mantequilla 100gr): 878
+2024-12-17 17:18:57 - Se ha creado el camión #143 para el pedido #7879020.
+2024-12-17 17:18:57 - Añadido al camion #143 el pedido #7879020 (Mantequilla 100gr): 1511
+2024-12-17 17:18:57 - Añadido al camion #143 el pedido #1863942 (Mantequilla 100gr): 1453
+2024-12-17 17:18:57 - Se ha creado el camión #144 para el pedido #6359097.
+2024-12-17 17:18:57 - Añadido al camion #144 el pedido #6359097 (Mantequilla 100gr): 934
+2024-12-17 17:18:57 - Añadido al camion #144 el pedido #4201115 (Mantequilla 100gr): 937
+2024-12-17 17:18:57 - Añadido al camion #144 el pedido #4743552 (Mantequilla 100gr): 931
+2024-12-17 17:18:57 - Se ha creado el camión #145 para el pedido #8977933.
+2024-12-17 17:18:57 - Añadido al camion #145 el pedido #8977933 (Mantequilla 100gr): 957
+2024-12-17 17:18:57 - Añadido al camion #145 el pedido #9278011 (Mantequilla 100gr): 781
+2024-12-17 17:18:57 - Añadido al camion #145 el pedido #5701486 (Mantequilla 100gr): 950
+2024-12-17 17:18:57 - Se ha creado el camión #146 para el pedido #2016953.
+2024-12-17 17:18:57 - Añadido al camion #146 el pedido #2016953 (Mantequilla 100gr): 835
+2024-12-17 17:18:57 - Añadido al camion #146 el pedido #7475853 (Mantequilla 100gr): 575
+2024-12-17 17:18:57 - Añadido al camion #146 el pedido #3367829 (Mantequilla 100gr): 664
+2024-12-17 17:18:57 - Añadido al camion #146 el pedido #3459769 (Mantequilla 100gr): 802
+2024-12-17 17:18:57 - Se ha creado el camión #147 para el pedido #1582242.
+2024-12-17 17:18:57 - Añadido al camion #147 el pedido #1582242 (Mantequilla 100gr): 1619
+2024-12-17 17:18:57 - Añadido al camion #147 el pedido #5293223 (Mantequilla 100gr): 818
+2024-12-17 17:18:57 - Se ha creado el camión #148 para el pedido #4526131.
+2024-12-17 17:18:57 - Añadido al camion #148 el pedido #4526131 (Mantequilla 100gr): 909
+2024-12-17 17:18:57 - Añadido al camion #148 el pedido #5538819 (Mantequilla 100gr): 800
+2024-12-17 17:18:57 - Añadido al camion #148 el pedido #2378026 (Mantequilla 100gr): 986
+2024-12-17 17:18:57 - Se ha creado el camión #149 para el pedido #4441245.
+2024-12-17 17:18:57 - Añadido al camion #149 el pedido #4441245 (Carne de ternera picada 500gr): 860
+2024-12-17 17:18:57 - Añadido al camion #149 el pedido #5257985 (Carne de ternera picada 500gr): 750
+2024-12-17 17:18:57 - Añadido al camion #149 el pedido #6046183 (Carne de ternera picada 500gr): 863
+2024-12-17 17:18:57 - Se ha creado el camión #150 para el pedido #9243810.
+2024-12-17 17:18:57 - Añadido al camion #150 el pedido #9243810 (Carne de ternera picada 500gr): 570
+2024-12-17 17:18:57 - Añadido al camion #150 el pedido #5796548 (Carne de ternera picada 500gr): 568
+2024-12-17 17:18:57 - Añadido al camion #150 el pedido #5076256 (Carne de ternera picada 500gr): 922
+2024-12-17 17:18:57 - Añadido al camion #150 el pedido #3058108 (Carne de ternera picada 500gr): 554
+2024-12-17 17:18:57 - Se ha creado el camión #151 para el pedido #3773951.
+2024-12-17 17:18:57 - Añadido al camion #151 el pedido #3773951 (Carne de ternera picada 500gr): 981
+2024-12-17 17:18:57 - Añadido al camion #151 el pedido #7116124 (Carne de ternera picada 500gr): 616
+2024-12-17 17:18:57 - Añadido al camion #151 el pedido #5883970 (Carne de ternera picada 500gr): 841
+2024-12-17 17:18:57 - Se ha creado el camión #152 para el pedido #2153565.
+2024-12-17 17:18:57 - Añadido al camion #152 el pedido #2153565 (Carne de ternera picada 500gr): 659
+2024-12-17 17:18:57 - Añadido al camion #152 el pedido #4590764 (Carne de ternera picada 500gr): 1520
+2024-12-17 17:18:57 - Se ha creado el camión #153 para el pedido #3030004.
+2024-12-17 17:18:57 - Añadido al camion #153 el pedido #3030004 (Carne de ternera picada 500gr): 888
+2024-12-17 17:18:57 - Añadido al camion #153 el pedido #6559669 (Carne de ternera picada 500gr): 951
+2024-12-17 17:18:57 - Se ha creado el camión #154 para el pedido #3671090.
+2024-12-17 17:18:57 - Añadido al camion #154 el pedido #3671090 (Carne de ternera picada 500gr): 2691
+2024-12-17 17:18:57 - Se ha creado el camión #155 para el pedido #8519183.
+2024-12-17 17:18:57 - Añadido al camion #155 el pedido #8519183 (Carne de ternera picada 500gr): 643
+2024-12-17 17:18:57 - Añadido al camion #155 el pedido #1496200 (Carne de ternera picada 500gr): 570
+2024-12-17 17:18:57 - Añadido al camion #155 el pedido #9715533 (Carne de ternera picada 500gr): 828
+2024-12-17 17:18:57 - Añadido al camion #155 el pedido #9485880 (Carne de ternera picada 500gr): 956
+2024-12-17 17:18:57 - Se ha creado el camión #156 para el pedido #9693258.
+2024-12-17 17:18:57 - Añadido al camion #156 el pedido #9693258 (Carne de ternera picada 500gr): 922
+2024-12-17 17:18:57 - Añadido al camion #156 el pedido #1088481 (Carne de ternera picada 500gr): 761
+2024-12-17 17:18:57 - Añadido al camion #156 el pedido #7780252 (Carne de ternera picada 500gr): 725
+2024-12-17 17:18:57 - Se ha creado el camión #157 para el pedido #8605287.
+2024-12-17 17:18:57 - Añadido al camion #157 el pedido #8605287 (Carne de ternera picada 500gr): 692
+2024-12-17 17:18:57 - Se ha creado el camión #158 para el pedido #5739648.
+2024-12-17 17:18:57 - Añadido al camion #158 el pedido #5739648 (Pechuga de pollo fresca 1kg): 840
+2024-12-17 17:18:57 - Añadido al camion #158 el pedido #7506485 (Pechuga de pollo fresca 1kg): 916
+2024-12-17 17:18:57 - Se ha creado el camión #159 para el pedido #5605521.
+2024-12-17 17:18:57 - Añadido al camion #159 el pedido #5605521 (Pechuga de pollo fresca 1kg): 1630
+2024-12-17 17:18:57 - Añadido al camion #159 el pedido #5804860 (Pechuga de pollo fresca 1kg): 950
+2024-12-17 17:18:57 - Se ha creado el camión #160 para el pedido #3577241.
+2024-12-17 17:18:57 - Añadido al camion #160 el pedido #3577241 (Pechuga de pollo fresca 1kg): 963
+2024-12-17 17:18:57 - Se ha creado el camión #161 para el pedido #3727505.
+2024-12-17 17:18:57 - Añadido al camion #161 el pedido #3727505 (Pechuga de pollo fresca 1kg): 2302
+2024-12-17 17:18:57 - Se ha creado el camión #162 para el pedido #8108007.
+2024-12-17 17:18:57 - Añadido al camion #162 el pedido #8108007 (Pechuga de pollo fresca 1kg): 807
+2024-12-17 17:18:57 - Añadido al camion #162 el pedido #6284093 (Pechuga de pollo fresca 1kg): 884
+2024-12-17 17:18:57 - Añadido al camion #162 el pedido #8208097 (Pechuga de pollo fresca 1kg): 929
+2024-12-17 17:18:57 - Se ha creado el camión #163 para el pedido #1856450.
+2024-12-17 17:18:57 - Añadido al camion #163 el pedido #1856450 (Pechuga de pollo fresca 1kg): 1860
+2024-12-17 17:18:57 - Añadido al camion #163 el pedido #7293058 (Pechuga de pollo fresca 1kg): 704
+2024-12-17 17:18:57 - Se ha creado el camión #164 para el pedido #2531732.
+2024-12-17 17:18:57 - Añadido al camion #164 el pedido #2531732 (Pechuga de pollo fresca 1kg): 931
+2024-12-17 17:18:57 - Añadido al camion #164 el pedido #9445860 (Pechuga de pollo fresca 1kg): 681
+2024-12-17 17:18:57 - Se ha creado el camión #165 para el pedido #1254627.
+2024-12-17 17:18:57 - Añadido al camion #165 el pedido #1254627 (Pechuga de pollo fresca 1kg): 1780
+2024-12-17 17:18:57 - Añadido al camion #165 el pedido #3161472 (Pechuga de pollo fresca 1kg): 856
+2024-12-17 17:18:57 - Se ha creado el camión #166 para el pedido #4600468.
+2024-12-17 17:18:57 - Añadido al camion #166 el pedido #4600468 (Pechuga de pollo fresca 1kg): 660
+2024-12-17 17:18:57 - Añadido al camion #166 el pedido #7950718 (Pechuga de pollo fresca 1kg): 904
+2024-12-17 17:18:57 - Añadido al camion #166 el pedido #2792694 (Pechuga de pollo fresca 1kg): 814
+2024-12-17 17:18:57 - Añadido al camion #166 el pedido #5707364 (Pechuga de pollo fresca 1kg): 579
+2024-12-17 17:18:57 - Se ha creado el camión #167 para el pedido #7031183.
+2024-12-17 17:18:57 - Añadido al camion #167 el pedido #7031183 (Pechuga de pollo fresca 1kg): 833
+2024-12-17 17:18:57 - Añadido al camion #167 el pedido #5966358 (Pechuga de pollo fresca 1kg): 600
+2024-12-17 17:18:57 - Añadido al camion #167 el pedido #6034242 (Pechuga de pollo fresca 1kg): 762
+2024-12-17 17:18:57 - Se ha creado el camión #168 para el pedido #6391659.
+2024-12-17 17:18:57 - Añadido al camion #168 el pedido #6391659 (Pechuga de pollo fresca 1kg): 915
+2024-12-17 17:18:57 - Añadido al camion #168 el pedido #3427196 (Pechuga de pollo fresca 1kg): 706
+2024-12-17 17:18:57 - Se ha creado el camión #169 para el pedido #3628404.
+2024-12-17 17:18:57 - Añadido al camion #169 el pedido #3628404 (Filetes de pescado blanco 500gr): 802
+2024-12-17 17:18:57 - Añadido al camion #169 el pedido #5428290 (Filetes de pescado blanco 500gr): 563
+2024-12-17 17:18:57 - Añadido al camion #169 el pedido #2050391 (Filetes de pescado blanco 500gr): 962
+2024-12-17 17:18:57 - Se ha creado el camión #170 para el pedido #9110345.
+2024-12-17 17:18:57 - Añadido al camion #170 el pedido #9110345 (Filetes de pescado blanco 500gr): 870
+2024-12-17 17:18:57 - Añadido al camion #170 el pedido #5097644 (Filetes de pescado blanco 500gr): 880
+2024-12-17 17:18:57 - Añadido al camion #170 el pedido #6786389 (Filetes de pescado blanco 500gr): 752
+2024-12-17 17:18:57 - Se ha creado el camión #171 para el pedido #3568760.
+2024-12-17 17:18:57 - Añadido al camion #171 el pedido #3568760 (Filetes de pescado blanco 500gr): 618
+2024-12-17 17:18:57 - Añadido al camion #171 el pedido #6423766 (Filetes de pescado blanco 500gr): 950
+2024-12-17 17:18:57 - Añadido al camion #171 el pedido #8041418 (Filetes de pescado blanco 500gr): 901
+2024-12-17 17:18:57 - Se ha creado el camión #172 para el pedido #7428170.
+2024-12-17 17:18:57 - Añadido al camion #172 el pedido #7428170 (Filetes de pescado blanco 500gr): 599
+2024-12-17 17:18:57 - Se ha creado el camión #173 para el pedido #1438458.
+2024-12-17 17:18:57 - Añadido al camion #173 el pedido #1438458 (Filetes de pescado blanco 500gr): 2617
+2024-12-17 17:18:57 - Se ha creado el camión #174 para el pedido #8863675.
+2024-12-17 17:18:57 - Añadido al camion #174 el pedido #8863675 (Filetes de pescado blanco 500gr): 912
+2024-12-17 17:18:57 - Añadido al camion #174 el pedido #3612470 (Filetes de pescado blanco 500gr): 1612
+2024-12-17 17:18:57 - Se ha creado el camión #175 para el pedido #5388498.
+2024-12-17 17:18:57 - Añadido al camion #175 el pedido #5388498 (Filetes de pescado blanco 500gr): 1686
+2024-12-17 17:18:57 - Añadido al camion #175 el pedido #4377398 (Filetes de pescado blanco 500gr): 666
+2024-12-17 17:18:57 - Se ha creado el camión #176 para el pedido #2033250.
+2024-12-17 17:18:57 - Añadido al camion #176 el pedido #2033250 (Filetes de pescado blanco 500gr): 3000
+2024-12-17 17:18:57 - Se ha creado el camión #177 para el pedido #2033250.
+2024-12-17 17:18:57 - Añadido al camion #177 el pedido #2033250 (Filetes de pescado blanco 500gr): 67
+2024-12-17 17:18:57 - Añadido al camion #177 el pedido #5617387 (Filetes de pescado blanco 500gr): 1792
+2024-12-17 17:18:57 - Añadido al camion #177 el pedido #9146387 (Filetes de pescado blanco 500gr): 583
+2024-12-17 17:18:57 - Se ha creado el camión #178 para el pedido #1917927.
+2024-12-17 17:18:57 - Añadido al camion #178 el pedido #1917927 (Filetes de pescado blanco 500gr): 957
+2024-12-17 17:18:57 - Añadido al camion #178 el pedido #1884720 (Filetes de pescado blanco 500gr): 1291
+2024-12-17 17:18:57 - Añadido al camion #178 el pedido #4202862 (Filetes de pescado blanco 500gr): 679
+2024-12-17 17:18:57 - Se ha creado el camión #179 para el pedido #8194742.
+2024-12-17 17:18:57 - Añadido al camion #179 el pedido #8194742 (Filetes de pescado blanco 500gr): 862
+2024-12-17 17:18:57 - Añadido al camion #179 el pedido #9034569 (Filetes de pescado blanco 500gr): 685
+2024-12-17 17:18:57 - Añadido al camion #179 el pedido #8868378 (Filetes de pescado blanco 500gr): 602
+2024-12-17 17:18:57 - Se ha creado el camión #180 para el pedido #1557963.
+2024-12-17 17:18:57 - Añadido al camion #180 el pedido #1557963 (Jamón serrano loncheado 150gr): 731
+2024-12-17 17:18:57 - Añadido al camion #180 el pedido #3670502 (Jamón serrano loncheado 150gr): 952
+2024-12-17 17:18:57 - Añadido al camion #180 el pedido #7473829 (Jamón serrano loncheado 150gr): 872
+2024-12-17 17:18:57 - Se ha creado el camión #181 para el pedido #3305043.
+2024-12-17 17:18:57 - Añadido al camion #181 el pedido #3305043 (Jamón serrano loncheado 150gr): 657
+2024-12-17 17:18:57 - Añadido al camion #181 el pedido #3863510 (Jamón serrano loncheado 150gr): 1887
+2024-12-17 17:18:57 - Se ha creado el camión #182 para el pedido #6093789.
+2024-12-17 17:18:57 - Añadido al camion #182 el pedido #6093789 (Jamón serrano loncheado 150gr): 1157
+2024-12-17 17:18:57 - Añadido al camion #182 el pedido #1344677 (Jamón serrano loncheado 150gr): 796
+2024-12-17 17:18:57 - Añadido al camion #182 el pedido #2106928 (Jamón serrano loncheado 150gr): 556
+2024-12-17 17:18:57 - Se ha creado el camión #183 para el pedido #2799105.
+2024-12-17 17:18:57 - Añadido al camion #183 el pedido #2799105 (Jamón serrano loncheado 150gr): 922
+2024-12-17 17:18:57 - Añadido al camion #183 el pedido #4936619 (Jamón serrano loncheado 150gr): 613
+2024-12-17 17:18:57 - Añadido al camion #183 el pedido #7335357 (Jamón serrano loncheado 150gr): 688
+2024-12-17 17:18:57 - Se ha creado el camión #184 para el pedido #8404059.
+2024-12-17 17:18:57 - Añadido al camion #184 el pedido #8404059 (Jamón serrano loncheado 150gr): 878
+2024-12-17 17:18:57 - Añadido al camion #184 el pedido #1609694 (Jamón serrano loncheado 150gr): 836
+2024-12-17 17:18:57 - Añadido al camion #184 el pedido #8190166 (Jamón serrano loncheado 150gr): 807
+2024-12-17 17:18:57 - Se ha creado el camión #185 para el pedido #1763647.
+2024-12-17 17:18:57 - Añadido al camion #185 el pedido #1763647 (Jamón serrano loncheado 150gr): 700
+2024-12-17 17:18:57 - Añadido al camion #185 el pedido #8109784 (Jamón serrano loncheado 150gr): 843
+2024-12-17 17:18:57 - Añadido al camion #185 el pedido #9760414 (Jamón serrano loncheado 150gr): 734
+2024-12-17 17:18:57 - Se ha creado el camión #186 para el pedido #4015034.
+2024-12-17 17:18:57 - Añadido al camion #186 el pedido #4015034 (Jamón serrano loncheado 150gr): 981
+2024-12-17 17:18:57 - Añadido al camion #186 el pedido #5564337 (Jamón serrano loncheado 150gr): 791
+2024-12-17 17:18:57 - Añadido al camion #186 el pedido #9774229 (Jamón serrano loncheado 150gr): 850
+2024-12-17 17:18:57 - Se ha creado el camión #187 para el pedido #2688310.
+2024-12-17 17:18:57 - Añadido al camion #187 el pedido #2688310 (Jamón serrano loncheado 150gr): 893
+2024-12-17 17:18:57 - Añadido al camion #187 el pedido #7302614 (Jamón serrano loncheado 150gr): 1306
+2024-12-17 17:18:57 - Se ha creado el camión #188 para el pedido #2110942.
+2024-12-17 17:18:57 - Añadido al camion #188 el pedido #2110942 (Jamón serrano loncheado 150gr): 1506
+2024-12-17 17:18:57 - Añadido al camion #188 el pedido #8099118 (Jamón serrano loncheado 150gr): 581
+2024-12-17 17:18:57 - Se ha creado el camión #189 para el pedido #3990652.
+2024-12-17 17:18:57 - Añadido al camion #189 el pedido #3990652 (Jamón serrano loncheado 150gr): 1282
+2024-12-17 17:18:57 - Añadido al camion #189 el pedido #3344933 (Jamón serrano loncheado 150gr): 560
+2024-12-17 17:18:57 - Añadido al camion #189 el pedido #9146148 (Jamón serrano loncheado 150gr): 810
