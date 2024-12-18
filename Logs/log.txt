@@ -95,3 +95,35 @@
 2024-12-18 12:21:15 - Añadido al camion #46 el pedido #8839397 (Huevos frescos (4 unidades)): 671
 2024-12-18 12:21:15 - Se ha creado el camión #47 para el pedido #1461843.
 2024-12-18 12:21:15 - Añadido al camion #47 el pedido #1461843 (Yogur natural 4 unidades (125gr cada uno)): 966
+2024-12-18 12:21:22 - Se ha combinado el camión #1 con el camión #2.
+2024-12-18 12:21:22 - Se ha combinado el camión #1 con el camión #4.
+2024-12-18 12:21:22 - Se ha combinado el camión #3 con el camión #5.
+2024-12-18 12:21:22 - Se ha combinado el camión #3 con el camión #7.
+2024-12-18 12:21:22 - Se ha combinado el camión #3 con el camión #9.
+2024-12-18 12:21:22 - Se ha combinado el camión #6 con el camión #8.
+2024-12-18 12:21:22 - Se ha combinado el camión #6 con el camión #11.
+2024-12-18 12:21:22 - Se ha combinado el camión #6 con el camión #13.
+2024-12-18 12:21:22 - Se ha combinado el camión #10 con el camión #12.
+2024-12-18 12:21:22 - Se ha combinado el camión #10 con el camión #16.
+2024-12-18 12:21:22 - Se ha combinado el camión #14 con el camión #15.
+2024-12-18 12:21:22 - Se ha combinado el camión #14 con el camión #18.
+2024-12-18 12:21:22 - Se ha combinado el camión #14 con el camión #22.
+2024-12-18 12:21:22 - Se ha combinado el camión #17 con el camión #19.
+2024-12-18 12:21:22 - Se ha combinado el camión #17 con el camión #21.
+2024-12-18 12:21:22 - Se ha combinado el camión #17 con el camión #26.
+2024-12-18 12:21:22 - Se ha combinado el camión #20 con el camión #23.
+2024-12-18 12:21:22 - Se ha combinado el camión #20 con el camión #25.
+2024-12-18 12:21:22 - Se ha combinado el camión #24 con el camión #27.
+2024-12-18 12:21:22 - Se ha combinado el camión #24 con el camión #29.
+2024-12-18 12:21:22 - Se ha combinado el camión #24 con el camión #42.
+2024-12-18 12:21:22 - Se ha combinado el camión #28 con el camión #30.
+2024-12-18 12:21:22 - Se ha combinado el camión #28 con el camión #32.
+2024-12-18 12:21:22 - Se ha combinado el camión #31 con el camión #33.
+2024-12-18 12:21:22 - Se ha combinado el camión #31 con el camión #35.
+2024-12-18 12:21:22 - Se ha combinado el camión #34 con el camión #36.
+2024-12-18 12:21:22 - Se ha combinado el camión #34 con el camión #38.
+2024-12-18 12:21:22 - Se ha combinado el camión #37 con el camión #39.
+2024-12-18 12:21:22 - Se ha combinado el camión #37 con el camión #43.
+2024-12-18 12:21:22 - Se ha combinado el camión #40 con el camión #44.
+2024-12-18 12:21:22 - Se ha combinado el camión #41 con el camión #45.
+2024-12-18 12:21:22 - Se ha combinado el camión #46 con el camión #41.
