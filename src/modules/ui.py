@@ -3,6 +3,7 @@ import pandas as pd
 from mapa import generar_mapa_con_ruta
 from main_function import optimizacion_pedidos
 import json, time
+import math
 
 st.set_page_config(
     page_title="Gestión de Rutas",
@@ -182,17 +183,15 @@ elif st.session_state.state == "deliveries":
     st.title("Camiones Totales: "+str(len(camiones_array)))
     
     for i,camion in enumerate(camiones_array):
-        if st.button("Camion "+(str(camion["id_camion"])), use_container_width=True,key=f"button_{i}_{camion['id_camion']}"):
-            st.session_state.truck_selected = camion
-
+        if st.button("Camion "+(str(i+1)), use_container_width=True,key=f"button_{i}_{camion['id_camion']}"):
+            st.session_state.truck_selected = camion,i
             generar_mapa_con_ruta(camion['ruta_optima'])
-
             change_state("truck")
 
     
 elif st.session_state.state == "truck":
     if 'truck_selected' in st.session_state:
-        camion = st.session_state.truck_selected
+        camion,i = st.session_state.truck_selected
 
        
 
@@ -202,7 +201,7 @@ elif st.session_state.state == "truck":
         st.markdown("<style> .main {display: flex; justify-content: center;} </style>", unsafe_allow_html=True)
 
         # Título del camión
-        st.title(f"Camión {camion['id_camion']}")
+        st.title(f"Camión ",(str(i+1)))
 
         # Contenedor principal para organizar el diseño
         with st.container():
@@ -231,6 +230,7 @@ elif st.session_state.state == "truck":
             with col1:
                 st.markdown(f"**Distancia Total:** {camion['distancia_total']} km")
                 st.markdown(f"**Tiempo Total:** {camion['tiempo_total_horas']} horas")
+                st.markdown(f"**Dias Totales:** {math.ceil(camion['tiempo_total_horas']/8)} dias")
                 
             with col2:
                 st.markdown(f"**Coste Total:** {camion['coste_total']} €")
