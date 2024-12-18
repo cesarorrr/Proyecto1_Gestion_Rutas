@@ -2,7 +2,8 @@ from math import radians, sin, cos, sqrt, atan2
 from clases import Camion, Pedido
 import random, logging
 from datetime import datetime, timedelta
-
+import networkx as nx
+import matplotlib.pyplot as plt
 ############################## CONFIGURACIÓN DE LOGGING ##############################
 # Configuración inicial para registrar eventos en un archivo de log
 logging.basicConfig(
@@ -184,7 +185,7 @@ def asignar_pedidos_a_camiones(pedidos, capacidad_camion):
     return camiones
 
 # Combina camiones con capacidad sobrante para optimizar recursos
-def combinar_camiones(camiones, capacidad_camiones):
+def combinar_camiones(camiones, capacidad_camiones,coste_medio_km):
     """
     Combina camiones con baja ocupación siempre que compartan destinos y no superen la capacidad máxima.
 
@@ -195,31 +196,20 @@ def combinar_camiones(camiones, capacidad_camiones):
     Retorna:
         - Lista de camiones combinados.
     """
-    camiones_combinados = []
-    camiones_no_combinados = []
-
     for camion in camiones:
-        if camion.capacidad_restante >= capacidad_camiones / 2:  # Verificar ocupación
-            combinado = False
-            for otro_camion in camiones_no_combinados:
-                if set(camion.destinos).intersection(set(otro_camion.destinos)):
-                    total_pedidos = sum(pedido[2] for pedido in camion.pedidos) + sum(pedido[2] for pedido in otro_camion.pedidos)
-                    if total_pedidos <= capacidad_camiones:
-                        camion.pedidos.extend(otro_camion.pedidos)
-                        camion.destinos.update(otro_camion.destinos)
-                        camion.capacidad_restante = capacidad_camiones - total_pedidos
-                        camiones_combinados.append(camion)
-                        camiones_no_combinados.remove(otro_camion)
-                        log_accion(f"Se ha combinado el camión #{camion.id_camion} con el camión #{otro_camion.id_camion}.")
-                        combinado = True
-                        break
-            if not combinado:
-                camiones_combinados.append(camion)
-        else:
-            camiones_no_combinados.append(camion)
-
-    camiones_combinados.extend(camiones_no_combinados)
-    return camiones_combinados
+        if camion.capacidad_restante > 0:  # Verificar ocupación
+            for otro_camion in camiones:
+                #Comparamos capacidad con otros camiones para poder conbinarlos
+                if camion != otro_camion:
+                        total_pedidos = sum(pedido[2] for pedido in camion.pedidos) + sum(pedido[2] for pedido in otro_camion.pedidos)
+                        if total_pedidos <= capacidad_camiones:
+                            camion.pedidos.extend(otro_camion.pedidos)
+                            camion.destinos.update(otro_camion.destinos)
+                            camion.capacidad_restante = capacidad_camiones - total_pedidos
+                            camiones.remove(otro_camion)
+                            log_accion(f"Se ha combinado el camión #{camion.id_camion} con el camión #{otro_camion.id_camion}.")
+    
+    return camiones
 
 # Calcula la distancia entre dos puntos geográficos usando la fórmula de Haversine
 def haversine(lat1: float, lon1: float, lat2: float, lon2: float):

@@ -151,7 +151,7 @@ def optimizacion_pedidos(velocidad_media_camiones: float, capacidad_camion: int,
     camiones_asignados = asignar_pedidos_a_camiones(pedidos, capacidad_camion)
 
     # Combinar camiones para optimizar el uso de la capacidad
-    camiones_optimizados = combinar_camiones(camiones_asignados, capacidad_camion)
+    camiones_optimizados = combinar_camiones(camiones_asignados, capacidad_camion,coste_medio_km)
     # Ordenar los camiones por su identificador para facilitar la lectura
     camiones_optimizados = sorted(camiones_optimizados, key=lambda camion: camion.id_camion)
 
